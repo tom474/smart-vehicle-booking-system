@@ -1,5 +1,7 @@
 # De Heus - Smart Vehicle Booking System
 
+Smart Vehicle Booking System provides a centralized, user-friendly platform to solve these challenges. Employees can log in with their Microsoft accounts to submit booking requests quickly and accurately. Coordinators can review requests, assign drivers and vehicles, and manage leave schedules or maintenance in one place. Drivers also interact with the system by confirming trips or submitting leave and service requests, creating transparency across all parties. Administrators benefit from a comprehensive dashboard to manage data on users, drivers, vehicles, and vendors. Automated vehicle assignment and optimization logic reduce booking time and improve utilization, while reporting tools provide valuable insights for better decision-making.
+
 ---
 
 ## Project Team
@@ -11,7 +13,8 @@
 - Truong Quang Bao Loc – *s3965528*  
 - Le Nguyen Khoi – *s3975162*
 
-**Academic Supervisor(s)**: Dr. Tran Minh Tuan
+**Academic Supervisor(s)**:
+- Dr. Tran Minh Tuan
 
 **De Heus's Supervisor(s)**:
 - Truong Hong Anh (Allen)
@@ -19,31 +22,35 @@
 
 ---
 
-## 1. Project Structure
+## Tech Stack
+
+- **Client:** Next.js, TailwindCSS, Shadcn
+- **Server:** Node.js, Express.js, TypeORM
+- **Trip Optimizer:** FastAPI, OR-Tools 
+- **Database:** PostgreSQL
+- **CI/CD:** Azure DevOps
+
+---
+
+## Project Structure
 
 Our project is organized into a clear and logical directory structure to facilitate development, testing, and deployment.
 
 ```
-Capstone (root)/
+smart-vehicle-booking-system (root)/
+├── .pipeline/           # CI/CD pipelines
 ├── client/              # Frontend application code
 ├── server/              # Backend API and business logic
-├── test/                # Automation test suites
 └── trip-optimizer/      # Dedicated service/API for trip optimization logic
 ```
 
-### Directory Descriptions:
-- `client/`: Contains all the source code for our frontend application. This typically includes UI components, assets, and frontend-specific configurations.
-- `server/`: Houses the backend application code and its related components. This includes API endpoints, database interactions, and core business logic.
-- `test/`: Dedicated to automated test suites. This directory should contain various types of tests, such as end-to-end (E2E) tests, integration tests, and potentially shared test utilities. Unit tests typically reside within their respective client/ or server/ modules.
-- `trip-optimizer/`: This directory is specifically for the trip optimization API or service. It encapsulates the specialized logic and code related to optimizing trip routes and plans.
-
 ---
 
-## 2. Naming Convention Guide
+## Naming Convention Guide
 
 To maintain a clean, organized, and collaborative repository, please follow these conventions for branch naming, commit messages, and pull requests. These guidelines ensure consistency, improve traceability, and streamline our development workflow.
 
-### 2.1 Branch Naming Convention
+### Branch Naming Convention
 
 We use a structured branch naming convention to clearly identify the purpose and associated Jira ticket for each branch.
 
@@ -71,7 +78,7 @@ Format: `<type>/SVB-ID/short-description`
 
 ---
 
-### 2.2 Commit Message Convention
+### Commit Message Convention
 
 You should add clear and consistent commit messages, this is crucial for understanding the history of our codebase.
 
@@ -104,7 +111,7 @@ Format: `<type>: short, imperative summary`
 
 ---
 
-### 2.3 Pull Request Naming Convention
+### Pull Request Naming Convention
 
 Pull requests (PRs) should be easy to understand and link directly to the work being done.
 
