@@ -1,0 +1,92 @@
+[
+	{
+		"id": "VSR-1",
+		"vehicleId": "VEH-1",
+		"reason": "Oil change",
+		"description": "Routine scheduled oil and filter replacement",
+		"serviceType": "maintenance",
+		"startTime": "2025-10-10T08:00:00Z",
+		"endTime": "2025-10-10T10:00:00Z"
+	},
+	{
+		"id": "VSR-2",
+		"vehicleId": "VEH-2",
+		"reason": "Brake inspection",
+		"description": "Checking and adjusting brake pads",
+		"serviceType": "maintenance",
+		"startTime": "2025-10-11T09:00:00Z",
+		"endTime": "2025-10-11T11:00:00Z"
+	},
+	{
+		"id": "VSR-3",
+		"vehicleId": "VEH-3",
+		"reason": "Engine overheating",
+		"description": "Repair radiator and coolant system",
+		"serviceType": "repair",
+		"startTime": "2025-10-12T13:00:00Z",
+		"endTime": "2025-10-12T16:00:00Z"
+	},
+	{
+		"id": "VSR-4",
+		"vehicleId": "VEH-1",
+		"reason": "Flat tire",
+		"description": "Replace rear left tire",
+		"serviceType": "repair",
+		"startTime": "2025-10-13T07:30:00Z",
+		"endTime": "2025-10-13T08:30:00Z"
+	},
+	{
+		"id": "VSR-5",
+		"vehicleId": "VEH-2",
+		"reason": "Annual inspection",
+		"description": "Government-mandated yearly check",
+		"serviceType": "other",
+		"startTime": "2025-10-14T08:00:00Z",
+		"endTime": "2025-10-14T12:00:00Z"
+	},
+	{
+		"id": "VSR-6",
+		"vehicleId": "VEH-3",
+		"reason": "Air filter replacement",
+		"description": "General maintenance task",
+		"serviceType": "maintenance",
+		"startTime": "2025-10-15T09:00:00Z",
+		"endTime": "2025-10-15T10:30:00Z"
+	},
+	{
+		"id": "VSR-7",
+		"vehicleId": "VEH-1",
+		"reason": "Battery issue",
+		"description": "Replace faulty battery unit",
+		"serviceType": "repair",
+		"startTime": "2025-10-16T14:00:00Z",
+		"endTime": "2025-10-16T15:00:00Z"
+	},
+	{
+		"id": "VSR-8",
+		"vehicleId": "VEH-2",
+		"reason": "Tire rotation",
+		"description": "Routine tire rotation for even wear",
+		"serviceType": "maintenance",
+		"startTime": "2025-10-17T08:00:00Z",
+		"endTime": "2025-10-17T09:00:00Z"
+	},
+	{
+		"id": "VSR-9",
+		"vehicleId": "VEH-3",
+		"reason": "Air conditioning not cooling",
+		"description": "Repair A/C compressor",
+		"serviceType": "repair",
+		"startTime": "2025-10-18T10:00:00Z",
+		"endTime": "2025-10-18T13:00:00Z"
+	},
+	{
+		"id": "VSR-10",
+		"vehicleId": "VEH-1",
+		"reason": "Deep cleaning",
+		"description": "Interior and exterior cleaning before inspection",
+		"serviceType": "other",
+		"startTime": "2025-10-19T07:00:00Z",
+		"endTime": "2025-10-19T09:00:00Z"
+	}
+]

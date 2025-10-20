@@ -1,0 +1,65 @@
+[
+	{
+		"id": "USR-1",
+		"microsoftId": "5550d62f-9eac-4030-b29e-7ea42cd1fc70",
+		"name": "WAO Team",
+		"email": "waoteamcompany@gmail.com",
+		"phoneNumber": "0912345678",
+		"roleId": "ROL-5",
+		"dedicatedVehicleId": null
+	},
+	{
+		"id": "USR-2",
+		"microsoftId": "2cb04fbd-a663-47f9-aaf3-48b0646d2680",
+		"name": "Cuong Tran Manh",
+		"email": "s3974735@rmit.edu.vn",
+		"phoneNumber": "0911111111",
+		"roleId": "ROL-1",
+		"dedicatedVehicleId": null
+	},
+	{
+		"id": "USR-3",
+		"microsoftId": "4a80b185-c325-4562-a68d-8dcf6f940162",
+		"name": "Loc Truong Quang Bao",
+		"email": "s3965528@rmit.edu.vn",
+		"phoneNumber": "0922222222",
+		"roleId": "ROL-2",
+		"dedicatedVehicleId": null
+	},
+	{
+		"id": "USR-4",
+		"microsoftId": "a486e07e-2d31-4541-ae00-e5561223def2",
+		"name": "Nguyen Khoi Le",
+		"email": "s3975162@rmit.edu.vn",
+		"phoneNumber": "0933333333",
+		"roleId": "ROL-4",
+		"dedicatedVehicleId": null
+	},
+	{
+		"id": "USR-5",
+		"microsoftId": "0b2e6f9b-eb70-4140-800f-c5bc69493abc",
+		"name": "Nhat Minh Phan",
+		"email": "s3978598@rmit.edu.vn",
+		"phoneNumber": "0944444444",
+		"roleId": "ROL-5",
+		"dedicatedVehicleId": null
+	},
+	{
+		"id": "USR-6",
+		"microsoftId": "40a126b5-0176-431c-bd1f-e4689481cf4c",
+		"name": "Nhu, Tira (Huynh Nhu | Information Technology)",
+		"email": "vnit.admin@deheus.com",
+		"phoneNumber": "0967254207",
+		"roleId": "ROL-5",
+		"dedicatedVehicleId": null
+	},
+	{
+		"id": "USR-7",
+		"microsoftId": "112187cf-a142-471a-b95d-f60953829fc9",
+		"name": "Thu, Tess (Nguyen Anh Thu | Human Resources)",
+		"email": "Tess.Thu@deheus.com",
+		"phoneNumber": null,
+		"roleId": "ROL-5",
+		"dedicatedVehicleId": null
+	}
+]

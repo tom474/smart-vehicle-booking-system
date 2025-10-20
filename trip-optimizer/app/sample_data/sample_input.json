@@ -1,0 +1,53 @@
+{
+  "vehicles": [
+    {"id": "VEH-1", "capacity": 6,
+     "base_location": {"id": "LOC-1", "latitude": 10.771937, "longitude": 106.721063},
+     "unavailability": []},
+    {"id": "VEH-2", "capacity": 4,
+     "base_location": {"id": "LOC-1", "latitude": 10.771937, "longitude": 106.721063},
+     "unavailability": [{"date": "2025-08-20", "period": 0}]},
+    {"id": "VEH-3", "capacity": 6,
+     "base_location": {"id": "LOC-1", "latitude": 10.771937, "longitude": 106.721063},
+     "unavailability": []},
+    {"id": "VEH-4", "capacity": 4,
+     "base_location": {"id": "LOC-1", "latitude": 10.771937, "longitude": 106.721063},
+     "unavailability": []}
+  ],
+  "requests": [
+    {
+      "id": "REQ-1",
+      "pickup_location": {"id": "LOC-1", "latitude": 10.771937, "longitude": 106.721063},
+      "dropoff_location": {"id": "LOC-5", "latitude": 10.944313, "longitude": 107.140062},
+      "dropoff_time": "2025-08-20T09:00:00Z",
+      "capacity_demand": 4
+    },
+    {
+      "id": "REQ-2",
+      "pickup_location": {"id": "LOC-2", "latitude": 10.925438, "longitude": 107.135688},
+      "dropoff_location": {"id": "LOC-1", "latitude": 10.771937, "longitude": 106.721063},
+      "dropoff_time": "2025-08-20T14:00:00Z",
+      "capacity_demand": 2
+    },
+    {
+      "id": "REQ-3",
+      "pickup_location": {"id": "LOC-1", "latitude": 10.771937, "longitude": 106.721063},
+      "dropoff_location": {"id": "LOC-2", "latitude": 10.925438, "longitude": 107.135688},
+      "dropoff_time": "2025-08-20T09:00:00Z",
+      "capacity_demand": 2
+    },
+    {
+      "id": "REQ-4",
+      "pickup_location": {"id": "LOC-1", "latitude": 10.771937, "longitude": 106.721063},
+      "dropoff_location": {"id": "LOC-4", "latitude": 10.572437, "longitude": 106.416062},
+      "dropoff_time": "2025-08-21T12:00:00Z",
+      "capacity_demand": 5
+    },
+    {
+      "id": "REQ-5",
+      "pickup_location": {"id": "LOC-6", "latitude": 10.562938, "longitude": 106.418312},
+      "dropoff_location": {"id": "LOC-1", "latitude": 10.771937, "longitude": 106.721063},
+      "dropoff_time": "2025-08-21T15:00:00Z",
+      "capacity_demand": 5
+    }
+  ]
+}

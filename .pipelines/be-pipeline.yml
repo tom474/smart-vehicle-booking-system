@@ -1,0 +1,92 @@
+trigger:
+  branches:
+    include:
+      - main
+  paths:
+    include:
+      - server/**
+    exclude:
+      - server/README.md
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  - name: workingDirectory
+    value: "server"
+  # Expect these in your variable groups:
+  #   azureContainerRegistry  -> Docker service connection name (Docker@2)
+  #   RepositoryPrefix        -> e.g. myregistry.azurecr.io
+  #   backEndImage            -> e.g. deheus-svb-server
+  #   azureContainerApp       -> Azure subscription service connection (AzureCLI@2)
+  #   containerAppName        -> ACA app name
+  #   resourceGroup           -> RG name
+  - group: acr-credentials
+  - group: aca-credentials
+  - group: server-variables
+
+stages:
+  - stage: Build
+    displayName: Build and Push to ACR
+    jobs:
+      - job: BuildAndPushImage
+        displayName: Build and Push Docker Image to ACR
+        steps:
+          - checkout: self
+            displayName: Checkout Code
+
+          # Prevent stale dist/node_modules being copied into the image
+          - script: |
+              set -euo pipefail
+              cd server
+              rm -rf dist node_modules
+            displayName: Clean workspace artifacts (dist, node_modules)
+
+          - task: Docker@2
+            displayName: Docker Login (ACR)
+            inputs:
+              containerRegistry: "$(azureContainerRegistry)"
+              command: "login"
+
+          - script: |
+              set -euo pipefail
+              docker pull $(RepositoryPrefix)/$(backEndImage):latest || true
+            displayName: Pull :latest for cache
+
+          - script: |
+              set -euo pipefail
+              docker build \
+                --platform linux/amd64 \
+                --cache-from=$(RepositoryPrefix)/$(backEndImage):latest \
+                --tag $(RepositoryPrefix)/$(backEndImage):latest \
+                .
+            workingDirectory: "$(workingDirectory)"
+            displayName: Build Docker Image (:latest)
+
+          - script: |
+              set -euo pipefail
+              docker push $(RepositoryPrefix)/$(backEndImage):latest
+            displayName: Push :latest to ACR
+
+  - stage: Deploy
+    displayName: Deploy to Azure Container Apps
+    dependsOn: Build
+    jobs:
+      - job: Deploy
+        displayName: Deploy Server Container Only
+        steps:
+          - task: AzureCLI@2
+            displayName: Create new revision
+            inputs:
+              azureSubscription: "$(azureContainerApp)"
+              scriptType: bash
+              scriptLocation: inlineScript
+              inlineScript: |
+                set -euo pipefail
+                az containerapp revision copy \
+                  --name "$(containerAppName)" \
+                  --resource-group "$(resourceGroup)" \
+                  --container-name "vn-aca-server-container" \
+                  --image "$(RepositoryPrefix)/$(backEndImage):latest" \
+                  --revision-suffix "rev-server-$(Build.BuildId)" \
+                  --only-show-errors -o none

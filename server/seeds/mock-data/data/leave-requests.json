@@ -1,0 +1,82 @@
+[
+	{
+		"id": "LVR-1",
+		"driverId": "DRV-1",
+		"reason": "Annual leave",
+		"notes": "Family trip",
+		"startTime": "2025-10-10T00:00:00Z",
+		"endTime": "2025-10-11T00:00:00Z"
+	},
+	{
+		"id": "LVR-2",
+		"driverId": "DRV-2",
+		"reason": "Sick leave",
+		"notes": "Flu symptoms, doctor’s advice",
+		"startTime": "2025-10-12T00:00:00Z",
+		"endTime": "2025-10-13T00:00:00Z"
+	},
+	{
+		"id": "LVR-3",
+		"driverId": "DRV-3",
+		"reason": "Car maintenance",
+		"notes": "Scheduled service for assigned vehicle",
+		"startTime": "2025-10-14T00:00:00Z",
+		"endTime": "2025-10-14T23:59:00Z"
+	},
+	{
+		"id": "LVR-4",
+		"driverId": "DRV-1",
+		"reason": "Personal leave",
+		"notes": "Personal reasons",
+		"startTime": "2025-10-15T00:00:00Z",
+		"endTime": "2025-10-15T23:59:00Z"
+	},
+	{
+		"id": "LVR-5",
+		"driverId": "DRV-2",
+		"reason": "Family event",
+		"notes": "Attending wedding",
+		"startTime": "2025-10-16T00:00:00Z",
+		"endTime": "2025-10-17T00:00:00Z"
+	},
+	{
+		"id": "LVR-6",
+		"driverId": "DRV-3",
+		"reason": "Annual leave",
+		"notes": "Travel abroad",
+		"startTime": "2025-10-18T00:00:00Z",
+		"endTime": "2025-10-21T00:00:00Z"
+	},
+	{
+		"id": "LVR-7",
+		"driverId": "DRV-1",
+		"reason": "Training",
+		"notes": "Company safety training",
+		"startTime": "2025-10-22T00:00:00Z",
+		"endTime": "2025-10-22T12:00:00Z"
+	},
+	{
+		"id": "LVR-8",
+		"driverId": "DRV-2",
+		"reason": "Sick leave",
+		"notes": "",
+		"startTime": "2025-10-23T00:00:00Z",
+		"endTime": "2025-10-24T00:00:00Z"
+	},
+	{
+		"id": "LVR-9",
+		"driverId": "DRV-3",
+		"reason": "Personal leave",
+		"notes": "Urgent family matter",
+		"startTime": "2025-10-25T00:00:00Z",
+		"endTime": "2025-10-26T00:00:00Z"
+	},
+	{
+		"id": "LVR-10",
+		"driverId": "DRV-1",
+		"reason": "Annual leave",
+		"notes": "Festival holiday",
+		"startTime": "2025-10-28T00:00:00Z",
+		"endTime": "2025-10-29T00:00:00Z"
+	}
+]

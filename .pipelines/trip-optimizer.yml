@@ -1,0 +1,80 @@
+trigger:
+  branches:
+    include:
+      - main
+  paths:
+    include:
+      - trip-optimizer/**
+    exclude:
+      - trip-optimizer/README.md
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  - name: workingDirectory
+    value: "trip-optimizer"
+  - group: acr-credentials
+  - group: aca-credentials
+  - group: trip-optimizer-variables
+
+stages:
+  - stage: "Build"
+    displayName: "Build and Push to ACR"
+    jobs:
+      - job: "BuildAndPushImage"
+        displayName: "Build and Push FastAPI Docker Image"
+        steps:
+          - checkout: self
+            displayName: "Checkout Source Code"
+
+          - task: Docker@2
+            inputs:
+              containerRegistry: "$(azureContainerRegistry)"
+              command: "login"
+            displayName: "Login to ACR"
+
+          - script: |
+              docker pull $(RepositoryPrefix)/$(tripOptimizerImage):latest || true
+            displayName: "Attempt to Pull Latest Docker Image (for Cache)"
+
+          - script: |
+              docker build \
+                --platform linux/amd64 \
+                --cache-from=$(RepositoryPrefix)/$(tripOptimizerImage):latest \
+                --tag $(tripOptimizerImage):latest .
+            workingDirectory: "$(workingDirectory)"
+            displayName: "Build Docker Image with Caching"
+
+          - script: |
+              docker tag $(tripOptimizerImage):latest $(RepositoryPrefix)/$(tripOptimizerImage):latest
+            displayName: "Tag Docker Image for ACR"
+
+          - script: |
+              docker push $(RepositoryPrefix)/$(tripOptimizerImage):latest
+            displayName: "Push Docker Image to ACR"
+
+  - stage: "Deploy"
+    displayName: "Deploy to Azure Container Apps"
+    dependsOn: "Build"
+    jobs:
+      - job: "DeployFastAPI"
+        displayName: "Deploy FastAPI App"
+        steps:
+          - task: AzureCLI@2
+            displayName: "Update Container in Azure Container App"
+            inputs:
+              azureSubscription: "$(azureContainerApp)"
+              scriptType: bash
+              scriptLocation: inlineScript
+              inlineScript: |
+                echo "Deploying FastAPI container to ACA..."
+
+                az containerapp revision copy \
+                  --name $(containerAppName) \
+                  --resource-group $(resourceGroup) \
+                  --container-name trip-optimizer-container \
+                  --image $(RepositoryPrefix)/$(tripOptimizerImage):latest \
+                  --revision-suffix "rev-trip-optimizer-$(Build.BuildId)"
+
+                echo "Deployment complete!"

@@ -1,0 +1,1827 @@
+{
+	"NeedHelpButton": {
+		"button": "Need help?",
+		"title": "Contact your coordinator at",
+		"callNow": "Call Now"
+	},
+	"LocaleSwitcher": {
+		"vn": "Tiếng Việt",
+		"en": "English",
+		"label": "Language"
+	},
+	"Login": {
+		"title": "Smart Vehicle Booking System",
+		"welcomeBack": "Welcome back!",
+		"enterEmail": "Enter your username",
+		"enterPassword": "Enter your password",
+		"forgotPassword": "Forgot Password?",
+		"login": "Login",
+		"loggingIn": "Logging in...",
+		"orLoginWith": "Or login with",
+		"microsoftAccount": "Microsoft Account",
+		"needHelp": "Need help?",
+		"contactSupport": "Contact support.",
+		"loginSuccess": "Login successful!",
+		"loginFailed": "Login failed. Please check your credentials and try again.",
+		"enterPhoneNumber": {
+			"validationRequired": "Phone number is required",
+			"invalidFormat": "Phone number must be a valid Vietnamese phone number",
+			"title": "Enter Phone Number",
+			"description": "Please enter your Vietnamese phone number to continue using the application.",
+			"phoneNumber": "Phone Number",
+			"submit": "Submit",
+			"submitting": "Submitting..."
+		}
+	},
+	"Suspended": {
+		"title": "Account Suspended",
+		"description": "Your access to Smart Vehicle Booking System has been suspended.",
+		"coordinator": "Coordinator",
+		"phoneNumber": "Phone Number",
+		"contactCoordinator": "Contact Coordinator",
+		"logout": "Logout",
+		"ifYouBelieveError": "If you believe this is an error, please contact your coordinator.",
+		"accessRestored": "Your access will be restored once the issue is resolved."
+	},
+	"Status": {
+		"approved": "Approved",
+		"pending": "Pending",
+		"cancelled": "Cancelled",
+		"completed": "Completed",
+		"scheduled": "Scheduled",
+		"scheduling": "Scheduling",
+		"onGoing": "On-going",
+		"denied": "Denied",
+		"rejected": "Rejected"
+	},
+	"Sidebar": {
+		"error": {
+			"unsupportedScreenSize": "Unsupported screen size.",
+			"optimizedForLargeDisplays": "This interface is optimized for larger displays. Please access it from a laptop or desktop device."
+		},
+		"smartVehicleBookingSystem": "Smart Vehicle Booking System",
+		"admin": {
+			"systemManagment": "System Managment",
+			"rolesAndPermissions": "Roles & Permissions",
+			"users": "Users",
+			"activityLogs": "Activity logs",
+			"settings": "Settings"
+		},
+		"coordinator": {
+			"dashboard": "Dashboard",
+			"bookingManagement": "Booking Management",
+			"bookingRequests": "Booking Requests",
+			"drivers": "Drivers",
+			"vehicles": "Vehicles",
+			"expenses": "Expenses",
+			"feedbacks": "Feedbacks",
+			"schedule": "Schedules",
+			"leaveRequests": "Leave Requests",
+			"trips": "Trips",
+			"vehicleAndDriverManagement": "Vehicle & Driver Management",
+			"vehicleServiceRequests": "Vehicle Service Requests",
+			"vehicle": {
+				"self": "Vehicle",
+				"owned": "Owned",
+				"outsourced": "Outsourced"
+			},
+			"locations": "Locations",
+			"vendors": "Vendors",
+			"report": "Report"
+		},
+		"requester": {
+			"home": "Home",
+			"createNewBooking": "Create New Booking",
+			"upcomingBookings": "Upcoming Bookings",
+			"pendingBookings": "Pending Bookings",
+			"pastBookings": "Past Bookings"
+		},
+		"driver": {
+			"myTrips": "My Trips",
+			"executive": "Executive Activities",
+			"expenseLogging": "Expense Logging",
+			"leaveSchedule": "Leave Schedule",
+			"vehicleServices": "Vehicle Services",
+			"calendar": "Calendar",
+			"more": "More"
+		},
+		"executive": {
+			"activities": "Activities"
+		},
+		"needHelp": "Need help? Contact your coordinator at",
+		"profile": "Profile",
+		"logout": "Logout",
+		"settings": "Settings"
+	},
+	"NavigationBar": {
+		"requester": {
+			"home": "Home",
+			"bookings": "Bookings",
+			"notification": "Notification",
+			"profile": "Profile"
+		},
+		"driver": {
+			"menu": "Menu",
+			"myTrips": "My Trips",
+			"executive": "Executive Activities",
+			"calendar": "Calendar",
+			"expenseLogging": "Expense Logging",
+			"leaveSchedule": "Leave Schedule",
+			"vehicleServices": "Vehicle Services",
+			"notification": "Notification",
+			"profile": "Profile"
+		},
+		"executive": {
+			"activities": "Activities"
+		}
+	},
+	"Msal": {
+		"MsalProvider": {
+			"initilizing": "Initializing",
+			"settingUp": "Setting up the page for you",
+			"pleaseWait": "Please wait..."
+		},
+		"MicrosoftAuthentication": {
+			"title": "Microsoft Authentication",
+			"initilizing": "Initializing Microsoft authentication...",
+			"pleaseWait": "Please wait...",
+			"pleaseWaitDirecting": "Please wait until we are directing you...",
+			"loggedInAs": "Logged in as",
+			"Email": "Email"
+		}
+	},
+	"PWA": {
+		"title": "Smart Vehicle Booking System",
+		"description": "Manage your app installation",
+		"installPrompt": {
+			"installApp": "Install App",
+			"addToHomeScreen": "Add to Home Screen",
+			"ios": {
+				"description1": "If you are using iOS:",
+				"description2": "To install this app on your device, tap the share button",
+				"description3": "and then \"Add to Home Screen\""
+			}
+		},
+		"PWAButton": {
+			"install": "Install",
+			"installApp": "Install App"
+		}
+	},
+	"Profile": {
+		"profile": "Profile",
+		"information": "Information",
+		"contact": "Contact",
+		"role": "Role",
+		"status": "Status",
+		"availability": "Availability",
+		"bookingRequests": "Booking Requests",
+		"vehicle": "Vehicle",
+		"noVehicle": "No Vehicle Assigned",
+		"logout": "Logout"
+	},
+	"Notification": {
+		"unreadNotification": "Unread Notification",
+		"noUnreadNotifications": "No unread notifications.",
+		"noNotifications": "No notifications yet.",
+		"markAllAsRead": "Mark All as Read",
+		"marking": "Marking...",
+		"filter": "Filter",
+		"clearFilter": "Clear Filter",
+		"sort": "Sort",
+		"options": {
+			"approval": "Approval",
+			"cancellation": "Cancellation",
+			"departure": "Departure",
+			"rating": "Rating"
+		},
+		"today": "Today",
+		"older": "Older",
+		"timeAgo": {
+			"justNow": "Just now",
+			"ago": "ago",
+			"hour": "hour",
+			"day": "day",
+			"s": "s"
+		},
+		"loadingMore": "Loading more...",
+		"noMoreNotifications": "No more notifications",
+		"viewAll": "View All",
+		"pushNotification": {
+			"pushNotification": "Push Notification",
+			"subscribe": "Subscribe to Notifications",
+			"subscribed": "You are subscribed to push notifications",
+			"unSubscribe": "Unsubscribe",
+			"notSubscribed": "You are not subscribed to push notifications",
+			"notSupported": "Push notifications are not supported on this browser."
+		},
+		"Employee": {
+			"trip-reminder": {
+				"title": "Trip Reminder",
+				"message": "Reminder: You have a trip scheduled tomorrow at {date}."
+			},
+			"booking-request-approve": {
+				"title": "Booking Request Approved",
+				"message": "Your booking request has been approved. Trip details for {date} have been finalized."
+			},
+			"booking-request-modify-by-coordinator": {
+				"title": "Booking Request Modified",
+				"message": "Your booking request for {date} has been modified by the coordinator."
+			},
+			"booking-request-cancel-by-coordinator": {
+				"title": "Booking Request Cancelled",
+				"message": "Your booking request for {date} has been cancelled by the coordinator."
+			},
+			"booking-request-rejected-by-coordinator": {
+				"title": "Booking Request Rejected",
+				"message": "Your booking request for {date} has been rejected by the coordinator."
+			},
+			"user-info-updated": {
+				"title": "Profile Updated",
+				"message": "Your user profile has been updated by the coordinator."
+			}
+		},
+		"Coordinator": {
+			"coordinator-booking-request-approval": {
+				"title": "Booking Request Awaiting Approval",
+				"message": "A new booking request from {employeeName} is awaiting your approval."
+			},
+			"coordinator-leave-request-submit": {
+				"title": "Leave Request Submitted",
+				"message": "{driverName} submitted a leave request from {startDate} to {endDate}."
+			},
+			"coordinator-trip-success": {
+				"title": "Trip Combination Successful",
+				"message": "Trips for {date} have been successfully combined."
+			},
+			"coordinator-expense-review": {
+				"title": "Expense Review Required",
+				"message": "{driverName} submitted expenses for the trip on {tripDate}."
+			},
+			"coordinator-vehicle-service-review": {
+				"title": "Vehicle Service Review",
+				"message": "{vehicleCode} has a new vehicle service request submitted by {driverName}."
+			},
+			"coordinator-bad-rating-alert": {
+				"title": "Low Rating Alert",
+				"message": "{driverName} received rating of {rating}/5 for the trip on {tripDate}. Please review the feedback."
+			},
+			"urgent-booking-request": {
+				"title": "Urgent Booking Request",
+				"message": "A new urgent booking request from {employeeName} needs immediate attention."
+			},
+			"vip-booking-request": {
+				"title": "VIP Booking Request",
+				"message": "A new booking request for VIP from {employeeName} needs immediate attention."
+			},
+			"new-booking-request": {
+				"title": "New Booking Request",
+				"message": "A new booking request from {employeeName} hase been submitted."
+			},
+			"coordinator-booking-request-updated": {
+				"title": "Booking Request Updated",
+				"message": "Booking request {bookingRequestId} has been updated by requester."
+			},
+			"coordinator-urgent-booking-request-updated": {
+				"title": "Urgent Booking Request Updated",
+				"message": "Urgent booking request {bookingRequestId} has been updated, need immediate attention."
+			},
+			"coordinator-vip-booking-request-updated": {
+				"title": "VIP Booking Request Updated",
+				"message": "VIP booking request {bookingRequestId} has been updated, need immediate attention."
+			},
+			"booking-request-no-vehicle-available": {
+				"title": "No Vehicle Available",
+				"message": "No vehicle available for booking request on {departureDate} at {departureTime}. Please assign outsourced vehicle."
+			},
+			"trip-reminder": {
+				"title": "Trip Reminder",
+				"message": "Reminder: You have a trip scheduled tomorrow at {date}."
+			},
+			"booking-request-approve": {
+				"title": "Booking Request Approved",
+				"message": "Your booking request has been approved. Trip details for {date} have been finalized."
+			},
+			"booking-request-modify-by-coordinator": {
+				"title": "Booking Request Modified",
+				"message": "Your booking request for {date} has been modified."
+			},
+			"booking-request-cancel-by-coordinator": {
+				"title": "Booking Request Cancelled",
+				"message": "Your booking request for {date} has been cancelled."
+			},
+			"booking-request-rejected-by-coordinator": {
+				"title": "Booking Request Rejected",
+				"message": "Your booking request for {date} has been rejected."
+			},
+			"user-info-updated": {
+				"title": "Profile Updated",
+				"message": "Your user profile has been updated."
+			}
+		},
+		"Admin": {
+			"coordinator-booking-request-approval": {
+				"title": "Booking Request Awaiting Approval",
+				"message": "A new booking request from {employeeName} is awaiting your approval."
+			},
+			"coordinator-leave-request-submit": {
+				"title": "Leave Request Submitted",
+				"message": "{driverName} submitted a leave request from {startDate} to {endDate}."
+			},
+			"coordinator-trip-success": {
+				"title": "Trip Combination Successful",
+				"message": "Trips for {date} have been successfully combined."
+			},
+			"coordinator-expense-review": {
+				"title": "Expense Review Required",
+				"message": "{driverName} submitted expenses for the trip on {tripDate}."
+			},
+			"coordinator-vehicle-service-review": {
+				"title": "Vehicle Service Review",
+				"message": "{vehicleCode} has a new vehicle service request submitted by {driverName}."
+			},
+			"coordinator-bad-rating-alert": {
+				"title": "Low Rating Alert",
+				"message": "{driverName} received rating of {rating}/5 for the trip on {tripDate}. Please review the feedback."
+			},
+			"urgent-booking-request": {
+				"title": "Urgent Booking Request",
+				"message": "A new urgent booking request from {employeeName} needs immediate attention."
+			},
+			"vip-booking-request": {
+				"title": "VIP Booking Request",
+				"message": "A new booking request for VIP from {employeeName} needs immediate attention."
+			},
+			"new-booking-request": {
+				"title": "New Booking Request",
+				"message": "A new booking request from {employeeName} hase been submitted."
+			},
+			"coordinator-booking-request-updated": {
+				"title": "Booking Request Updated",
+				"message": "Booking request {bookingRequestId} has been updated by requester."
+			},
+			"coordinator-urgent-booking-request-updated": {
+				"title": "Urgent Booking Request Updated",
+				"message": "Urgent booking request {bookingRequestId} has been updated, need immediate attention."
+			},
+			"coordinator-vip-booking-request-updated": {
+				"title": "VIP Booking Request Updated",
+				"message": "VIP booking request {bookingRequestId} has been updated, need immediate attention."
+			},
+			"booking-request-no-vehicle-available": {
+				"title": "No Vehicle Available",
+				"message": "No vehicle available for booking request on {departureDate} at {departureTime}. Please assign outsourced vehicle."
+			},
+			"trip-reminder": {
+				"title": "Trip Reminder",
+				"message": "Reminder: You have a trip scheduled tomorrow at {date}."
+			},
+			"booking-request-approve": {
+				"title": "Booking Request Approved",
+				"message": "Your booking request has been approved. Trip details for {date} have been finalized."
+			},
+			"booking-request-modify-by-coordinator": {
+				"title": "Booking Request Modified",
+				"message": "Your booking request for {date} has been modified."
+			},
+			"booking-request-cancel-by-coordinator": {
+				"title": "Booking Request Cancelled",
+				"message": "Your booking request for {date} has been cancelled."
+			},
+			"booking-request-rejected-by-coordinator": {
+				"title": "Booking Request Rejected",
+				"message": "Your booking request for {date} has been rejected."
+			},
+			"user-info-updated": {
+				"title": "Profile Updated",
+				"message": "Your user profile has been updated."
+			}
+		},
+		"Driver": {
+			"driver-new-trip-assigned": {
+				"title": "New Trip Assigned",
+				"message": "You have been assigned a new trip on {date} at {time}."
+			},
+			"driver-trip-information-changed": {
+				"title": "Trip Information Updated",
+				"message": "Information for your trip on {date} has been updated."
+			},
+			"driver-trip-cancel": {
+				"title": "Trip Cancelled",
+				"message": "Your scheduled trip on {date} has been cancelled."
+			},
+			"driver-reminder": {
+				"title": "Trip Reminder",
+				"message": "Reminder: You have a scheduled trip tomorrow at {time}."
+			},
+			"driver-logged-expenses": {
+				"title": "Expense Under Review",
+				"message": "Your logged expense on {date} is awaiting review."
+			},
+			"driver-expenses-approved": {
+				"title": "Expense Approved",
+				"message": "Your logged expense on {date} has been approved."
+			},
+			"driver-expenses-rejected": {
+				"title": "Expense Rejected",
+				"message": "Your logged expense on {date} has been rejected."
+			},
+			"driver-leave-approved": {
+				"title": "Leave Request Approved",
+				"message": "Your leave request from {startDate} to {endDate} is approved."
+			},
+			"driver-leave-rejected": {
+				"title": "Leave Request Rejected",
+				"message": "Your leave request from {startDate} to {endDate} was rejected. Reason: {reason}."
+			},
+			"driver-maintenance-approved": {
+				"title": "Maintenance Approved",
+				"message": "Your maintenance/fixing schedule on {date} is approved."
+			},
+			"driver-maintenance-rejected": {
+				"title": "Maintenance Rejected",
+				"message": "Your maintenance/fixing schedule on {date} was rejected."
+			},
+			"driver-vehicle-service-approved": {
+				"title": "Vehicle Service Approved",
+				"message": "Your vehicle service schedule on {date} is approved."
+			},
+			"driver-vehicle-service-rejected": {
+				"title": "Vehicle Service Rejected",
+				"message": "Your vehicle service schedule on {date} was rejected."
+			},
+			"driver-activity-log-approved": {
+				"title": "Activity Log Approved",
+				"message": "Your activity log has been approved by the executive."
+			},
+			"driver-activity-log-rejected": {
+				"title": "Activity Log Rejected",
+				"message": "Your activity log has been rejected by the executive."
+			},
+			"driver-leave-request-submit-by-coordinator": {
+				"title": "Leave Request Submitted by Coordinator",
+				"message": "A new leave request has been submitted by the coordinator. Please check your leave requests."
+			},
+			"driver-expense-submit-by-coordinator": {
+				"title": "Expense Submitted by Coordinator",
+				"message": "A new expense has been submitted by the coordinator. Please check your expenses."
+			},
+			"driver-vehicle-service-submit-by-coordinator": {
+				"title": "Vehicle Service Submitted by Coordinator",
+				"message": "A new vehicle service has been submitted by the coordinator. Plase check your vehicle services."
+			}
+		},
+		"Executive": {
+			"executive-receive-activity-log": {
+				"title": "Activity Log Received",
+				"message": "The driver {name} has submitted the log for your ride from {startTime} to {endTime}. Please confirm."
+			}
+		}
+	},
+	"RequesterBookings": {
+		"bookingForm": {
+			"booking": "Booking",
+			"status": "Status",
+			"tabs": {
+				"trips": "Trips",
+				"details": "Details",
+				"location": "Location",
+				"time": "Time"
+			},
+			"form": {
+				"tripPurpose": "Trip Purpose (Optional)",
+				"tripPurposeRequired": "Trip Purpose (Required)",
+				"note": "Note (Optional)",
+				"locationAddress": "Location, Address",
+				"pickUp": "Pick-up",
+				"destination": "Destination",
+				"selectDate": "Select Date",
+				"arrivalDeadline": "Arrival Deadline",
+				"preferredDeparture": "Preferred Departure",
+				"passengers": {
+					"numberOfPassengers": "Number of Passengers",
+					"passengers": "Passengers",
+					"people": "people",
+					"sheetTitle": "Select Passengers",
+					"addMe": "Add Me",
+					"selectedPassengers": {
+						"title": "Selected Passengers",
+						"remove": "Remove"
+					},
+					"availablePassengers": {
+						"title": "Available Users",
+						"searchPassengers": "Search for users...",
+						"add": "Add",
+						"notFound": "No users found matching",
+						"noAvailable": "No available users",
+						"allSelected": "All available users have been selected"
+					},
+					"totalPassengers": {
+						"title": "Total Passengers",
+						"count": "{{count}} passenger(s) selected",
+						"registeredUsers": "registered users",
+						"externalPassengers": "external passengers",
+						"confirmSelection": "Confirm Selection",
+						"passengers": "passengers"
+					},
+					"loadingMoreUsers": "Loading more users...",
+					"noMoreUsersToLoad": "No more users to load",
+					"noUsersFoundFor": "No users found for",
+					"noUsersAvailable": "No users available"
+				},
+				"carReserve": "Car Reserve",
+				"reserve": "Reserve",
+				"contactPoint": {
+					"title": "Contact Point",
+					"name": "Name",
+					"phoneNumber": "Phone Number",
+					"validationRequired": "Contact point is required",
+					"invalidFormat": "Phone number must be a valid Vietnamese phone number"
+				},
+				"priority": "Priority",
+				"highPriority": "High",
+				"selectLocation": {
+					"chooseYourLocation": "Choose your location",
+					"searchLocation": "Search location...",
+					"loadingMoreLocations": "Loading more locations...",
+					"noMoreLocations": "No more locations to load",
+					"searchingFor": "Searching for",
+					"noLocationFoundFor": "No locations found for",
+					"noLocationAvailable": "No locations available",
+					"selectedLocation": "Selected Location",
+					"noLocation": "No location selected",
+					"confirm": "Confirm"
+				},
+				"tripType": {
+					"tripType": "Trip Type",
+					"oneWay": "One Way",
+					"roundTrip": "Round Trip"
+				},
+				"priorityMessage": "Only select this if you are booking for VIPs",
+				"tripPurposePriority": "Add your VIP passenger information so the coordinator can review and arrange accordingly.",
+				"timeValidattion": {
+					"departureBeforeArrival": "Departure time must be before arrival time",
+					"arrivalAfterDeparture": "Arrival time must be after departure time",
+					"returnDepartureBeforeReturnArrival": "Return departure time must be before return arrival time",
+					"returnArrivalAfterReturnDeparture": "Return arrival time must be after arrival time",
+					"locationUnableToCalculate": "Unable to calculate travel time. Please check the selected locations.",
+					"minimumTravelTimeDeparture": "Travel time too short. Departure time has been adjusted to",
+					"minimumTravelTimeArrival": "Travel time too short. Arrival time has been adjusted to",
+					"minimumReturnTravelTimeDeparture": "Return travel time too short. Return departure time has been adjusted to",
+					"minimumReturnTravelTimeArrival": "Return travel time too short. Return arrival time has been adjusted to"
+				}
+			},
+			"back": "Back",
+			"next": "Next",
+			"submit": "Submit",
+			"submitting": "Submitting...",
+			"returnTrip": "Return Trip",
+			"modifyBooking": "Modify Booking",
+			"createNewBooking": "Create New Booking",
+			"requestNewBooking": "Request New Booking",
+			"toast": {
+				"success": "Booking request submitted successfully!",
+				"error": "Failed to submit booking request. Please try again."
+			}
+		},
+		"listBookings": {
+			"title": "Booking Requests",
+			"yourRequests": "Your Requests",
+			"noBooking": "No booking found",
+			"upcoming": "Upcoming",
+			"pending": "Pending",
+			"past": "Past"
+		},
+		"bookingTripOverview": {
+			"departOn": "Depart on",
+			"from": "From",
+			"to": "To",
+			"tripType": {
+				"tripType": "Trip Type",
+				"oneWay": "One Way",
+				"roundTrip": "Round Trip"
+			},
+			"passengers": "PAX",
+			"seeDetails": "See Details",
+			"trip": "Trip",
+			"goToTripPage": "Go to Trip Page",
+			"redirecting": "Redirecting..."
+		},
+		"assignVehicle": {
+			"assignButton": "Select Vehicle",
+			"sheetTitle": "Select Vehicle",
+			"selectedVehicle": {
+				"title": "Selected Vehicle",
+				"remove": "Remove"
+			},
+			"availableVehicles": {
+				"title": "Vehicles",
+				"all": "All",
+				"available": "Available",
+				"searchVehicles": "Search vehicles",
+				"companyVehicle": "Company Vehicle",
+				"vendorVehicle": "Vendor Vehicle",
+				"select": "Select",
+				"loadingMoreVehicles": "Loading more vehicles...",
+				"noMoreVehicles": "No more vehicles"
+			},
+			"outsourcedVehicles": {
+				"title": "Use Outsourced Vehicles",
+				"driverName": "Driver Name",
+				"enterDriverName": "Enter driver name",
+				"phoneNumber": "Phone Number",
+				"enterPhoneNumber": "Enter phone number",
+				"licensePlate": "License Plate",
+				"enterLicensePlate": "Enter license plate",
+				"vehicleModel": "Vehicle Model",
+				"enterVehicleModel": "Enter vehicle model",
+				"vehicleColor": "Select color",
+				"enterVehicleColor": "Enter vehicle color",
+				"capacity": "Capacity",
+				"enterCapacity": "Enter capacity",
+				"confirmVehicleWarning": "Confirm will use filled outsource vehicle information.",
+				"vendor": "Vendor",
+				"selectVendor": "Select vendor",
+				"noVendor": "Empty"
+			},
+			"driver": "Driver",
+			"seats": "seats",
+			"confirmOutsourceVehicle": "Confirm Outsource Vehicle",
+			"confirmSelectedVehicle": "Confirm Selected Vehicle",
+			"processing": "Processing...",
+			"error": "Failed to assign vehicle. Please try again.",
+			"errorOutsource": "Failed to assign outsourced vehicle. Please try again."
+		},
+		"cancelDialog": {
+			"button": "Cancel",
+			"confirmCancellation": {
+				"normal": "Confirm",
+				"destructive": "Cancellation"
+			},
+			"description": "This action will send a request to cancel your booking. Please confirm that you want to proceed.",
+			"cancel": "Cancel",
+			"confirm": "Confirm",
+			"toast": {
+				"title": "Booking cancellation requested",
+				"description": "Your booking cancellation request has been submitted.",
+				"error": "Failed to submit cancellation request."
+			},
+			"characters": "characters",
+			"minimum": "Minimum 8 characters",
+			"maximum": "Maximum 500 characters"
+		},
+		"modifyDialog": {
+			"button": "Modify",
+			"confirmModification": {
+				"normal": "Confirm",
+				"destructive": "Modification"
+			},
+			"description": "This action will modify your booking. Please confirm that you want to proceed.",
+			"cancel": "Cancel",
+			"confirm": "Confirm",
+			"toast": {
+				"title": "Modification request submitted",
+				"description": "Your booking has been modified.",
+				"error": "Failed to submit modification request."
+			}
+		}
+	},
+	"RequesterHome": {
+		"welcome": "Welcome",
+		"title": "Smart Vehicle Booking System",
+		"viewAllRequests": "View All Requests",
+		"tabs": {
+			"notifications": "Notifications",
+			"announcements": "Announcements"
+		},
+		"upcomingTrips": {
+			"title": "Upcoming Trips",
+			"noTrips": "No upcoming trips."
+		},
+		"schedulingTrips": {
+			"title": "Scheduling Trips",
+			"noTrips": "No scheduling trips."
+		},
+		"recentTrips": {
+			"title": "Recent Trips",
+			"noTrips": "No recent trips."
+		}
+	},
+	"RequesterTripDay": {
+		"waitingforDriver": "Waiting for driver...",
+		"onGoing": "On-going...",
+		"tripCompleted": "Trip completed!",
+		"tripCancelled": "Trip cancelled.",
+		"yourDriverWillArrive": "Your driver will arrive at ",
+		"youWillArrive": "You will arrive at ",
+		"yourDriver": "Your Driver",
+		"noDriverFound": "No driver found",
+		"stop": {
+			"departure": "Departure",
+			"actualArrival": "Arrival",
+			"estArrival": "Est. arrival"
+		},
+		"arriveDialog": {
+			"title": "I Have Arrived",
+			"header": "You have arrived?",
+			"description": "This action cannot be undone.",
+			"arrivedButton": "Arrived"
+		},
+		"callDialog": {
+			"contactDriverAt": "Contact driver at",
+			"callNow": "Call Now"
+		},
+		"cancelDialog": {
+			"cancelTrip": "Cancel Trip",
+			"reason": "Reason for Cancellation",
+			"description": "Please provide a reason for cancelling the trip. This will help us improve our service.",
+			"characters": "characters",
+			"minimum": "Minimum 8 characters",
+			"maximum": "Maximum 500 characters",
+			"cancelBtn": "Cancel",
+			"confirmBtn": "Confirm"
+		},
+		"emergencyDialog": {
+			"title": "Emergency",
+			"header": "Call your coordinator?",
+			"callNow": "Call Now"
+		},
+		"feedbackDialog": {
+			"title": "Feedback",
+			"viewTitle": "View Feedback",
+			"toast": {
+				"success": "Your feedback has been submitted. Thank you for sharing your feedback!",
+				"error": "ailed to submit feedback. Please try again later."
+			},
+			"rateAndReview": "Rate and Review",
+			"rateAndReviewDescription": "Please share your experience with the trip. Your feedback helps us improve our service.",
+			"support": "Support?",
+			"submitFeedback": "Submit Feedback",
+			"noComments": "No comments provided."
+		},
+		"supportDialog": {
+			"title": "Support center",
+			"header": "Contact your coordinator",
+			"callNow": "Call Now"
+		}
+	},
+	"DataTable": {
+		"columnActions": {
+			"view": "View",
+			"edit": "Edit",
+			"delete": "Delete",
+			"approve": "Approve",
+			"reject": "Reject"
+		},
+		"pagination": {
+			"page": "Page",
+			"rowsPerPage": "Rows per page"
+		}
+	},
+	"Admin": {
+		"sidebar": {
+			"dashboard": "Dashboard",
+			"user": "User",
+			"vehicle": {
+				"self": "Vehicle",
+				"owned": "Owned",
+				"outsourced": "Outsourced"
+			}
+		},
+		"location": {
+			"toast": {
+				"update": {
+					"loading": "Updating location...",
+					"success": "Location updated successfully",
+					"error": "Could not update location, please try again later"
+				},
+				"create": {
+					"loading": "Creating location...",
+					"success": "Location created successfully",
+					"error": "Could not create location, please try again later"
+				}
+			},
+			"form": {
+				"namePlaceholder": "Enter location name",
+				"addressPlaceholder": "Enter full address",
+				"latitudePlaceholder": "Latitude",
+				"longitudePlaceholder": "Longitude",
+				"createButton": "Create",
+				"updateButton": "Update"
+			},
+			"type": "Type",
+			"name": "Name",
+			"address": "Address",
+			"latitude": "Latitude",
+			"longitude": "Longitude"
+		},
+		"role": {
+			"title": "Title",
+			"description": "Description",
+			"numberOfPermissions": "Number of permissions",
+			"numberOfUsers": "Number of users",
+			"toast": {
+				"update": {
+					"loading": "Updating role...",
+					"success": "Role #{id} has been updated",
+					"error": "Could not update role #{id}, please try again later"
+				}
+			}
+		},
+		"permission": {
+			"title": "Title",
+			"description": "Description"
+		},
+		"driver": {
+			"columnActions": {
+				"suspend": "Suspend",
+				"activate": "Activate",
+				"deActivate": "Deactivate"
+			},
+			"toast": {
+				"suspend": {
+					"loading": "Suspending the account...",
+					"success": "User #{userId} has been suspended",
+					"error": "Could not suspend user #{userId}, please try again later"
+				},
+				"activate": {
+					"loading": "Activating the account...",
+					"success": "User #{userId} has been activated",
+					"error": "Could not activate user #{userId}, please try again later"
+				},
+				"deactivate": {
+					"loading": "Deactivating the account...",
+					"success": "User #{userId} has been deactivated",
+					"error": "Could not deactivate user #{userId}, please try again later"
+				}
+			}
+		},
+		"user": {
+			"toast": {
+				"reactivate": {
+					"self": "Reactivate",
+					"loading": "Reactivating the account...",
+					"success": "User #{userId} has been reactivated",
+					"error": "Could not reactivate user #{userId}, please try again later"
+				},
+                "unsuspend": {
+                  "self": "Unsuspend",
+                  "loading": "Unsuspending the account...",
+                  "success": "User #{userId} has been unsuspended",
+                  "error": "Could not unsuspend user #{userId}, please try again later"
+                },
+				"deactivate": {
+					"self": "Deactivate",
+					"loading": "Deactivating the account...",
+					"success": "User #{userId} has been deactivate",
+					"error": "Could not deactivate user #{userId}, please try again later"
+				},
+				"suspend": {
+					"self": "Suspend",
+					"loading": "Suspending the account...",
+					"success": "User #{userId} has been suspended",
+					"error": "Could not suspend user #{userId}, please try again later"
+				},
+				"changeRole": {
+					"self": "Change Role",
+					"loading": "Changing role...",
+					"success": "Role has been changed to user #{userId}",
+					"error": "Could not change role to user #{userId}, please try again later"
+				}
+			},
+			"form": {
+				"nameLabel": "Full Name",
+				"namePlaceholder": "Enter full name",
+				"emailLabel": "Email",
+				"emailPlaceholder": "Enter email address",
+				"phoneLabel": "Phone Number",
+				"phonePlaceholder": "Enter phone number",
+				"roleLabel": "Role",
+				"avatarLabel": "Profile Picture",
+				"submit": "Save Changes",
+				"reset": "Reset"
+			},
+			"deactivateDialog": {
+				"title": "Are you <span class='text-destructive'>sure</span> you want to deactivate this account?",
+				"description": "This action can be undone. This will deactivate this user account. The user will not be able to sign in or access any services until the account is reactivated.",
+				"cancel": "Cancel",
+				"confirm": "Deactivate"
+			},
+			"contactInfo": "Contact information",
+			"email": "Email",
+			"phoneNumber": "Phone number",
+			"status": "Status",
+			"role": "Role",
+			"bookingRequests": "Booking requests",
+			"dedicatedVehicle": "Dedicated vehicle",
+			"statusActive": "Active",
+			"statusInactive": "Inactive"
+		},
+		"vehicle": {
+			"toast": {
+				"create": {
+					"loading": "Creating vehicle...",
+					"success": "New vehicle has been created",
+					"error": "Could not create new vehicle, please try again later"
+				},
+				"update": {
+					"loading": "Updating vehicle...",
+					"success": "Vehicle #{id} has been updated",
+					"error": "Could not update vehicle #{id}, please try again later"
+				}
+			},
+			"form": {
+				"licensePlatePlaceholder": "Enter license plate",
+				"modelPlaceholder": "Enter vehicle model",
+				"colorPlaceholder": "Pick a vehicle color",
+				"capacityPlaceholder": "Enter passenger capacity",
+				"submit": "Create Vehicle",
+				"edit": "Edit Vehicle"
+			},
+			"licensePlate": "License Plate",
+			"model": "Model",
+			"color": "Color",
+			"capacity": "Capacity",
+			"driver": "Driver",
+			"vendor": "Vendor",
+			"executive": "Executive",
+			"baseLocation": "Base Location",
+			"vehicleInfo": "Vehicle information",
+			"availability": "Availability",
+			"currentLocation": "Current location",
+			"numberOfTrips": "Number of trips",
+			"notAssigned": "Not assigned",
+			"available": "Available",
+			"unavailable": "Unavailable",
+			"company": "Company"
+		},
+		"vendor": {
+			"toast": {
+				"create": {
+					"loading": "Creating vendor...",
+					"success": "New vendor has been created",
+					"error": "Could not create new vendor, please try again later"
+				},
+				"update": {
+					"loading": "Updating vendor...",
+					"success": "Vendor #{id} has been updated",
+					"error": "Could not update vendor, please try again later"
+				}
+			},
+			"form": {
+				"namePlaceholder": "Enter vendor name",
+				"emailPlaceholder": "Enter email address",
+				"phoneNumberPlaceholder": "Enter phone number",
+				"contactPersonPlaceholder": "Enter contact person name",
+				"addressPlaceholder": "Enter vendor address",
+				"createButton": "Create",
+				"updateButton": "Update"
+			},
+			"vendorInfo": "Vendor Information",
+			"addressInfo": "Address Information",
+			"contactInfo": "Contact Information",
+			"stats": "Statistics",
+			"name": "Name",
+			"email": "Email",
+			"phoneNumber": "Phone Number",
+			"address": "Address",
+			"contactPerson": "Contact Person",
+			"numberOfDrivers": "Number of Drivers",
+			"numberOfVehicles": "Number of Vehicles",
+			"status": "Status",
+			"active": "Active",
+			"inactive": "Inactive"
+		},
+		"setting": {
+			"toast": {
+				"update": {
+					"loading": "Updating settings...",
+					"success": "New settings applied successfully",
+					"error": "There was some error updating settings"
+				}
+			},
+			"form": {
+				"fieldError": "Failed to update this setting"
+			},
+			"title": "Settings",
+			"description": "Manage all your settings in here"
+		}
+	},
+	"Coordinator": {
+		"leaveRequest": {
+			"toast": {
+				"approve": {
+					"loading": "Approving leave request...",
+					"success": "Leave request #{id} approved successfully",
+					"error": "Could not approve leave request #{id}, please try again later"
+				},
+				"reject": {
+					"loading": "Rejecting leave request...",
+					"success": "Leave request #{id} rejected successfully",
+					"error": "Could not reject leave request #{id}, please try again later"
+				},
+				"create": {
+					"loading": "Submitting leave request...",
+					"success": "Leave request submitted successfully",
+					"error": "Could not submit leave request #{id}, please try again later"
+				},
+				"edit": {
+					"loading": "Updating leave request...",
+					"success": "Leave request updated successfully",
+					"error": "Could not update leave request #{id}, please try again later"
+				}
+			},
+			"actions": {
+				"approve": "Approve",
+				"reject": "Reject",
+				"create": "Create",
+				"update": "Update"
+			},
+			"rejectDialog": {
+				"title": "Are you sure you want to reject this leave request?",
+				"description": "This action is permanent and cannot be undone.",
+				"label": "Reason for rejection",
+				"placeholder": "Provide your reason here...",
+				"cancel": "Cancel",
+				"confirm": "Continue"
+			},
+			"driver": "Driver",
+			"selectDriver": "Select Driver",
+			"reason": "Reason",
+			"notes": "Notes",
+			"from": "From",
+			"to": "To",
+			"status": "Status",
+			"schedule": "Schedule",
+			"createdAt": "Requested On",
+			"updatedAt": "Last Modified",
+			"noSchedule": "No schedule assigned",
+			"placeholders": {
+				"reason": "Reason for time off request",
+				"notes": "Additional notes (optional)"
+			}
+		},
+		"vehicleService": {
+			"toast": {
+				"approve": {
+					"loading": "Approving vehicle service...",
+					"success": "Vehicle service #{id} approved successfully",
+					"error": "Could not approve vehicle service #{id}, please try again later"
+				},
+				"reject": {
+					"loading": "Rejecting vehicle service...",
+					"success": "Vehicle service #{id} rejected successfully",
+					"error": "Could not reject vehicle service #{id}, please try again later"
+				},
+				"create": {
+					"loading": "Creating vehicle service...",
+					"success": "Vehicle service created successfully",
+					"error": "Could not create vehicle service, please try again later"
+				},
+				"edit": {
+					"loading": "Updating vehicle service...",
+					"success": "Vehicle service #{id} updated successfully",
+					"error": "Could not update vehicle service #{id}, please try again later"
+				}
+			},
+			"fields": {
+				"vehicleId": "Vehicle",
+				"serviceType": "Service Type",
+				"reason": "Reason",
+				"description": "Description",
+				"from": "From",
+				"to": "To"
+			},
+			"placeholders": {
+				"serviceType": "Select service type",
+				"reason": "Reason for service request",
+				"description": "Describe the service details"
+			},
+			"actions": {
+				"approve": "Approve",
+				"reject": "Reject",
+				"create": "Create",
+				"edit": "Edit"
+			},
+			"rejectDialog": {
+				"title": "Are you sure you want to reject this vehicle service?",
+				"description": "This action is permanent and cannot be undone.",
+				"label": "Reason for rejection",
+				"placeholder": "Provide your reason here...",
+				"cancel": "Cancel",
+				"confirm": "Continue"
+			}
+		},
+		"expenses": {
+			"toast": {
+				"approve": {
+					"loading": "Approving expense...",
+					"success": "Expense approved successfully",
+					"error": "Could not approve expense #{id}, please try again later"
+				},
+				"reject": {
+					"loading": "Rejecting expense...",
+					"success": "Expense rejected successfully",
+					"error": "Could not reject expense #{id}, please try again later"
+				},
+				"create": {
+					"loading": "Submitting expense...",
+					"success": "Expense submitted successfully",
+					"error": "Could not submit expense #{id}, please try again later"
+				},
+				"edit": {
+					"loading": "Updating expense...",
+					"success": "Expense updated successfully",
+					"error": "Could not update expense #{id}, please try again later"
+				}
+			},
+			"rejectDialog": {
+				"title": "Are you sure you want to reject this expense?",
+				"description": "Please provide a reason for this rejection",
+				"label": "Reason for rejection",
+				"placeholder": "Provide your reason here...",
+				"cancel": "Cancel",
+				"confirm": "Reject"
+			},
+			"fields": {
+				"type": {
+					"label": "Type",
+					"placeholder": "Select a type",
+					"options": {
+						"trip": "Trip",
+						"vehicleService": "Vehicle service",
+						"operational": "Operational"
+					}
+				},
+				"vehicleService": {
+					"label": "Vehicle service"
+				},
+				"trip": {
+					"label": "Trip"
+				},
+				"operationalType": {
+					"label": "Expense type",
+					"placeholder": "Select a type",
+					"options": {
+						"fuel": "Fuel",
+						"parkings": "Parking",
+						"tolls": "Tolls",
+						"custom": "Custom"
+					}
+				},
+				"operationalCustomType": {
+					"placeholder": "Custom expense"
+				},
+				"amount": {
+					"placeholder": "Amount (in VND)"
+				},
+				"receipt": {
+					"label": "Receipt Image"
+				},
+				"description": {
+					"placeholder": "Describe the expense"
+				}
+			},
+			"actions": {
+				"create": "Create",
+				"update": "Update"
+			}
+		},
+		"bookingRequest": {
+			"toast": {
+				"assignVehicle": {
+					"loading": "Assigning vehicle...",
+					"success": "Vehicle has been assigned to request #{id}.",
+					"error": "Failed to assign vehicle to request #{id}. Please try again."
+				},
+				"delete": {
+					"loading": "Deleting request...",
+					"success": "Request #{id} successfully deleted.",
+					"error": "Failed to delete request #{id}. Please try again."
+				},
+				"cancel": {
+					"loading": "Cancelling request...",
+					"success": "Request #{id} successfully cancelled. Related trips may be updated.",
+					"error": "Failed to cancel request #{id}. Please try again."
+				},
+				"reject": {
+					"loading": "Rejecting request...",
+					"success": "Request #{id} successfully rejected. Requests returned to optimization queue.",
+					"error": "Failed to reject request #{id}. Please try again."
+				}
+			},
+			"dialog": {
+				"cancel": {
+					"label": "Reason for cancellation",
+					"selectPlaceholder": "Select a reason",
+					"selectLabel": "Reason",
+					"otherReason": "Other reason",
+					"placeholder": "Provide your other reason here...",
+					"cancellationReasons": {
+						"requesterCancelled": "Requester cancelled",
+						"changeOfPlans": "Change of plans",
+						"workConflict": "Work conflict",
+						"vehicleUnavailable": "Vehicle unavailable",
+						"illnessOrEmergency": "Illness or emergency",
+						"travelIssues": "Travel issues",
+						"other": "Other"
+					},
+					"button": "Cancel",
+					"title": "Are you <destructive>sure</destructive> you want to cancel this request?",
+					"description": "This action cannot be undone. This will permanently delete this booking request and any trip that is related to this will be affected.",
+					"cancel": "Cancel",
+					"confirm": "Continue"
+				},
+				"reject": {
+					"label": "Reason for rejection",
+					"placeholder": "Provide your reason here...",
+					"button": "Reject",
+					"title": "Are you sure you want to reject this request?",
+					"description": "Rejecting this booking request will notify the requester, and they’ll be informed that the trip may be affected.",
+					"cancel": "Cancel",
+					"confirm": "Continue"
+				}
+			}
+		},
+		"trip": {
+			"toast": {
+				"combine": {
+					"loading": "Combining trip...",
+					"success": "Trips successfully combined",
+					"error": "Failed to combine trips. Please try again."
+				},
+				"approve": {
+					"loading": "Approving trip...",
+					"success": "Trip #{id} successfully approved",
+					"error": "Failed to approve trip #{id}. Please try again."
+				},
+				"uncombine": {
+					"loading": "Uncombining trip...",
+					"success": "Trip #{id} successfully uncombined. Requests returned to optimization queue.",
+					"error": "Failed to uncombine trip #{id}. Please try again."
+				},
+				"assignVehicle": {
+					"loading": "Assigning vehicle...",
+					"success": "Trip #{id} successfully assigned with vehicle #{vid}. Requests returned to optimization queue.",
+					"error": "Failed to assign vehicle #{vid} trip #{id}. Please try again."
+				},
+				"addRequest": {
+					"loading": "Adding request...",
+					"success": "Request #{id} has been successfully added to the trip.",
+					"error": "Failed to add request #{id}. Please try again."
+				},
+				"removeRequest": {
+					"loading": "Removing request...",
+					"success": "Request #{id} has been successfully removed from the trip.",
+					"error": "Failed to remove request #{id}. Please try again."
+				}
+			},
+			"columnsActions": {
+				"approve": "Approve",
+				"assignVehicle": "Assign vehicle",
+				"addBookingRequest": "Add a booking request",
+				"removeBookingRequest": "Remove a booking request"
+			},
+			"location": "Location",
+			"status": "Status",
+			"totalCost": "Total cost",
+			"timeline": "Trip timeline",
+			"departure": "Departure",
+			"arrival": "Arrival",
+			"resources": "Resources",
+			"driver": "Driver",
+			"passengers": "Passenger(s)",
+			"routeStops": "Route Stops ({count})",
+			"vehicle": {
+				"color": "Color",
+				"capacity": "Capacity"
+			},
+			"type": {
+				"self": "Type",
+				"pickup": "Pick up",
+				"drop_off": "Drop off"
+			},
+			"form": {
+				"departureTime": "Departure time",
+				"arrivalTime": "Arrival time",
+				"vehicle": "Vehicle",
+				"bookingRequests": "Booking requests",
+				"routeStops": "Route stops",
+				"createCombined": "Create Trip",
+				"alreadySelected": "Data is already selected",
+				"addStop": "Add stop"
+			},
+			"uncombineDialog": {
+				"button": "Uncombine",
+				"title": "Are you sure you want to uncombine this trip?",
+				"description": "This will return all associated requests to the scheduling pool for system optimization.",
+				"cancel": "Cancel",
+				"confirm": "Continue"
+			}
+		},
+		"report": {
+			"toast": {
+				"loading": "Generating report",
+				"success": "Report generated",
+				"error": "Could not generate report, please try again later"
+			},
+			"fileName": {
+				"label": "File name",
+				"placeholder": "Enter your filename",
+				"description": "The file name of your generating report"
+			},
+			"dateRange": {
+				"label": "Date range",
+				"placeholder": "Select a date range",
+				"description": "Choose the period to collect data for the report"
+			},
+			"period": {
+				"label": "Period",
+				"placeholder": "Select a period",
+				"description": "Audit logs of data, available for recent {value} month(s)"
+			},
+			"type": {
+				"label": "Type",
+				"placeholder": "Select file type",
+				"description": "The exported filetype of the audit logs"
+			},
+			"preview": {
+				"title": "Preview Report Settings",
+				"exportDate": "Export date",
+				"exportPeriod": "Export period",
+				"fileType": "File type",
+				"contactEmail": "Contact email"
+			},
+			"button": "Generate report"
+		},
+		"schedule": {
+			"toast": {
+				"delete": {
+					"loading": "Deleting request...",
+					"success": "Request #{id} successfully deleted.",
+					"error": "Failed to delete request #{id}. Please try again."
+				}
+			}
+		}
+	},
+	"DriverLeave": {
+		"title": "Your Leave Requests",
+		"onGoingLeave": "On-going Leave Schedule",
+		"upcomingLeave": "Upcoming Leave",
+		"pendingRequests": "Pending Requests",
+		"pastRequests": "Past Requests",
+		"noLeaves": "No leave requests found.",
+		"reason": "Reason",
+		"notes": "Notes",
+		"noNotes": "No notes provided."
+	},
+	"DriverServices": {
+		"title": "Vehicle Services",
+		"onGoingService": "On-going Vehicle Service",
+		"upcomingServices": "Upcoming Services",
+		"pendingRequests": "Pending Requests",
+		"pastRequests": "Past Requests",
+		"noServices": "No services found.",
+		"service": "Service",
+		"routineMaintenance": "Routine Maintenance",
+		"urgentRepair": "Urgent Repair/Fixing",
+		"from": "From",
+		"to": "To"
+	},
+	"DriverRequest": {
+		"leave": "Leave",
+		"service": "Service",
+		"createNewLeave": "Create New Leave Request",
+		"createNewService": "Create New Service Request",
+		"createLeave": "Create Leave",
+		"createService": "Create Service",
+		"submitNewLeave": "Submit New Leave",
+		"submitVehicleService": "Submit Vehicle Service",
+		"leaveDetails": "Leave Details",
+		"serviceDetails": "Service Details",
+		"status": "Status",
+		"rejectReason": "Reject Reason",
+		"submit": "Submit",
+		"submitting": "Submitting...",
+		"modifyLeave": "Modify Leave Schedule",
+		"modifyService": "Modify Vehicle Service",
+		"cancel": "Cancel",
+		"saveChanges": "Save Changes",
+		"toast": {
+			"success": "Request submitted successfully!",
+			"error": "Failed to submit leave request. Please try again.",
+			"conflict": "The selected time range conflicts with an existing schedule. Please choose a different time."
+		},
+		"requestForm": {
+			"pickADate": "Pick a date",
+			"startDate": "Start Date",
+			"endDate": "End Date",
+			"expense": "Expense",
+			"currency": "VND",
+			"notes": "Note (Optional)",
+			"description": "Description (Optional)",
+			"reason": "Reason (Optional)",
+			"reasonRequired": "Reason",
+			"serviceCategory": "Service Category",
+			"expenseId": "Expense ID",
+			"noExpense": "No expense logged",
+			"details": "Details",
+			"routineMaintenance": "Routine Maintenance",
+			"urgentRepair": "Urgent Repair/Fixing",
+			"other": "Other",
+			"conflictingSchedules": "Conflicting Schedules"
+		},
+		"cancelDialog": {
+			"button": "Cancel",
+			"cancelling": "Cancelling...",
+			"confirmCancellation": {
+				"normal": "Confirm",
+				"destructive": "Cancellation"
+			},
+			"description": {
+				"leave": "This action will cancel your leave request. Please confirm that you want to proceed.",
+				"service": "This action will cancel your service request. Please confirm that you want to proceed."
+			},
+			"cancel": "Cancel",
+			"confirm": "Confirm",
+			"toast": {
+				"title": "Request cancellation requested",
+				"description": "Your request cancellation has been submitted.",
+				"error": "Failed to submit cancellation request."
+			}
+		},
+		"modifyDialog": {
+			"button": "Modify",
+			"modifying": "Modifying...",
+			"confirmModification": {
+				"normal": "Confirm",
+				"destructive": "Modification"
+			},
+			"description": {
+				"leave": "This action will modify your leave request. Please confirm that you want to proceed.",
+				"service": "This action will modify your service request. Please confirm that you want to proceed."
+			},
+			"cancel": "Cancel",
+			"confirm": "Confirm",
+			"toast": {
+				"title": "Modification request submitted",
+				"description": "Your request modification has been sent for approval.",
+				"error": "Failed to submit modification request.",
+				"conflict": "The selected time range conflicts with an existing schedule. Please choose a different time."
+			}
+		}
+	},
+	"DriverTrips": {
+		"title": "Your Trips",
+		"trip": "Trip",
+		"status": "Status",
+		"passengers": "PAX",
+		"arrival": "Est. arrival at",
+		"actualArrival": "Actual arrival at",
+		"yourAssignedTrips": "Your Assigned Trips",
+		"startingSoon": "Starting Soon",
+		"tabs": {
+			"todaysTrips": "Today's Trips",
+			"upcomingTrips": "Upcoming Trips",
+			"pastTrips": "Past Trips"
+		},
+		"noTrips": "No trips found.",
+		"startTrip": "Start Trip",
+		"cancel": "Cancel",
+		"goToTripPage": "Go to Trip Page",
+		"starting": "Starting...",
+		"redirecting": "Redirecting...",
+		"startTripEarly": "Start Trip Early",
+		"startEarlyTitle": "Start Trip Early",
+		"startEarlyDescription": "You are about to start this trip before the scheduled time. Are you sure you want to proceed?"
+	},
+	"DriverExpenses": {
+		"title": "Your Expenses",
+		"tripExpenses": "Trip",
+		"vehicleServiceExpenses": "Vehicle Service",
+		"operationalExpenses": "Operational",
+		"noExpenses": "No expenses found.",
+		"expenseDetails": "Expense Details",
+		"amount": "Amount",
+		"currency": "VND",
+		"date": "Date",
+		"type": "Type",
+		"receipt": "Receipt",
+		"viewReceipt": "View Receipt",
+		"trip": "Trip",
+		"vehicleService": "Vehicle Service",
+		"operational": "Operational",
+		"otherExpense": "Other Expense",
+		"noDescription": "No description provided",
+		"description": {
+			"fuel": "Fuel",
+			"tolls": "Tolls",
+			"parking": "Parking",
+			"maintenance": "Maintenance",
+			"repair": "Repair",
+			"custom": "Custom"
+		},
+		"status": {
+			"status": "Status",
+			"pending": "Pending",
+			"approved": "Approved",
+			"rejected": "Rejected",
+			"cancelled": "Cancelled",
+			"rejectReason": "Reject Reason"
+		},
+		"logExpense": "Log Expense",
+		"logTripExpense": "Log Trip Expense",
+		"logVehicleServiceExpense": "Log Vehicle Service Expense",
+		"logOperationalExpense": "Log Operational Expense",
+		"selectExpenseType": "Select Expense Type",
+		"tripExpense": "Trip Expense",
+		"vehicleServiceExpense": "Vehicle Service Expense",
+		"operationalExpense": "Operational Expense",
+		"submitting": "Submitting...",
+		"submitRequest": "Submit Request",
+		"cancel": "Cancel Request",
+		"saveChanges": "Save Changes",
+		"modify": "Modify Request",
+		"form": {
+			"amount": "Amount",
+			"currency": "VND",
+			"datetime": "Date and Time",
+			"selectDateTime": "Select Date and Time",
+			"description": "Description (Optional)",
+			"enterDescription": "Enter Description (Optional)",
+			"attachment": "Attachment",
+			"attachmentImage": "Attachment Image",
+			"replaceImage": "This attachment will replace the below attachment.",
+			"details": "Details",
+			"createdAt": "Created At",
+			"updatedAt": "Updated At",
+			"tripId": "Trip ID (Optional)",
+			"vehicleServiceId": "Vehicle Service ID (Optional)",
+			"other": "Other (Optional)",
+			"associatedTrip": "Trip",
+			"selectTrip": "Select Trip",
+			"associatedService": "Vehicle Service",
+			"selectService": "Select Vehicle Service",
+			"expenseType": "Expense Type",
+			"selectExpenseType": "Select Expense Type",
+			"customType": "Custom Type",
+			"enterCustomType": "Enter Custom Type",
+			"backToPresetTypes": "Back to Preset Types",
+			"noTrips": "No trips available.",
+			"noServices": "No vehicle services available."
+		},
+		"cancelDialog": {
+			"button": "Cancel",
+			"cancelling": "Cancelling...",
+			"confirmCancellation": {
+				"normal": "Confirm",
+				"destructive": "Cancellation"
+			},
+			"description": "This action will cancel your expense. Please confirm that you want to proceed.",
+			"cancel": "Cancel",
+			"confirm": "Confirm",
+			"toast": {
+				"title": "Expense cancellation requested",
+				"description": "Your expense cancellation request has been submitted.",
+				"error": "Failed to submit expense cancellation request."
+			}
+		},
+		"modifyDialog": {
+			"button": "Modify",
+			"modifying": "Modifying...",
+			"confirmModification": {
+				"normal": "Confirm",
+				"destructive": "Modification"
+			},
+			"description": "This action will modify your expense. Please confirm that you want to proceed.",
+			"cancel": "Cancel",
+			"confirm": "Confirm",
+			"toast": {
+				"title": "Modification request submitted",
+				"description": "Your expense modification request has been sent for approval.",
+				"error": "Failed to submit expense modification request."
+			}
+		},
+		"success": "Request submitted successfully!",
+		"error": "Failed to submit expense request. Please try again."
+	},
+	"DriverTripDay": {
+		"pickingUpPassnegers": "Picking up passenger(s)...",
+		"droppingOffPassengers": "Dropping off passenger(s)...",
+		"tripCompleted": "Trip completed!",
+		"tripCancelled": "Trip cancelled.",
+		"pleaseStartTrip": "Please start the trip to begin.",
+		"onGoing": "On-going...",
+		"waitingForNextStop": "Waiting for next stop...",
+		"contactPoints": "Contact point(s) at next stop",
+		"yourInformation": "Your Information",
+		"tripTab": "Trip",
+		"passengersTab": "Passengers",
+		"stop": {
+			"estArrival": "Est. Arrival",
+			"actualArrival": "Actual Arrival",
+			"type": {
+				"type": "Type",
+				"pickUp": "Pick Up",
+				"dropOff": "Drop Off"
+			}
+		},
+		"passengers": {
+			"passengers": "Passengers",
+			"booking": "Booking",
+			"skipped": "Skipped",
+			"droppedOff": "Dropped Off",
+			"droppingOff": "Dropping Off...",
+			"pickedUp": "Picked Up",
+			"pickingUp": "Picking Up...",
+			"noPassengers": "No passengers found."
+		},
+		"pickUpBtn": "Pick Up",
+		"dropOffBtn": "Drop Off",
+		"processing": "Processing...",
+		"confirmStartTripBtn": "Confirm Start Trip",
+		"confirmEndTripBtn": "Confirm End Trip",
+		"callDialog": {
+			"contactPassengerAt": "Contact passenger at",
+			"callNow": "Call Now"
+		},
+		"reportIncident": {
+			"title": "Report Incident",
+			"reason": "Reason",
+			"description": "Please provide a reason for reporting the incident. This will help us address the issue effectively.",
+			"reportBtn": "Report and Cancel This Trip"
+		},
+		"skipDialog": {
+			"skipAll": "Skip All",
+			"skipAllPassengers": "Skip All Passengers",
+			"skipGroup": "Skip Group",
+			"skipPassenger": "Skip Passenger",
+			"description": {
+				"skipAll": "You are about to skip {groupCount} group(s) with {passengerCount} passenger(s) at this stop. Please provide a reason for skipping.",
+				"skipGroup": "You are about to skip group {bookingId} with {passengerCount} passenger(s). Please provide a reason for skipping.",
+				"skipPassenger": "Please provide a reason for skipping this passenger (8-500 characters)."
+			},
+			"enterReason": "Enter reason for skipping...",
+			"reasonForSkipping": "Reason for Skipping",
+			"characters": "characters",
+			"minimum": "Minimum 8 characters",
+			"maximum": "Maximum 500 characters",
+			"cancelBtn": "Cancel",
+			"skipAllBtn": "Skip All",
+			"skipGroupBtn": "Skip Group"
+		}
+	},
+	"DriverLogActivity": {
+		"title": "Executive Daily Activity",
+		"noActivities": "No activities found.",
+		"logBtn": "Log Executive Daily Activity",
+		"logActivity": {
+			"header": "Log Executive Daily Activity",
+			"submitBtn": "Submit Daily Activity",
+			"submitting": "Submitting...",
+			"startTime": "Start Time",
+			"endTime": "End Time",
+			"notesOptional": "Notes (Optional)",
+			"driverNotFound": "Driver not found. Cannot submit activity log.",
+			"executiveNotFound": "Executive not found. Cannot submit activity log.",
+			"success": "Request submitted successfully!",
+			"error": "Failed to submit activity log. Please try again."
+		},
+		"activityDetails": {
+			"header": "Daily Activity",
+			"status": "Status",
+			"startTime": "Start Time",
+			"endTime": "End Time",
+			"notes": "Notes",
+			"noNotes": "No notes provided.",
+			"modifyBtn": "Modify",
+			"details": "Details",
+			"duration": "Duration",
+			"hours": "hours",
+			"minutes": "minutes",
+			"driver": "Driver",
+			"executive": "Executive",
+			"vehicle": "Vehicle"
+		},
+		"cancelDialog": {
+			"title": "Cancel Activity",
+			"button": "Cancel",
+			"cancelling": "Cancelling...",
+			"confirmCancellation": {
+				"normal": "Confirm",
+				"destructive": "Cancellation"
+			},
+			"description": "This action will cancel your activity. Please confirm that you want to proceed.",
+			"cancel": "Cancel",
+			"confirm": "Confirm",
+			"toast": {
+				"title": "Activity cancellation requested",
+				"description": "Your activity cancellation request has been submitted.",
+				"error": "Failed to submit activity cancellation request."
+			}
+		},
+		"modifyDialog": {
+			"title": "Modify Activity",
+			"button": "Modify",
+			"modifying": "Modifying...",
+			"confirmModification": {
+				"normal": "Confirm",
+				"destructive": "Modification"
+			},
+			"description": "This action will modify your activity. Please confirm that you want to proceed.",
+			"cancel": "Cancel",
+			"confirm": "Confirm",
+			"toast": {
+				"title": "Modification request submitted",
+				"description": "Your activity modification request has been sent for approval.",
+				"error": "Failed to submit activity modification request."
+			}
+		}
+	},
+	"DriverCalendar": {
+		"monthNames": {
+			"january": "January",
+			"february": "February",
+			"march": "March",
+			"april": "April",
+			"may": "May",
+			"june": "June",
+			"july": "July",
+			"august": "August",
+			"september": "September",
+			"october": "October",
+			"november": "November",
+			"december": "December"
+		},
+		"dayNames": {
+			"sun": "Sun",
+			"mon": "Mon",
+			"tue": "Tue",
+			"wed": "Wed",
+			"thu": "Thu",
+			"fri": "Fri",
+			"sat": "Sat"
+		},
+		"shortDayNames": {
+			"su": "S",
+			"m": "M",
+			"t": "T",
+			"w": "W",
+			"th": "Th",
+			"f": "F",
+			"sa": "S"
+		},
+		"duration": {
+			"h": "h",
+			"m": "m"
+		},
+		"noEvents": "No events scheduled.",
+		"more": "more"
+	},
+	"ExecutiveActivities": {
+		"approveDialog": {
+			"title": "Approve Activity",
+			"button": "Approve",
+			"approving": "Approving...",
+			"confirmApproval": {
+				"normal": "Confirm",
+				"destructive": "Approval"
+			},
+			"description": "This action will approve the activity. Please confirm that you want to proceed.",
+			"cancel": "Cancel",
+			"confirm": "Confirm",
+			"toast": {
+				"title": "Activity approved",
+				"description": "The activity has been approved successfully.",
+				"error": "Failed to approve the activity."
+			}
+		},
+		"rejectDialog": {
+			"title": "Reject Activity",
+			"button": "Reject",
+			"rejecting": "Rejecting...",
+			"confirmRejection": {
+				"normal": "Confirm",
+				"destructive": "Rejection"
+			},
+			"description": "This action will reject the activity. Please confirm that you want to proceed.",
+			"cancel": "Cancel",
+			"confirm": "Confirm",
+			"toast": {
+				"title": "Activity rejected",
+				"description": "The activity has been rejected successfully.",
+				"error": "Failed to reject the activity."
+			}
+		}
+	},
+	"PublicLinkInvalid": {
+		"title": "Link is invalid",
+		"coordinator": "Coordinator",
+		"phoneNumber": "Phone Number",
+		"contactCoordinator": "Contact Coordinator",
+		"ifYouBelieveError": "If you believe this is an error, please contact your coordinator.",
+		"accessRestored": "Your access will be restored once the issue is resolved.",
+		"backHome": "Back to Home",
+		"early": "This link is not yet valid. It will be valid 2 days before the trip's departure date.",
+		"expired": "This link is no longer valid."
+	}
+}

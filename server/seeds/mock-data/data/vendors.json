@@ -1,0 +1,26 @@
+[
+	{
+		"id": "VEN-1",
+		"name": "Hoàng Gia Thịnh",
+		"address": "1100/1A Ấp Chánh 1, Xã Tân Xuân, Huyện Hoóc Môn, TPHCM",
+		"contactPerson": "Nguyễn Hoàng Thế",
+		"email": "hoanggiathinhtravel@example.com",
+		"phoneNumber": "0904343366"
+	},
+	{
+		"id": "VEN-2",
+		"name": "Đức Vinh",
+		"address": "Lô 16M2 KĐT Yên Hòa, phường Yên Hòa, Quận Cầu Giấy, TP.Hà Nội, Việt Nam",
+		"contactPerson": "Quang",
+		"email": "Sales.dvt@ducvinhgroup.vn",
+		"phoneNumber": "0969735303"
+	},
+	{
+		"id": "VEN-3",
+		"name": "Sadaco",
+		"address": "200 bis Lý Chính Thắng, Phường 9 quận 3 TP.HCM",
+		"contactPerson": "Nguyễn Văn Tùng",
+		"email": "thanhtung.saadco@gmail.com",
+		"phoneNumber": "0909390996"
+	}
+]

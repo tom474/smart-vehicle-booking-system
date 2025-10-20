@@ -1,0 +1,182 @@
+[
+	{
+		"id": "SCH-1",
+		"title": "Morning route: HCMC Office to Factory A",
+		"description": "Regular shuttle",
+		"startTime": "2025-10-01T02:00:00.000Z",
+		"endTime": "2025-10-01T04:00:00.000Z",
+		"driverId": "DRV-1",
+		"vehicleId": null
+	},
+	{
+		"id": "SCH-2",
+		"title": "Afternoon pickup: Client Visit",
+		"description": "VIP guest",
+		"startTime": "2025-10-01T05:00:00.000Z",
+		"endTime": "2025-10-01T08:00:00.000Z",
+		"driverId": "DRV-2",
+		"vehicleId": null
+	},
+	{
+		"id": "SCH-3",
+		"title": "Late run: Depot transfer",
+		"description": "Cargo handover",
+		"startTime": "2025-10-01T09:00:00.000Z",
+		"endTime": "2025-10-01T11:00:00.000Z",
+		"driverId": "DRV-3",
+		"vehicleId": null
+	},
+	{
+		"id": "SCH-4",
+		"title": "Early trip: Site inspection",
+		"description": "Safety check",
+		"startTime": "2025-10-02T01:00:00.000Z",
+		"endTime": "2025-10-02T03:00:00.000Z",
+		"driverId": "DRV-1",
+		"vehicleId": null
+	},
+	{
+		"id": "SCH-5",
+		"title": "Midday shuttle: Office ↔ Plant B",
+		"description": "Inter-site transport",
+		"startTime": "2025-10-02T04:00:00.000Z",
+		"endTime": "2025-10-02T06:00:00.000Z",
+		"driverId": "DRV-2",
+		"vehicleId": null
+	},
+	{
+		"id": "SCH-6",
+		"title": "Production meeting transport",
+		"description": "Team transfer",
+		"startTime": "2025-10-02T08:00:00.000Z",
+		"endTime": "2025-10-02T10:00:00.000Z",
+		"driverId": "DRV-3",
+		"vehicleId": null
+	},
+	{
+		"id": "SCH-7",
+		"title": "Training day shuttle",
+		"description": "Staff rotation",
+		"startTime": "2025-10-03T02:00:00.000Z",
+		"endTime": "2025-10-03T05:00:00.000Z",
+		"driverId": "DRV-1",
+		"vehicleId": null
+	},
+	{
+		"id": "SCH-8",
+		"title": "Executive pickup: Airport drop-off",
+		"description": "Flight VNxxxx",
+		"startTime": "2025-10-03T06:00:00.000Z",
+		"endTime": "2025-10-03T08:00:00.000Z",
+		"driverId": "DRV-2",
+		"vehicleId": null
+	},
+	{
+		"id": "SCH-9",
+		"title": "Evening transfer: Factory A to Depot",
+		"description": "Inventory run",
+		"startTime": "2025-10-03T09:30:00.000Z",
+		"endTime": "2025-10-03T11:30:00.000Z",
+		"driverId": "DRV-3",
+		"vehicleId": null
+	},
+	{
+		"id": "SCH-10",
+		"title": "Late slot: Office supply pickup",
+		"description": "Procurement",
+		"startTime": "2025-10-03T12:00:00.000Z",
+		"endTime": "2025-10-03T14:00:00.000Z",
+		"driverId": "DRV-1",
+		"vehicleId": null
+	},
+	{
+		"id": "SCH-11",
+		"title": "Midday loop: Factory A to Office",
+		"description": "Return shuttle",
+		"startTime": "2025-10-01T12:00:00.000Z",
+		"endTime": "2025-10-01T14:00:00.000Z",
+		"driverId": "DRV-1",
+		"vehicleId": null
+	},
+	{
+		"id": "SCH-12",
+		"title": "Client handover: District 1 to Binh Duong",
+		"description": "Document transfer",
+		"startTime": "2025-10-01T14:30:00.000Z",
+		"endTime": "2025-10-01T16:00:00.000Z",
+		"driverId": "DRV-2",
+		"vehicleId": null
+	},
+	{
+		"id": "SCH-13",
+		"title": "Evening shuttle: Depot to Factory B",
+		"description": "Parts delivery",
+		"startTime": "2025-10-01T16:30:00.000Z",
+		"endTime": "2025-10-01T18:00:00.000Z",
+		"driverId": "DRV-3",
+		"vehicleId": null
+	},
+	{
+		"id": "SCH-14",
+		"title": "Late morning: Office to Supplier Park",
+		"description": "Inspection team",
+		"startTime": "2025-10-02T10:30:00.000Z",
+		"endTime": "2025-10-02T12:00:00.000Z",
+		"driverId": "DRV-1",
+		"vehicleId": null
+	},
+	{
+		"id": "SCH-15",
+		"title": "Post-lunch: Supplier Park to Office",
+		"description": "Team return",
+		"startTime": "2025-10-02T12:30:00.000Z",
+		"endTime": "2025-10-02T14:30:00.000Z",
+		"driverId": "DRV-2",
+		"vehicleId": null
+	},
+	{
+		"id": "SCH-16",
+		"title": "Afternoon transfer: Office to Plant C",
+		"description": "Maintenance crew",
+		"startTime": "2025-10-02T15:00:00.000Z",
+		"endTime": "2025-10-02T17:00:00.000Z",
+		"driverId": "DRV-3",
+		"vehicleId": null
+	},
+	{
+		"id": "SCH-17",
+		"title": "Mid-afternoon: Office errands",
+		"description": "Procurement run",
+		"startTime": "2025-10-03T14:30:00.000Z",
+		"endTime": "2025-10-03T16:00:00.000Z",
+		"driverId": "DRV-2",
+		"vehicleId": null
+	},
+	{
+		"id": "SCH-18",
+		"title": "Late evening: Plant B to Depot",
+		"description": "Inventory shuttle",
+		"startTime": "2025-10-03T16:30:00.000Z",
+		"endTime": "2025-10-03T18:30:00.000Z",
+		"driverId": "DRV-3",
+		"vehicleId": null
+	},
+	{
+		"id": "SCH-19",
+		"title": "Night run: Factory A to Executive Residence",
+		"description": "Executive drop-off",
+		"startTime": "2025-10-03T19:00:00.000Z",
+		"endTime": "2025-10-03T21:00:00.000Z",
+		"driverId": "DRV-1",
+		"vehicleId": null
+	},
+	{
+		"id": "SCH-20",
+		"title": "Second shift: Office to Plant B",
+		"description": "Overtime shift transport",
+		"startTime": "2025-10-02T18:00:00.000Z",
+		"endTime": "2025-10-02T20:00:00.000Z",
+		"driverId": "DRV-1",
+		"vehicleId": null
+	}
+]

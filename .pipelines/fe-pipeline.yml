@@ -1,0 +1,103 @@
+# Front-end Linting and Testing
+trigger:
+  branches:
+    include:
+      - main
+  paths:
+    include:
+      - client/**
+    exclude:
+      - client/README.md
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  - name: workingDirectory
+    value: "client"
+  - name: nodeModulesPath # This path is specific to the Pipeline Cache task, not Docker caching
+    value: "$(System.DefaultWorkingDirectory)/client/node_modules"
+  - name: nextCachePath # This is for Next.js build cache, good to keep for future optimization
+    value: "$(System.DefaultWorkingDirectory)/client/.next/cache"
+  - name: bunLockFile
+    value: "client/bun.lock"
+  - group: client-variables
+  - group: acr-credentials
+  - group: aca-credentials
+
+stages:
+  - stage: "Build"
+    displayName: "Build and Push to ACR"
+    # dependsOn: "CodeQuality"
+    # condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+    jobs:
+      - job: "BuildAndPushImage"
+        displayName: "Build and Push Docker Image to ACR"
+        steps:
+          - checkout: self
+            displayName: "Checkout Code"
+
+          - task: Docker@2
+            inputs:
+              containerRegistry: "$(azureContainerRegistry)"
+              command: "login"
+
+          # Pull the existing image to prime the cache
+          # This ensures that if the image exists, Docker can use it as a cache source.
+          # The `|| true` prevents the pipeline from failing if the image doesn't exist yet (e.g., first build).
+          - script: |
+              docker pull $(RepositoryPrefix)/$(frontEndImage):latest || true
+            displayName: "Attempt to Pull Latest Docker Image for Cache"
+
+          - script: |
+              docker build \
+                --platform linux/amd64 \
+                --cache-from=$(RepositoryPrefix)/$(frontEndImage):latest \
+                --tag $(frontEndImage):latest \
+                --build-arg NEXT_PUBLIC_SERVER_URL="$(NEXT_PUBLIC_SERVER_URL)" \
+                --build-arg NEXT_PUBLIC_GOOGLE_MAPS_API_KEY="$(NEXT_PUBLIC_GOOGLE_MAPS_API_KEY)" \
+                --build-arg GOOGLE_MAPS_API_KEY="$(GOOGLE_MAPS_API_KEY)" \
+                --build-arg NEXT_PUBLIC_MICROSOFT_CLIENT_ID="$(NEXT_PUBLIC_MICROSOFT_CLIENT_ID)" \
+                --build-arg NEXT_PUBLIC_MICROSOFT_TENANT_ID="$(NEXT_PUBLIC_MICROSOFT_TENANT_ID)" \
+                --build-arg NEXT_PUBLIC_MICROSOFT_CALLBACK_URL="$(NEXT_PUBLIC_MICROSOFT_CALLBACK_URL)" \
+                --build-arg POST_LOGOUT_URL="$(POST_LOGOUT_URL)" \
+                .
+            displayName: "Build Docker Image with BuildKit Caching"
+            workingDirectory: "$(workingDirectory)"
+
+          - script: |
+              docker tag $(frontEndImage):latest $(RepositoryPrefix)/$(frontEndImage):latest
+            displayName: "Tag Docker Images for ACR"
+
+          - script: |
+              docker push $(RepositoryPrefix)/$(frontEndImage):latest
+            displayName: "Push Docker Images to ACR"
+
+          - script: |
+              echo "Images pushed successfully:"
+              echo "- $(RepositoryPrefix)/$(frontEndImage):latest"
+            displayName: "Image Push Results"
+  - stage: "Deploy"
+    displayName: "Deploy to Azure Container Apps"
+    dependsOn: "Build"
+    jobs:
+      - job: "Deploy"
+        displayName: "Deploy Client Container via Revision Copy"
+        steps:
+          - task: AzureCLI@2
+            displayName: "Deploy client container with revision copy"
+            inputs:
+              azureSubscription: "$(azureContainerApp)"
+              scriptType: bash
+              scriptLocation: inlineScript
+              inlineScript: |
+                echo "Deploying client container using revision copy..."
+
+                az containerapp revision copy \
+                  --name $(containerAppName) \
+                  --resource-group $(resourceGroup) \
+                  --container-name vn-aca-client-container \
+                  --image $(RepositoryPrefix)/$(frontEndImage):latest \
+                  --revision-suffix "rev-client-$(Build.BuildId)"
+
+                echo "Client revision deployed successfully"

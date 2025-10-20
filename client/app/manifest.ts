@@ -1,0 +1,26 @@
+import type { MetadataRoute } from "next";
+
+export default function manifest(): MetadataRoute.Manifest {
+	return {
+		name: "Smart Vehicle Booking System",
+		short_name: "SVBS",
+		description: "A smart vehicle booking system for efficient transportation management.",
+		start_url: "/",
+		scope: "/",
+		display: "standalone",
+		background_color: "#ffffff",
+		theme_color: "#000000",
+		icons: [
+			{
+				src: "/images/app-logo-192.png",
+				sizes: "192x192",
+				type: "image/png",
+			},
+			{
+				src: "/images/app-logo-512.png",
+				sizes: "512x512",
+				type: "image/png",
+			},
+		],
+	};
+}

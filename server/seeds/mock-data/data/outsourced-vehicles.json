@@ -1,0 +1,90 @@
+[
+	{
+		"id": "OSV-1",
+		"driverName": "Phạm Ngọc Tám",
+		"phoneNumber": "0979933645",
+		"licensePlate": "60A-57352",
+		"model": "Toyota Innova",
+		"color": "grey",
+		"capacity": 7,
+		"vendorId": null,
+		"cost": null
+	},
+	{
+		"id": "OSV-2",
+		"driverName": "Nguyễn Tấn Cường",
+		"phoneNumber": "0909023338",
+		"licensePlate": "51L-48871",
+		"model": "Toyota Innova",
+		"color": "white",
+		"capacity": 9,
+		"vendorId": null,
+		"cost": null
+	},
+	{
+		"id": "OSV-3",
+		"driverName": "Nguyễn Thanh Tuấn",
+		"phoneNumber": "0909957202",
+		"licensePlate": "51G-26344",
+		"model": "Toyota Innova",
+		"color": "grey",
+		"capacity": 7,
+		"vendorId": null,
+		"cost": null
+	},
+	{
+		"id": "OSV-4",
+		"driverName": "Lê Hữu Chánh",
+		"phoneNumber": "0903831384",
+		"licensePlate": "51K-90352",
+		"model": "Toyota Innova",
+		"color": "white",
+		"capacity": 7,
+		"vendorId": null,
+		"cost": null
+	},
+	{
+		"id": "OSV-5",
+		"driverName": "Tôn Thất Cao Nguyên",
+		"phoneNumber": "0704695678",
+		"licensePlate": "51L-24735",
+		"model": "Hyundai Custin",
+		"color": "white",
+		"capacity": 7,
+		"vendorId": null,
+		"cost": null
+	},
+	{
+		"id": "OSV-6",
+		"driverName": "Nguyễn Dương Lợi",
+		"phoneNumber": "0909248599",
+		"licensePlate": "51L-06712",
+		"model": "Toyota Innova",
+		"color": "dark_blue",
+		"capacity": 7,
+		"vendorId": null,
+		"cost": null
+	},
+	{
+		"id": "OSV-7",
+		"driverName": "Đặng Thành Huân",
+		"phoneNumber": "0988312354",
+		"licensePlate": "77A-22710",
+		"model": "Toyota Innova",
+		"color": "grey",
+		"capacity": 7,
+		"vendorId": null,
+		"cost": null
+	},
+	{
+		"id": "OSV-8",
+		"driverName": "Lê Văn Kha",
+		"phoneNumber": "0937297160",
+		"licensePlate": "51M-134.07",
+		"model": "Volkswagen Viloren",
+		"color": "white",
+		"capacity": 7,
+		"vendorId": null,
+		"cost": null
+	}
+]

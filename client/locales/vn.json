@@ -1,0 +1,1826 @@
+{
+	"NeedHelpButton": {
+		"button": "Cần trợ giúp?",
+		"title": "Liên hệ điều phối viên của bạn tại",
+		"callNow": "Gọi ngay"
+	},
+	"LocaleSwitcher": {
+		"vn": "Tiếng Việt",
+		"en": "English",
+		"label": "Ngôn ngữ"
+	},
+	"Login": {
+		"title": "Hệ thống đặt xe thông minh",
+		"welcomeBack": "Chào mừng trở lại!",
+		"enterEmail": "Nhập tên đăng nhập của bạn",
+		"enterPassword": "Nhập mật khẩu của bạn",
+		"forgotPassword": "Quên mật khẩu?",
+		"login": "Đăng nhập",
+		"loggingIn": "Đang đăng nhập...",
+		"orLoginWith": "Hoặc đăng nhập bằng",
+		"microsoftAccount": "Tài khoản Microsoft",
+		"needHelp": "Cần trợ giúp?",
+		"contactSupport": "Liên hệ hỗ trợ.",
+		"loginSuccess": "Đăng nhập thành công!",
+		"loginFailed": "Đăng nhập không thành công. Vui lòng kiểm tra thông tin đăng nhập và thử lại.",
+		"enterPhoneNumber": {
+			"validationRequired": "Vui lòng nhập số điện thoại",
+			"invalidFormat": "Số điện thoại phải là số điện thoại Việt Nam hợp lệ",
+			"title": "Nhập số điện thoại",
+			"description": "Vui lòng nhập số điện thoại Việt Nam của bạn để tiếp tục sử dụng ứng dụng.",
+			"phoneNumber": "Số điện thoại",
+			"submit": "Gửi",
+			"submitting": "Đang gửi..."
+		}
+	},
+	"Suspended": {
+		"title": "Tài khoản bị cấm",
+		"description": "Quyền truy cập của bạn vào Hệ thống đặt xe thông minh đã bị cấm.",
+		"coordinator": "Điều phối viên",
+		"phoneNumber": "Số điện thoại",
+		"contactCoordinator": "Liên hệ điều phối viên",
+		"logout": "Đăng xuất",
+		"ifYouBelieveError": "Nếu bạn cho rằng đây là lỗi, vui lòng liên hệ điều phối viên.",
+		"accessRestored": "Quyền truy cập sẽ được khôi phục khi sự cố được giải quyết."
+	},
+	"Status": {
+		"approved": "Đã phê duyệt",
+		"pending": "Đang chờ",
+		"cancelled": "Đã huỷ",
+		"completed": "Đã hoàn thành",
+		"scheduled": "Đã lên lịch",
+		"scheduling": "Đang lên lịch",
+		"onGoing": "Đang diễn ra",
+		"denied": "Bị từ chối",
+		"rejected": "Bị từ chối"
+	},
+	"Sidebar": {
+		"error": {
+			"unsupportedScreenSize": "Kích thước màn hình không được hỗ trợ.",
+			"optimizedForLargeDisplays": "Giao diện này được tối ưu cho màn hình lớn. Vui lòng truy cập từ máy tính xách tay hoặc máy tính để bàn."
+		},
+		"smartVehicleBookingSystem": "Hệ thống đặt xe thông minh",
+		"admin": {
+			"systemManagment": "Quản lý hệ thống",
+			"rolesAndPermissions": "Vai trò & Quyền hạn",
+			"users": "Người dùng",
+			"activityLogs": "Lịch sử hoạt động",
+			"settings": "Cài đặt"
+		},
+		"coordinator": {
+			"dashboard": "Bảng điều khiển",
+			"bookingManagement": "Quản lý đặt chỗ",
+			"bookingRequests": "Yêu cầu đặt phương tiện",
+			"drivers": "Tài xế",
+			"vehicles": "Xe",
+			"expenses": "Chi phí",
+			"feedbacks": "Phản hồi",
+			"schedule": "Lịch trình",
+			"leaveRequests": "Yêu cầu nghỉ phép",
+			"trips": "Chuyến đi",
+			"vehicleAndDriverManagement": "Quản lý phương tiện & tài xế",
+			"vehicleServiceRequests": "Yêu cầu bảo trì xe",
+			"vehicle": {
+				"self": "Phương tiện",
+				"owned": "Phương tiện sở hữu",
+				"outsourced": "Phương tiện thuê ngoài"
+			},
+			"locations": "Địa điểm",
+			"vendors": "Nhà cung cấp",
+			"report": "Báo cáo"
+		},
+		"requester": {
+			"home": "Trang chủ",
+			"createNewBooking": "Tạo yêu cầu mới",
+			"upcomingBookings": "Yêu cầu sắp tới",
+			"pendingBookings": "Yêu cầu đang chờ",
+			"pastBookings": "Yêu cầu đã hoàn thành"
+		},
+		"driver": {
+			"myTrips": "Chuyến của tôi",
+			"executive": "Hoạt động lãnh đạo",
+			"expenseLogging": "Ghi chép chi phí",
+			"leaveSchedule": "Lịch nghỉ",
+			"vehicleServices": "Dịch vụ xe",
+			"calendar": "Lịch",
+			"more": "Thêm"
+		},
+		"executive": {
+			"activities": "Hoạt động"
+		},
+		"needHelp": "Cần trợ giúp? Liên hệ điều phối viên của bạn tại",
+		"profile": "Hồ sơ",
+		"logout": "Đăng xuất",
+		"settings": "Cài đặt"
+	},
+	"NavigationBar": {
+		"requester": {
+			"home": "Trang chủ",
+			"bookings": "Yêu cầu đặt xe",
+			"notification": "Thông báo",
+			"profile": "Hồ sơ"
+		},
+		"driver": {
+			"menu": "Menu",
+			"myTrips": "Chuyến của tôi",
+			"executive": "Hoạt động lãnh đạo",
+			"calendar": "Lịch",
+			"expenseLogging": "Ghi chép chi phí",
+			"leaveSchedule": "Lịch nghỉ",
+			"vehicleServices": "Dịch vụ xe",
+			"notification": "Thông báo",
+			"profile": "Hồ sơ"
+		},
+		"executive": {
+			"activities": "Hoạt động"
+		}
+	},
+	"Msal": {
+		"MsalProvider": {
+			"initilizing": "Đang khởi tạo",
+			"settingUp": "Đang thiết lập trang cho bạn",
+			"pleaseWait": "Vui lòng chờ..."
+		},
+		"MicrosoftAuthentication": {
+			"title": "Xác thực Microsoft",
+			"initilizing": "Đang khởi tạo xác thực Microsoft...",
+			"pleaseWait": "Vui lòng chờ...",
+			"pleaseWaitDirecting": "Chúng tôi đang chuyển hướng bạn...",
+			"loggedInAs": "Đã đăng nhập với",
+			"Email": "Email"
+		}
+	},
+	"PWA": {
+		"title": "Hệ thống đặt xe thông minh",
+		"description": "Quản lý cài đặt ứng dụng của bạn",
+		"installPrompt": {
+			"installApp": "Cài đặt ứng dụng",
+			"addToHomeScreen": "Thêm vào màn hình chính",
+			"ios": {
+				"description1": "Nếu bạn đang sử dụng iOS:",
+				"description2": "Để cài đặt ứng dụng này trên thiết bị của bạn, hãy nhấn nút chia sẻ",
+				"description3": "và sau đó \"Thêm vào màn hình chính\""
+			}
+		},
+		"PWAButton": {
+			"install": "Cài đặt",
+			"installApp": "Cài đặt ứng dụng"
+		}
+	},
+	"Profile": {
+		"profile": "Hồ sơ",
+		"information": "Thông tin",
+		"contact": "Thông tin liên hệ",
+		"role": "Vai trò",
+		"status": "Trạng thái",
+		"availability": "Tình trạng",
+		"bookingRequests": "Yêu cầu đặt xe",
+		"vehicle": "Phương tiện",
+		"noVehicle": "Chưa có phương tiện nào",
+		"logout": "Đăng xuất"
+	},
+	"Notification": {
+		"unreadNotification": "Thông báo chưa đọc",
+		"noUnreadNotifications": "Không có thông báo chưa đọc nào.",
+		"noNotifications": "Chưa có thông báo nào.",
+		"markAllAsRead": "Đánh dấu đã đọc",
+		"marking": "Đang đánh dấu...",
+		"filter": "Lọc",
+		"clearFilter": "Xóa bộ lọc",
+		"sort": "Sắp xếp",
+		"options": {
+			"approval": "Phê duyệt",
+			"cancellation": "Hủy",
+			"departure": "Khởi hành",
+			"rating": "Đánh giá"
+		},
+		"today": "Hôm nay",
+		"older": "Trước đó",
+		"timeAgo": {
+			"justNow": "Mới đây",
+			"ago": "trước",
+			"hour": "giờ",
+			"day": "ngày",
+			"s": ""
+		},
+		"viewAll": "Xem tất cả",
+		"loadingMore": "Đang tải thêm...",
+		"noMoreNotifications": "Không còn thông báo nào",
+		"pushNotification": {
+			"pushNotification": "Thông báo đẩy",
+			"subscribe": "Đăng ký thông báo đẩy",
+			"subscribed": "Bạn đã đăng ký thông báo đẩy",
+			"unSubscribe": "Hủy đăng ký thông báo đẩy",
+			"notSubscribed": "Bạn chưa đăng ký thông báo đẩy",
+			"notSupported": "Thông báo đẩy không khả dụng trên trình duyệt này."
+		},
+		"Employee": {
+			"trip-reminder": {
+				"title": "Nhắc nhở chuyến đi",
+				"message": "Nhắc nhở: Bạn có chuyến đi được xếp lịch vào ngày mai lúc {date}."
+			},
+			"booking-request-approve": {
+				"title": "Yêu cầu đặt xe đã được phê duyệt",
+				"message": "Yêu cầu đặt xe của bạn vào ngày {date} đã được phê duyệt. Thông tin chuyến đi đã được chốt."
+			},
+			"booking-request-modify-by-coordinator": {
+				"title": "Yêu cầu đặt xe đã được điều chỉnh",
+				"message": "Yêu cầu đặt xe của bạn vào ngày {date} đã được điều chỉnh bởi quản trị viên."
+			},
+			"booking-request-cancel-by-coordinator": {
+				"title": "Yêu cầu đặt xe đã bị hủy",
+				"message": "Yêu cầu đặt xe của bạn vào ngày {date} đã bị hủy bởi quản trị viên."
+			},
+			"booking-request-rejected-by-coordinator": {
+				"title": "Yêu cầu đặt xe đã bị từ chối",
+				"message": "Yêu cầu đặt xe của bạn vào ngày {date} đã bị từ chối bởi quản trị viên."
+			},
+			"user-info-updated": {
+				"title": "Hồ sơ đã được cập nhật",
+				"message": "Thông tin người dùng của bạn đã được cập nhật bởi quản trị viên."
+			}
+		},
+		"Coordinator": {
+			"coordinator-booking-request-approval": {
+				"title": "Yêu cầu đặt xe đang chờ phê duyệt",
+				"message": "Yêu cầu đặt xe mới từ {employeeName} đang chờ bạn phê duyệt."
+			},
+			"coordinator-leave-request-submit": {
+				"title": "Yêu cầu nghỉ phép đã được gửi",
+				"message": "{driverName} đã gửi yêu cầu nghỉ phép từ {startDate} đến {endDate}."
+			},
+			"coordinator-trip-success": {
+				"title": "Kết hợp chuyến đi thành công",
+				"message": "Đã kết hợp các chuyến đi cho ngày {date} thành công."
+			},
+			"coordinator-expense-review": {
+				"title": "Cần xem xét chi phí",
+				"message": "{driverName} đã gửi chi phí cho chuyến đi vào ngày {tripDate}."
+			},
+			"coordinator-vehicle-service-review": {
+				"title": "Xem xét dịch vụ xe",
+				"message": "{vehicleCode} có yêu cầu bảo trì mới từ {driverName}."
+			},
+			"coordinator-bad-rating-alert": {
+				"title": "Cảnh báo đánh giá thấp",
+				"message": "{driverName} nhận được đánh giá {rating}/5 cho chuyến đi vào ngày {tripDate}. Vui lòng kiểm tra phản hồi."
+			},
+			"urgent-booking-request": {
+				"title": "Yêu cầu đặt xe khẩn cấp",
+				"message": "Yêu cầu đặt xe khẩn cấp mới từ {employeeName} cần được xử lý."
+			},
+			"vip-booking-request": {
+				"title": "Yêu cầu đặt xe cho VIP",
+				"message": "Yêu cầu đặt xe cho VIP mới từ {employeeName} cần được xử lý."
+			},
+			"new-booking-request": {
+				"title": "Yêu cầu đặt xe mới",
+				"message": "Yêu cầu đặt xe từ {employeeName} cần dược xử lí."
+			},
+			"coordinator-booking-request-updated": {
+				"title": "Yêu cầu đặt xe được cập nhật",
+				"message": "Yêu cầu đặt xe {bookingRequestId} đã được cập nhật bởi người làm đơn."
+			},
+			"coordinator-urgent-booking-request-updated": {
+				"title": "Yêu cần đặt xe khẩn cấp được cập nhật",
+				"message": "Yêu cầu đặt xe khẩn cấp {bookingRequestId} vừa được cập nhật, vui lòng kiểm tra."
+			},
+			"coordinator-vip-booking-request-updated": {
+				"title": "Yêu cầu đặt xe VIP được cập nhật",
+				"message": "Yêu cầu đặt xe cho VIP {bookingRequestId} vừa được cập nhật, vui lòng kiểm tra."
+			},
+			"booking-request-no-vehicle-available": {
+				"title": "Không có xe khả dụng",
+				"message": "Không có xe khả dụng cho yêu cầu đặt xe vào {departureDate} lúc {departureTime}. Vui lòng chỉ định xe thuê ngoài."
+			},
+			"trip-reminder": {
+				"title": "Nhắc nhở chuyến đi",
+				"message": "Nhắc nhở: Bạn có chuyến đi được xếp lịch vào ngày mai lúc {date}."
+			},
+			"booking-request-approve": {
+				"title": "Yêu cầu đặt xe đã được phê duyệt",
+				"message": "Yêu cầu đặt xe của bạn vào ngày {date} đã được phê duyệt. Thông tin chuyến đi đã được chốt."
+			},
+			"booking-request-modify-by-coordinator": {
+				"title": "Yêu cầu đặt xe đã được điều chỉnh",
+				"message": "Yêu cầu đặt xe của bạn vào ngày {date} đã được điều chỉnh."
+			},
+			"booking-request-cancel-by-coordinator": {
+				"title": "Yêu cầu đặt xe đã bị hủy",
+				"message": "Yêu cầu đặt xe của bạn vào ngày {date} đã bị hủy."
+			},
+			"booking-request-rejected-by-coordinator": {
+				"title": "Yêu cầu đặt xe đã bị từ chối",
+				"message": "Yêu cầu đặt xe của bạn vào ngày {date} đã bị từ chối."
+			},
+			"user-info-updated": {
+				"title": "Hồ sơ đã được cập nhật",
+				"message": "Thông tin người dùng của bạn đã được cập nhật."
+			}
+		},
+		"Admin": {
+			"coordinator-booking-request-approval": {
+				"title": "Yêu cầu đặt xe đang chờ phê duyệt",
+				"message": "Yêu cầu đặt xe mới từ {employeeName} đang chờ bạn phê duyệt."
+			},
+			"coordinator-leave-request-submit": {
+				"title": "Yêu cầu nghỉ phép đã được gửi",
+				"message": "{driverName} đã gửi yêu cầu nghỉ phép từ {startDate} đến {endDate}."
+			},
+			"coordinator-trip-success": {
+				"title": "Kết hợp chuyến đi thành công",
+				"message": "Đã kết hợp các chuyến đi cho ngày {date} thành công."
+			},
+			"coordinator-expense-review": {
+				"title": "Cần xem xét chi phí",
+				"message": "{driverName} đã gửi chi phí cho chuyến đi vào ngày {tripDate}."
+			},
+			"coordinator-vehicle-service-review": {
+				"title": "Xem xét dịch vụ xe",
+				"message": "{vehicleCode} có yêu cầu bảo trì mới từ {driverName}."
+			},
+			"coordinator-bad-rating-alert": {
+				"title": "Cảnh báo đánh giá thấp",
+				"message": "{driverName} nhận được đánh giá {rating}/5 cho chuyến đi vào ngày {tripDate}. Vui lòng kiểm tra phản hồi."
+			},
+			"urgent-booking-request": {
+				"title": "Yêu cầu đặt xe khẩn cấp",
+				"message": "Yêu cầu đặt xe khẩn cấp mới từ {employeeName} cần được xử lý."
+			},
+			"vip-booking-request": {
+				"title": "Yêu cầu đặt xe cho VIP",
+				"message": "Yêu cầu đặt xe cho VIP mới từ {employeeName} cần được xử lý."
+			},
+			"new-booking-request": {
+				"title": "Yêu cầu đặt xe mới",
+				"message": "Yêu cầu đặt xe từ {employeeName} cần dược xử lí."
+			},
+			"coordinator-booking-request-updated": {
+				"title": "Yêu cầu đặt xe được cập nhật",
+				"message": "Yêu cầu đặt xe {bookingRequestId} đã được cập nhật bởi người làm đơn."
+			},
+			"coordinator-urgent-booking-request-updated": {
+				"title": "Yêu cần đặt xe khẩn cấp được cập nhật",
+				"message": "Yêu cầu đặt xe khẩn cấp {bookingRequestId} vừa được cập nhật, vui lòng kiểm tra."
+			},
+			"coordinator-vip-booking-request-updated": {
+				"title": "Yêu cầu đặt xe VIP được cập nhật",
+				"message": "Yêu cầu đặt xe cho VIP {bookingRequestId} vừa được cập nhật, vui lòng kiểm tra."
+			},
+			"booking-request-no-vehicle-available": {
+				"title": "Không có xe khả dụng",
+				"message": "Không có xe khả dụng cho yêu cầu đặt xe vào {departureDate} lúc {departureTime}. Vui lòng chỉ định xe thuê ngoài."
+			},
+			"trip-reminder": {
+				"title": "Nhắc nhở chuyến đi",
+				"message": "Nhắc nhở: Bạn có chuyến đi được xếp lịch vào ngày mai lúc {date}."
+			},
+			"booking-request-approve": {
+				"title": "Yêu cầu đặt xe đã được phê duyệt",
+				"message": "Yêu cầu đặt xe của bạn vào ngày {date} đã được phê duyệt. Thông tin chuyến đi đã được chốt."
+			},
+			"booking-request-modify-by-coordinator": {
+				"title": "Yêu cầu đặt xe đã được điều chỉnh",
+				"message": "Yêu cầu đặt xe của bạn vào ngày {date} đã được điều chỉnh."
+			},
+			"booking-request-cancel-by-coordinator": {
+				"title": "Yêu cầu đặt xe đã bị hủy",
+				"message": "Yêu cầu đặt xe của bạn vào ngày {date} đã bị hủy."
+			},
+			"booking-request-rejected-by-coordinator": {
+				"title": "Yêu cầu đặt xe đã bị từ chối",
+				"message": "Yêu cầu đặt xe của bạn vào ngày {date} đã bị từ chối."
+			},
+			"user-info-updated": {
+				"title": "Hồ sơ đã được cập nhật",
+				"message": "Thông tin người dùng của bạn đã được cập nhật."
+			}
+		},
+		"Driver": {
+			"driver-new-trip-assigned": {
+				"title": "Chuyến đi mới được phân công",
+				"message": "Bạn vừa được phân công chuyến đi mới vào ngày {date}, lúc {time}."
+			},
+			"driver-trip-information-changed": {
+				"title": "Thông tin chuyến đi đã được cập nhật",
+				"message": "Thông tin chuyến đi của bạn vào ngày {date} đã được cập nhật."
+			},
+			"driver-trip-cancel": {
+				"title": "Chuyến đi đã bị hủy",
+				"message": "Chuyến đi của bạn vào ngày {date} đã bị hủy."
+			},
+			"driver-reminder": {
+				"title": "Nhắc nhở chuyến đi",
+				"message": "Nhắc nhở: Bạn có chuyến đi được xếp lịch vào ngày mai lúc {time}."
+			},
+			"driver-logged-expenses": {
+				"title": "Chi phí đang được xem xét",
+				"message": "Chi phí bạn ghi nhận vào ngày {date} đang chờ duyệt."
+			},
+			"driver-expenses-approved": {
+				"title": "Chi phí đã được phê duyệt",
+				"message": "Chi phí bạn ghi nhận vào ngày {date} đã được duyệt."
+			},
+			"driver-expenses-rejected": {
+				"title": "Chi phí đã bị từ chối",
+				"message": "Chi phí bạn ghi nhận vào ngày {date} đã bị từ chối."
+			},
+			"driver-leave-approved": {
+				"title": "Yêu cầu nghỉ phép đã được phê duyệt",
+				"message": "Yêu cầu nghỉ phép của bạn từ ngày {startDate} đến {endDate} đã được duyệt."
+			},
+			"driver-leave-rejected": {
+				"title": "Yêu cầu nghỉ phép đã bị từ chối",
+				"message": "Yêu cầu nghỉ phép của bạn từ ngày {startDate} đến {endDate} đã bị từ chối. Lý do: {reason}."
+			},
+			"driver-maintenance-approved": {
+				"title": "Bảo trì đã được phê duyệt",
+				"message": "Lịch bảo trì/sửa chữa phương tiện của bạn vào ngày {date} đã được duyệt."
+			},
+			"driver-maintenance-rejected": {
+				"title": "Bảo trì đã bị từ chối",
+				"message": "Lịch bảo trì/sửa chữa phương tiện của bạn vào ngày {date} đã bị từ chối."
+			},
+			"driver-vehicle-service-approved": {
+				"title": "Dịch vụ xe đã được phê duyệt",
+				"message": "Lịch dịch vụ xe của bạn vào ngày {date} đã được duyệt."
+			},
+			"driver-vehicle-service-rejected": {
+				"title": "Dịch vụ xe đã bị từ chối",
+				"message": "Lịch dịch vụ xe của bạn vào ngày {date} đã bị từ chối."
+			},
+			"driver-activity-log-approved": {
+				"title": "Nhật ký hoạt động đã được phê duyệt",
+				"message": "Nhật ký hoạt động bạn đã gửi đã được phê duyệt."
+			},
+			"driver-activity-log-rejected": {
+				"title": "Nhật ký hoạt động đã bị từ chối",
+				"message": "Nhật ký hoạt động bạn đã gửi đã bị từ chối."
+			},
+			"driver-leave-request-submit-by-coordinator": {
+				"title": "Yêu cầu nghỉ phép mới từ quản trị viên",
+				"message": "1 yêu cầu nghỉ phép mới đã được tạo bởi quản trị viên. Vui lòng kiểm tra."
+			},
+			"driver-expense-submit-by-coordinator": {
+				"title": "Chi phí mới từ quản trị viên",
+				"message": "1 chi phí thanh toán mới đã được tạo bởi quản trị viên. Vui lòng kiểm tra."
+			},
+			"driver-vehicle-service-submit-by-coordinator": {
+				"title": "Dịch vụ xe mới từ quản trị viên",
+				"message": "1 lịch bảo trì/sửa chữa phương tiện mới đã được tạo bởi quản trị viên. Xin vui lòng kiểm tra."
+			}
+		},
+		"Executive": {
+			"executive-receive-activity-log": {
+				"title": "Đã nhận nhật ký hoạt động",
+				"message": "Tài xế {name} đã gửi ghi nhận cho chuyến công tác của bạn từ {startTime} đến {endTime}. Vui lòng xác nhận."
+			}
+		}
+	},
+	"RequesterBookings": {
+		"bookingForm": {
+			"booking": "Đặt phương tiện",
+			"status": "Trạng thái",
+			"tabs": {
+				"trips": "Chuyến đi",
+				"details": "Chi tiết",
+				"location": "Địa điểm",
+				"time": "Thời gian"
+			},
+			"form": {
+				"tripPurpose": "Mục đích chuyến đi (Tuỳ chọn)",
+				"tripPurposeRequired": "Mục đích chuyến đi (Bắt buộc)",
+				"note": "Ghi chú (Tuỳ chọn)",
+				"locationAddress": "Địa điểm, địa chỉ",
+				"pickUp": "Điểm đón",
+				"destination": "Điểm đến",
+				"selectDate": "Chọn ngày",
+				"arrivalDeadline": "Hạn đến nơi",
+				"preferredDeparture": "Muốn khởi hành",
+				"passengers": {
+					"numberOfPassengers": "Số lượng hành khách",
+					"passengers": "Hành khách",
+					"people": "người",
+					"sheetTitle": "Chọn hành khách",
+					"addMe": "Thêm tôi",
+					"selectedPassengers": {
+						"title": "Hành khách đã chọn",
+						"remove": "Xoá"
+					},
+					"availablePassengers": {
+						"title": "Người dùng có sẵn",
+						"searchPassengers": "Tìm người dùng...",
+						"add": "Thêm",
+						"notFound": "Không tìm thấy người dùng phù hợp",
+						"noAvailable": "Không có người dùng sẵn",
+						"allSelected": "Đã chọn tất cả người dùng"
+					},
+					"totalPassengers": {
+						"title": "Tổng số hành khách",
+						"count": "{{count}} hành khách đã chọn",
+						"registeredUsers": "người dùng đăng ký",
+						"externalPassengers": "hành khách ngoài",
+						"confirmSelection": "Xác nhận chọn",
+						"passengers": "hành khách"
+					},
+					"loadingMoreUsers": "Đang tải thêm người dùng...",
+					"noMoreUsersToLoad": "Không còn người dùng nào",
+					"noUsersFoundFor": "Không tìm thấy người dùng cho",
+					"noUsersAvailable": "Không có người dùng nào"
+				},
+				"carReserve": "Giữ xe",
+				"reserve": "Giữ",
+				"contactPoint": {
+					"title": "Thông tin liên hệ",
+					"name": "Tên",
+					"phoneNumber": "Số điện thoại",
+					"validationRequired": "Vui lòng nhập số điện thoại",
+					"invalidFormat": "Số điện thoại phải là số điện thoại Việt Nam hợp lệ"
+				},
+				"priority": "Ưu tiên",
+				"highPriority": "Cao",
+				"selectLocation": {
+					"chooseYourLocation": "Chọn địa điểm của bạn",
+					"searchLocation": "Tìm kiếm địa điểm...",
+					"loadingMoreLocations": "Đang tải thêm địa điểm...",
+					"noMoreLocations": "Không còn địa điểm nào",
+					"searchingFor": "Đang tìm kiếm cho",
+					"noLocationFoundFor": "Không tìm thấy địa điểm cho",
+					"noLocationAvailable": "Không có địa điểm nào",
+					"selectedLocation": "Địa điểm đã chọn",
+					"noLocation": "Chưa chọn địa điểm",
+					"confirm": "Xác nhận"
+				},
+				"tripType": {
+					"tripType": "Loại chuyến",
+					"oneWay": "Một chiều",
+					"roundTrip": "Khứ hồi"
+				},
+				"priorityMessage": "Chỉ chọn nếu bạn đang đặt cho VIP",
+				"tripPurposePriority": "Thêm thông tin hành khách VIP của bạn để điều phối viên có thể xem xét và sắp xếp.",
+				"timeValidattion": {
+					"departureBeforeArrival": "Thời gian khởi hành phải trước thời gian đến nơi",
+					"arrivalAfterDeparture": "Thời gian đến nơi phải sau thời gian khởi hành",
+					"returnDepartureBeforeReturnArrival": "Thời gian khởi hành lượt về phải trước thời gian đến nơi lượt về",
+					"returnArrivalAfterReturnDeparture": "Thời gian đến nơi lượt về phải sau thời gian khởi hành lượt về",
+					"locationUnableToCalculate": "Không thể tính toán thời gian di chuyển. Vui lòng kiểm tra các địa điểm đã chọn.",
+					"minimumTravelTimeDeparture": "Thời gian di chuyển quá ngắn. Thời gian khởi hành đã được điều chỉnh thành",
+					"minimumTravelTimeArrival": "Thời gian di chuyển quá ngắn. Thời gian đến nơi đã được điều chỉnh thành",
+					"minimumReturnTravelTimeDeparture": "Thời gian di chuyển lượt về quá ngắn. Thời gian khởi hành lượt về đã được điều chỉnh thành",
+					"minimumReturnTravelTimeArrival": "Thời gian di chuyển lượt về quá ngắn. Thời gian đến nơi lượt về đã được điều chỉnh thành"
+				}
+			},
+			"back": "Quay lại",
+			"next": "Tiếp theo",
+			"submit": "Gửi",
+			"submitting": "Đang gửi...",
+			"returnTrip": "Chuyến về",
+			"modifyBooking": "Yêu cầu chỉnh sửa",
+			"createNewBooking": "Tạo yêu cầu mới",
+			"requestNewBooking": "Gửi yêu cầu mới",
+			"toast": {
+				"success": "Gửi yêu cầu đặt phương tiện thành công!",
+				"error": "Gửi yêu cầu không thành công. Vui lòng thử lại."
+			}
+		},
+		"listBookings": {
+			"title": "Yêu cầu đặt xe",
+			"yourRequests": "Yêu cầu của bạn",
+			"noBooking": "Không có yêu cầu nào",
+			"upcoming": "Sắp tới",
+			"pending": "Đang chờ",
+			"past": "Đã qua"
+		},
+		"bookingTripOverview": {
+			"departOn": "Khởi hành lúc",
+			"from": "Từ",
+			"to": "Đến",
+			"tripType": {
+				"tripType": "Loại chuyến",
+				"oneWay": "Một chiều",
+				"roundTrip": "Khứ hồi"
+			},
+			"passengers": "Số PAX",
+			"seeDetails": "Xem chi tiết",
+			"trip": "Chuyến",
+			"goToTripPage": "Chuyển qua trang chuyến đi",
+			"redirecting": "Đang chuyển hướng..."
+		},
+		"assignVehicle": {
+			"assignButton": "Chọn xe",
+			"sheetTitle": "Chọn xe",
+			"selectedVehicle": {
+				"title": "Xe đã chọn",
+				"remove": "Xoá"
+			},
+			"availableVehicles": {
+				"title": "Xe",
+				"all": "Tất cả",
+				"available": "Khả dụng",
+				"searchVehicles": "Tìm kiếm xe",
+				"companyVehicle": "Xe công ty",
+				"vendorVehicle": "Xe thuê ngoài",
+				"select": "Chọn",
+				"loadingMoreVehicles": "Đang tải thêm xe...",
+				"noMoreVehicles": "Không còn xe nào"
+			},
+			"outsourcedVehicles": {
+				"title": "Xe thuê ngoài",
+				"driverName": "Tên tài xế",
+				"enterDriverName": "Nhập tên tài xế",
+				"phoneNumber": "Số điện thoại",
+				"enterPhoneNumber": "Nhập số điện thoại",
+				"licensePlate": "Biển số",
+				"enterLicensePlate": "Nhập biển số",
+				"vehicleModel": "Mẫu xe",
+				"enterVehicleModel": "Nhập mẫu xe",
+				"vehicleColor": "Chọn màu",
+				"enterVehicleColor": "Nhập màu xe",
+				"capacity": "Sức chứa",
+				"enterCapacity": "Nhập sức chứa",
+				"confirmVehicleWarning": "Xác nhận là bạn muốn sử dụng thông tin xe thuê ngoài.",
+				"vendor": "Nhà cung cấp",
+				"selectVendor": "Chọn nhà cung cấp",
+				"noVendor": "Trống"
+			},
+			"driver": "Tài xế",
+			"seats": "chỗ",
+			"confirmOutsourceVehicle": "Xác nhận xe thuê ngoài",
+			"confirmSelectedVehicle": "Xác nhận xe đã chọn",
+			"processing": "Đang xử lý...",
+			"error": "Không thể phân xe. Vui lòng thử lại.",
+			"errorOutsource": "Không thể phân xe thuê ngoài. Vui lòng thử lại."
+		},
+		"cancelDialog": {
+			"button": "Hủy đặt",
+			"confirmCancellation": {
+				"normal": "Xác nhận",
+				"destructive": "Hủy bỏ"
+			},
+			"description": "Hành động này sẽ gửi yêu cầu huỷ chuyến. Vui lòng xác nhận.",
+			"cancel": "Hủy",
+			"confirm": "Xác nhận",
+			"toast": {
+				"title": "Đã gửi yêu cầu huỷ",
+				"description": "Yêu cầu huỷ chuyến của bạn đã được gửi.",
+				"error": "Không thể gửi yêu cầu huỷ."
+			},
+			"characters": "ký tự",
+			"minimum": "Tối thiểu 8 ký tự",
+			"maximum": "Tối đa 500 ký tự"
+		},
+		"modifyDialog": {
+			"button": "Chỉnh sửa",
+			"confirmModification": {
+				"normal": "Xác nhận",
+				"destructive": "Chỉnh sửa"
+			},
+			"description": "Hành động này sẽ chỉnh sửa chuyến. Vui lòng xác nhận.",
+			"cancel": "Hủy",
+			"confirm": "Xác nhận",
+			"toast": {
+				"title": "Yêu cầu chỉnh sửa đã gửi",
+				"description": "Yêu cầu của bạn đã được chỉnh sửa.",
+				"error": "Không thể gửi yêu cầu chỉnh sửa."
+			}
+		}
+	},
+	"RequesterHome": {
+		"welcome": "Xin chào",
+		"title": "Hệ thống đặt xe thông minh",
+		"viewAllRequests": "Xem tất cả yêu cầu",
+		"tabs": {
+			"notifications": "Thông báo",
+			"announcements": "Thông báo nội bộ"
+		},
+		"upcomingTrips": {
+			"title": "Chuyến sắp tới",
+			"noTrips": "Không có chuyến sắp tới."
+		},
+		"schedulingTrips": {
+			"title": "Chuyến đang lên lịch",
+			"noTrips": "Không có chuyến đang lên lịch."
+		},
+		"recentTrips": {
+			"title": "Chuyến gần đây",
+			"noTrips": "Không có chuyến gần đây."
+		}
+	},
+	"RequesterTripDay": {
+		"waitingforDriver": "Đang chờ tài xế...",
+		"onGoing": "Đang diễn ra...",
+		"tripCompleted": "Chuyến đi hoàn thành!",
+		"tripCancelled": "Chuyến đi đã bị hủy.",
+		"yourDriverWillArrive": "Tài xế của bạn sẽ đến lúc ",
+		"youWillArrive": "Bạn sẽ đến nơi lúc ",
+		"yourDriver": "Tài xế của bạn",
+		"noDriverFound": "Không tìm thấy tài xế",
+		"stop": {
+			"departure": "Khởi hành",
+			"actualArrival": "Giờ đến",
+			"estArrival": "Giờ đến dự kiến"
+		},
+		"arriveDialog": {
+			"title": "Tôi đã đến",
+			"header": "Bạn đã đến nơi?",
+			"description": "Hành động này không thể hoàn tác.",
+			"arrivedButton": "Đã đến"
+		},
+		"callDialog": {
+			"contactDriverAt": "Liên hệ tài xế tại",
+			"callNow": "Gọi ngay"
+		},
+		"cancelDialog": {
+			"cancelTrip": "Hủy chuyến đi",
+			"reason": "Lý do hủy",
+			"description": "Vui lòng cung cấp lý do hủy chuyến đi. Điều này sẽ giúp chúng tôi cải thiện dịch vụ.",
+			"characters": "ký tự",
+			"minimum": "Tối thiểu 8 ký tự",
+			"maximum": "Tối đa 500 ký tự",
+			"cancelBtn": "Hủy",
+			"confirmBtn": "Xác nhận"
+		},
+		"emergencyDialog": {
+			"title": "Khẩn cấp",
+			"header": "Gọi cho điều phối viên của bạn?",
+			"callNow": "Gọi ngay"
+		},
+		"feedbackDialog": {
+			"title": "Đánh giá",
+			"viewTitle": "Xem đánh giá",
+			"toast": {
+				"success": "Đánh giá của bạn đã được gửi. Cảm ơn bạn đã chia sẻ!",
+				"error": "Không thể gửi đánh giá. Vui lòng thử lại sau."
+			},
+			"rateAndReview": "Đánh giá và nhận xét",
+			"rateAndReviewDescription": "Vui lòng chia sẻ trải nghiệm của bạn về chuyến đi. Phản hồi của bạn giúp chúng tôi cải thiện dịch vụ.",
+			"support": "Hỗ trợ?",
+			"submitFeedback": "Gửi phản hồi",
+			"noComments": "Không có nhận xét"
+		},
+		"supportDialog": {
+			"title": "Trung tâm hỗ trợ",
+			"header": "Liên hệ điều phối viên của bạn",
+			"callNow": "Gọi ngay"
+		}
+	},
+	"DataTable": {
+		"columnActions": {
+			"view": "Xem",
+			"edit": "Chỉnh sửa",
+			"delete": "Xóa",
+			"approve": "Chấp nhận",
+			"reject": "Từ chối"
+		},
+		"pagination": {
+			"page": "Trang",
+			"rowsPerPage": "Hàng mỗi trang"
+		}
+	},
+	"Admin": {
+		"sidebar": {
+			"dashboard": "Bảng điều khiển",
+			"user": "Người dùng",
+			"vehicle": {
+				"self": "Phương tiện",
+				"owned": "Đã sở hữu",
+				"outsourced": "Thuê ngoài"
+			}
+		},
+		"location": {
+			"toast": {
+				"update": {
+					"loading": "Đang cập nhật địa điểm...",
+					"success": "Cập nhật địa điểm thành công",
+					"error": "Không thể cập nhật địa điểm, vui lòng thử lại sau"
+				},
+				"create": {
+					"loading": "Đang tạo địa điểm...",
+					"success": "Địa điểm đã được tạo thành công",
+					"error": "Không thể tạo địa điểm, vui lòng thử lại sau"
+				}
+			},
+			"form": {
+				"namePlaceholder": "Nhập tên địa điểm",
+				"addressPlaceholder": "Nhập địa chỉ đầy đủ",
+				"latitudePlaceholder": "Vĩ độ",
+				"longitudePlaceholder": "Kinh độ",
+				"createButton": "Tạo mới",
+				"updateButton": "Cập nhật"
+			},
+			"type": "Loại",
+			"name": "Tên",
+			"address": "Địa chỉ",
+			"latitude": "Vĩ độ",
+			"longitude": "Kinh độ"
+		},
+		"role": {
+			"title": "Tiêu đề",
+			"description": "Mô tả",
+			"numberOfPermissions": "Số lượng quyền",
+			"numberOfUsers": "Số lượng người dùng",
+			"toast": {
+				"update": {
+					"loading": "Đang cập nhật vai trò...",
+					"success": "Đã cập nhật vai trò #{id}",
+					"error": "Không thể cập nhật vai trò #{id}, vui lòng thử lại sau"
+				}
+			}
+		},
+		"permission": {
+			"title": "Tiêu đề",
+			"description": "Mô tả"
+		},
+		"driver": {
+			"columnActions": {
+				"suspend": "Tạm ngưng",
+				"activate": "Kích hoạt",
+				"deActivate": "Tạm dừng"
+			},
+			"toast": {
+				"suspend": {
+					"loading": "Đang tạm ngưng tài khoản...",
+					"success": "Người dùng #{userId} đã bị tạm ngưng",
+					"error": "Không thể tạm ngưng người dùng #{userId}, vui lòng thử lại sau"
+				},
+				"activate": {
+					"loading": "Đang kích hoạt tài khoản...",
+					"success": "Người dùng #{userId} đã được kích hoạt",
+					"error": "Không thể kích hoạt người dùng #{userId}, vui lòng thử lại sau"
+				},
+				"deactivate": {
+					"loading": "Đang vô hiệu hóa tài khoản...",
+					"success": "Người dùng #{userId} đã bị vô hiệu hóa",
+					"error": "Không thể vô hiệu hóa người dùng #{userId}, vui lòng thử lại sau"
+				}
+			}
+		},
+		"user": {
+			"toast": {
+				"reactivate": {
+					"self": "Kích hoạt",
+					"loading": "Đang kích hoạt lại tài khoản...",
+					"success": "Đã kích hoạt lại tài khoản người dùng #{userId}",
+					"error": "Không thể kích hoạt lại người dùng #{userId}, vui lòng thử lại sau"
+				},
+                "unsuspend": {
+                  "self": "Gỡ đình chỉ",
+                  "loading": "Đang gỡ đình chỉ tài khoản...",
+                  "success": "Người dùng #{userId} đã được gỡ đình chỉ",
+                  "error": "Không thể gỡ đình chỉ người dùng #{userId}, vui lòng thử lại sau"
+                },
+				"deactivate": {
+					"self": "Tạm dừng",
+					"loading": "Đang tạm dừng tài khoản...",
+					"success": "Đã tạm dừng tài khoản người dùng #{userId}",
+					"error": "Không thể tạm dừng người dùng #{userId}, vui lòng thử lại sau"
+				},
+				"suspend": {
+					"self": "Tạm ngưng",
+					"loading": "Đang tạm ngưng tài khoản...",
+					"success": "Đã tạm ngưng tài khoản người dùng #{userId}",
+					"error": "Không thể tạm ngưng người dùng #{userId}, vui lòng thử lại sau"
+				},
+				"changeRole": {
+					"self": "Thay đổi vai trò",
+					"loading": "Đang thay đổi vai trò...",
+					"success": "Vai trò đã được thay đổi cho người dùng #{userId}",
+					"error": "Không thể thay đổi vai trò cho người dùng #{userId}, vui lòng thử lại sau"
+				}
+			},
+			"form": {
+				"nameLabel": "Họ và tên",
+				"namePlaceholder": "Nhập họ và tên",
+				"emailLabel": "Email",
+				"emailPlaceholder": "Nhập địa chỉ email",
+				"phoneLabel": "Số điện thoại",
+				"phonePlaceholder": "Nhập số điện thoại",
+				"roleLabel": "Vai trò",
+				"avatarLabel": "Ảnh đại diện",
+				"submit": "Lưu thay đổi",
+				"reset": "Đặt lại"
+			},
+			"deactivateDialog": {
+				"title": "Bạn có <span class='text-destructive'>chắc chắn</span> muốn vô hiệu hóa tài khoản này?",
+				"description": "Hành động này có thể hoàn tác. Tài khoản người dùng sẽ bị vô hiệu hóa. Người dùng sẽ không thể đăng nhập hoặc sử dụng dịch vụ cho đến khi tài khoản được kích hoạt lại.",
+				"cancel": "Hủy",
+				"confirm": "Vô hiệu hóa"
+			},
+			"contactInfo": "Thông tin liên hệ",
+			"email": "Email",
+			"phoneNumber": "Số điện thoại",
+			"status": "Trạng thái",
+			"role": "Vai trò",
+			"bookingRequests": "Yêu cầu đặt xe",
+			"dedicatedVehicle": "Xe được chỉ định",
+			"statusActive": "Hoạt động",
+			"statusInactive": "Không hoạt động"
+		},
+		"vehicle": {
+			"toast": {
+				"create": {
+					"loading": "Đang tạo phương tiện...",
+					"success": "Đã tạo phương tiện mới thành công",
+					"error": "Không thể tạo phương tiện mới, vui lòng thử lại sau"
+				},
+				"update": {
+					"loading": "Đang cập nhật phương tiện...",
+					"success": "Đã cập nhật phương tiện #{id}",
+					"error": "Không thể cập nhật phương tiện #{id}, vui lòng thử lại sau"
+				}
+			},
+			"form": {
+				"licensePlatePlaceholder": "Nhập biển số xe",
+				"modelPlaceholder": "Nhập mẫu xe",
+				"colorPlaceholder": "Chọn màu xe",
+				"capacityPlaceholder": "Nhập số lượng hành khách",
+				"submit": "Tạo phương tiện",
+				"edit": "Chỉnh sửa phương tiện"
+			},
+			"licensePlate": "Biển số xe",
+			"model": "Mẫu xe",
+			"color": "Màu sắc",
+			"capacity": "Số chỗ",
+			"driver": "Tài xế",
+			"vendor": "Nhà cung cấp",
+			"executive": "Điều hành",
+			"baseLocation": "Vị trí cơ sở",
+			"vehicleInfo": "Thông tin xe",
+			"availability": "Tình trạng",
+			"currentLocation": "Vị trí hiện tại",
+			"numberOfTrips": "Số chuyến đi",
+			"notAssigned": "Chưa được chỉ định",
+			"available": "Có sẵn",
+			"unavailable": "Không có sẵn",
+			"company": "Công ty"
+		},
+		"vendor": {
+			"toast": {
+				"create": {
+					"loading": "Đang tạo nhà cung cấp...",
+					"success": "Đã tạo nhà cung cấp mới thành công",
+					"error": "Không thể tạo nhà cung cấp mới, vui lòng thử lại sau"
+				},
+				"update": {
+					"loading": "Đang cập nhật nhà cung cấp...",
+					"success": "Đã cập nhật nhà cung cấp #{id}",
+					"error": "Không thể cập nhật nhà cung cấp, vui lòng thử lại sau"
+				}
+			},
+			"form": {
+				"namePlaceholder": "Nhập tên nhà cung cấp",
+				"emailPlaceholder": "Nhập địa chỉ email",
+				"phoneNumberPlaceholder": "Nhập số điện thoại",
+				"contactPersonPlaceholder": "Nhập tên người liên hệ",
+				"addressPlaceholder": "Nhập địa chỉ nhà cung cấp",
+				"createButton": "Tạo mới",
+				"updateButton": "Cập nhật"
+			},
+			"vendorInfo": "Thông tin nhà cung cấp",
+			"addressInfo": "Thông tin địa chỉ",
+			"contactInfo": "Thông tin liên hệ",
+			"stats": "Thống kê",
+			"name": "Tên",
+			"email": "Email",
+			"phoneNumber": "Số điện thoại",
+			"address": "Địa chỉ",
+			"contactPerson": "Người liên hệ",
+			"numberOfDrivers": "Số lượng tài xế",
+			"numberOfVehicles": "Số lượng xe",
+			"status": "Trạng thái",
+			"active": "Hoạt động",
+			"inactive": "Ngừng hoạt động"
+		},
+		"setting": {
+			"toast": {
+				"update": {
+					"loading": "Đang cập nhật cài đặt...",
+					"success": "Cài đặt mới đã được áp dụng thành công",
+					"error": "Đã xảy ra lỗi khi cập nhật cài đặt"
+				}
+			},
+			"form": {
+				"fieldError": "Không thể cập nhật cài đặt này"
+			},
+			"title": "Cài đặt",
+			"description": "Quản lý tất cả cài đặt của bạn tại đây"
+		}
+	},
+	"Coordinator": {
+		"leaveRequest": {
+			"toast": {
+				"approve": {
+					"loading": "Đang phê duyệt yêu cầu nghỉ phép...",
+					"success": "Đã phê duyệt yêu cầu nghỉ phép #{id} thành công",
+					"error": "Không thể phê duyệt yêu cầu nghỉ phép #{id}, vui lòng thử lại sau"
+				},
+				"reject": {
+					"loading": "Đang từ chối yêu cầu nghỉ phép...",
+					"success": "Đã từ chối yêu cầu nghỉ phép #{id} thành công",
+					"error": "Không thể từ chối yêu cầu nghỉ phép #{id}, vui lòng thử lại sau"
+				},
+				"create": {
+					"loading": "Đang gửi yêu cầu nghỉ phép...",
+					"success": "Yêu cầu nghỉ phép đã được gửi thành công",
+					"error": "Không thể gửi yêu cầu nghỉ phép #{id}, vui lòng thử lại sau"
+				},
+				"edit": {
+					"loading": "Đang cập nhật yêu cầu nghỉ phép...",
+					"success": "Yêu cầu nghỉ phép đã được cập nhật thành công",
+					"error": "Không thể cập nhật yêu cầu nghỉ phép #{id}, vui lòng thử lại sau"
+				}
+			},
+			"actions": {
+				"approve": "Chấp nhận",
+				"reject": "Từ chối",
+				"create": "Tạo mới",
+				"update": "Cập nhật"
+			},
+			"rejectDialog": {
+				"title": "Bạn có chắc chắn muốn từ chối yêu cầu nghỉ phép này?",
+				"description": "Hành động này là vĩnh viễn và không thể hoàn tác.",
+				"label": "Lý do từ chối",
+				"placeholder": "Nhập lý do của bạn tại đây...",
+				"cancel": "Hủy",
+				"confirm": "Tiếp tục"
+			},
+			"driver": "Tài xế",
+			"selectDriver": "Chọn tài xế",
+			"reason": "Lý do",
+			"notes": "Ghi chú",
+			"from": "Từ",
+			"to": "Đến",
+			"status": "Trạng thái",
+			"schedule": "Lịch trình",
+			"createdAt": "Ngày yêu cầu",
+			"updatedAt": "Chỉnh sửa lần cuối",
+			"noSchedule": "Chưa có lịch trình",
+			"placeholders": {
+				"reason": "Lý do yêu cầu nghỉ phép",
+				"notes": "Ghi chú bổ sung (không bắt buộc)"
+			}
+		},
+		"vehicleService": {
+			"toast": {
+				"approve": {
+					"loading": "Đang phê duyệt dịch vụ xe...",
+					"success": "Dịch vụ xe #{id} đã được phê duyệt thành công",
+					"error": "Không thể phê duyệt dịch vụ xe #{id}, vui lòng thử lại sau"
+				},
+				"reject": {
+					"loading": "Đang từ chối dịch vụ xe...",
+					"success": "Dịch vụ xe #{id} đã bị từ chối thành công",
+					"error": "Không thể từ chối dịch vụ xe #{id}, vui lòng thử lại sau"
+				},
+				"create": {
+					"loading": "Đang tạo dịch vụ xe...",
+					"success": "Dịch vụ xe đã được tạo thành công",
+					"error": "Không thể tạo dịch vụ xe #{id}, vui lòng thử lại sau"
+				},
+				"edit": {
+					"loading": "Đang cập nhật dịch vụ xe...",
+					"success": "Dịch vụ xe #{id} đã được cập nhật thành công",
+					"error": "Không thể cập nhật dịch vụ xe #{id}, vui lòng thử lại sau"
+				}
+			},
+			"fields": {
+				"vehicleId": "Xe",
+				"serviceType": "Loại dịch vụ",
+				"reason": "Lý do",
+				"description": "Mô tả",
+				"from": "Từ",
+				"to": "Đến"
+			},
+			"placeholders": {
+				"serviceType": "Chọn loại dịch vụ",
+				"reason": "Lý do yêu cầu dịch vụ",
+				"description": "Mô tả chi tiết dịch vụ"
+			},
+			"actions": {
+				"approve": "Phê duyệt",
+				"reject": "Từ chối",
+				"create": "Tạo",
+				"edit": "Chỉnh sửa"
+			},
+			"rejectDialog": {
+				"title": "Bạn có chắc chắn muốn từ chối dịch vụ xe này?",
+				"description": "Hành động này là vĩnh viễn và không thể hoàn tác.",
+				"label": "Lý do từ chối",
+				"placeholder": "Nhập lý do của bạn tại đây...",
+				"cancel": "Hủy",
+				"confirm": "Tiếp tục"
+			}
+		},
+		"expenses": {
+			"toast": {
+				"approve": {
+					"loading": "Đang phê duyệt chi phí...",
+					"success": "Phê duyệt chi phí thành công",
+					"error": "Không thể phê duyệt chi phí #{id}, vui lòng thử lại sau"
+				},
+				"reject": {
+					"loading": "Đang từ chối chi phí...",
+					"success": "Từ chối chi phí thành công",
+					"error": "Không thể từ chối chi phí #{id}, vui lòng thử lại sau"
+				},
+				"create": {
+					"loading": "Đang gửi chi phí...",
+					"success": "Chi phí đã được gửi thành công",
+					"error": "Không thể gửi chi phí #{id}, vui lòng thử lại sau"
+				},
+				"edit": {
+					"loading": "Đang cập nhật chi phí...",
+					"success": "Chi phí đã được cập nhật thành công",
+					"error": "Không thể cập nhật chi phí #{id}, vui lòng thử lại sau"
+				}
+			},
+			"rejectDialog": {
+				"title": "Bạn có chắc chắn muốn từ chối khoản chi này?",
+				"description": "Vui lòng cung cấp lý do cho việc từ chối",
+				"label": "Lý do từ chối",
+				"placeholder": "Nhập lý do của bạn tại đây...",
+				"cancel": "Hủy",
+				"confirm": "Từ chối"
+			},
+			"fields": {
+				"type": {
+					"label": "Loại",
+					"placeholder": "Chọn loại",
+					"options": {
+						"trip": "Chuyến đi",
+						"vehicleService": "Dịch vụ xe",
+						"operational": "Hoạt động"
+					}
+				},
+				"vehicleService": {
+					"label": "Dịch vụ xe"
+				},
+				"trip": {
+					"label": "Chuyến đi"
+				},
+				"operationalType": {
+					"label": "Loại chi phí",
+					"placeholder": "Chọn loại",
+					"options": {
+						"fuel": "Xăng dầu",
+						"parkings": "Gửi xe",
+						"tolls": "Phí cầu đường",
+						"custom": "Tùy chỉnh"
+					}
+				},
+				"operationalCustomType": {
+					"placeholder": "Chi phí tùy chỉnh"
+				},
+				"amount": {
+					"placeholder": "Số tiền (VNĐ)"
+				},
+				"receipt": {
+					"label": "Hóa đơn/biên lai"
+				},
+				"description": {
+					"placeholder": "Mô tả chi phí"
+				}
+			},
+			"actions": {
+				"create": "Tạo mới",
+				"update": "Cập nhật"
+			}
+		},
+		"bookingRequest": {
+			"toast": {
+				"assignVehicle": {
+					"loading": "Đang gán phương tiện...",
+					"success": "Phương tiện đã được gán cho yêu cầu #{id}.",
+					"error": "Không thể gán phương tiện cho yêu cầu #{id}. Vui lòng thử lại."
+				},
+				"delete": {
+					"loading": "Đang xóa yêu cầu...",
+					"success": "Yêu cầu #{id} đã được xóa thành công.",
+					"error": "Không thể xóa yêu cầu #{id}. Vui lòng thử lại."
+				},
+				"cancel": {
+					"loading": "Đang hủy yêu cầu...",
+					"success": "Yêu cầu #{id} đã được hủy thành công. Các chuyến đi liên quan có thể được cập nhật.",
+					"error": "Không thể hủy yêu cầu #{id}. Vui lòng thử lại."
+				},
+				"reject": {
+					"loading": "Đang hủy yêu cầu...",
+					"success": "Yêu cầu #{id} đã được hủy thành công. Các yêu cầu đã được đưa trở lại hàng đợi tối ưu hóa.",
+					"error": "Hủy yêu cầu #{id} thất bại. Vui lòng thử lại."
+				}
+			},
+			"dialog": {
+				"cancel": {
+					"label": "Lý do hủy yêu cầu",
+					"selectPlaceholder": "Chọn lý do hủy",
+					"selectLabel": "Lý do",
+					"otherReason": "Lý do khác",
+					"placeholder": "Nhập lý do khác của bạn tại đây...",
+					"cancellationReasons": {
+						"requesterCancelled": "Người đặt đã hủy",
+						"changeOfPlans": "Thay đổi kế hoạch",
+						"workConflict": "Xung đột công việc",
+						"vehicleUnavailable": "Phương tiện không khả dụng",
+						"illnessOrEmergency": "Ốm đau hoặc khẩn cấp",
+						"travelIssues": "Sự cố di chuyển",
+						"other": "Khác"
+					},
+					"button": "Hủy yêu cầu",
+					"title": "Bạn có <destructive>chắc chắn</destructive> muốn hủy yêu cầu này không?",
+					"description": "Hành động này không thể hoàn tác. Yêu cầu đặt chỗ này sẽ bị xóa vĩnh viễn và bất kỳ chuyến đi liên quan nào cũng sẽ bị ảnh hưởng.",
+					"cancel": "Hủy bỏ",
+					"confirm": "Tiếp tục"
+				},
+				"reject": {
+					"label": "Lý do từ chối yêu cầu",
+					"placeholder": "Nhập lý do của bạn tại đây...",
+					"button": "Từ chối yêu cầu",
+					"title": "Bạn có chắc chắn muốn từ chối yêu cầu này không?",
+					"description": "Khi bạn từ chối yêu cầu đặt chỗ này, người gửi sẽ được thông báo và biết rằng chuyến đi có thể bị ảnh hưởng.",
+					"cancel": "Hủy bỏ",
+					"confirm": "Tiếp tục"
+				}
+			}
+		},
+		"trip": {
+			"toast": {
+				"combine": {
+					"loading": "Đang gộp chuyến đi...",
+					"success": "Chuyến đi #{id} đã được gộp thành công",
+					"error": "Không thể gộp chuyến đi #{id}. Vui lòng thử lại."
+				},
+				"approve": {
+					"loading": "Đang duyệt chuyến đi...",
+					"success": "Chuyến đi #{id} đã được duyệt thành công",
+					"error": "Duyệt chuyến đi #{id} thất bại. Vui lòng thử lại."
+				},
+				"uncombine": {
+					"loading": "Đang tách chuyến đi...",
+					"success": "Đã tách chuyến #{id} thành công. Các yêu cầu đã chuyển về hàng đợi tối ưu.",
+					"error": "Tách chuyến #{id} không thành công. Vui lòng thử lại."
+				},
+				"assignVehicle": {
+					"loading": "Đang gán xe...",
+					"success": "Chuyến đi #{id} đã được gán thành công với xe #{vid}. Các yêu cầu đã được đưa trở lại hàng đợi tối ưu hóa.",
+					"error": "Không thể gán xe #{vid} cho chuyến đi #{id}. Vui lòng thử lại."
+				},
+				"addRequest": {
+					"loading": "Đang thêm yêu cầu...",
+					"success": "Yêu cầu #{id} đã được thêm thành công vào chuyến đi.",
+					"error": "Không thể thêm yêu cầu #{id}. Vui lòng thử lại."
+				},
+				"removeRequest": {
+					"loading": "Đang xóa yêu cầu...",
+					"success": "Yêu cầu #{id} đã được xóa thành công khỏi chuyến đi.",
+					"error": "Không thể xóa yêu cầu #{id}. Vui lòng thử lại."
+				}
+			},
+			"columnsActions": {
+				"approve": "Phê duyệt",
+				"assignVehicle": "Gán phương tiện",
+				"addBookingRequest": "Thêm yêu cầu đặt chỗ",
+				"removeBookingRequest": "Xóa yêu cầu đặt chỗ"
+			},
+			"location": "Địa điểm",
+			"status": "Trạng thái",
+			"totalCost": "Tổng chi phí",
+			"timeline": "Lịch trình chuyến đi",
+			"departure": "Khởi hành",
+			"arrival": "Đến nơi",
+			"resources": "Tài nguyên",
+			"driver": "Tài xế",
+			"passengers": "Hành khách",
+			"routeStops": "Điểm dừng ({count})",
+			"vehicle": {
+				"color": "Màu sắc",
+				"capacity": "Sức chứa"
+			},
+			"type": {
+				"self": "Loại",
+				"pickup": "Đón khách",
+				"drop_off": "Trả khách"
+			},
+			"form": {
+				"departureTime": "Thời gian khởi hành",
+				"arrivalTime": "Thời gian đến nơi",
+				"vehicle": "Phương tiện",
+				"bookingRequests": "Yêu cầu đặt chỗ",
+				"routeStops": "Điểm dừng",
+				"createCombined": "Tạo chuyến đi",
+				"alreadySelected": "Dữ liệu đã được chọn",
+				"addStop": "Thêm điểm dừng"
+			},
+			"uncombineDialog": {
+				"button": "Tách chuyến",
+				"title": "Bạn có chắc muốn tách chuyến đi này?",
+				"description": "Tất cả yêu cầu liên quan sẽ được chuyển về bộ lập lịch để tối ưu hóa hệ thống.",
+				"cancel": "Hủy",
+				"confirm": "Tiếp tục"
+			}
+		},
+		"report": {
+			"toast": {
+				"loading": "Đang tạo báo cáo",
+				"success": "Tạo báo cáo thành công",
+				"error": "Không thể tạo báo cáo, vui lòng thử lại sau"
+			},
+			"fileName": {
+				"label": "Tên tệp",
+				"placeholder": "Nhập tên tệp của bạn",
+				"description": "Tên tệp của báo cáo bạn tạo"
+			},
+			"dateRange": {
+				"label": "Khoảng thời gian",
+				"placeholder": "Chọn khoảng thời gian",
+				"description": "Chọn khoảng thời gian để thu thập dữ liệu cho báo cáo"
+			},
+			"period": {
+				"label": "Khoảng thời gian",
+				"placeholder": "Chọn khoảng thời gian",
+				"description": "Nhật ký dữ liệu có sẵn trong {value} tháng gần đây"
+			},
+			"type": {
+				"label": "Loại tệp",
+				"placeholder": "Chọn loại tệp",
+				"description": "Định dạng tệp xuất ra của nhật ký"
+			},
+			"preview": {
+				"title": "Xem trước cài đặt báo cáo",
+				"exportDate": "Ngày xuất",
+				"exportPeriod": "Khoảng thời gian",
+				"fileType": "Loại tệp",
+				"contactEmail": "Email liên hệ"
+			},
+			"button": "Tạo báo cáo"
+		},
+		"schedule": {
+			"toast": {
+				"delete": {
+					"loading": "Đang xóa yêu cầu...",
+					"success": "Yêu cầu #{id} đã được xóa thành công.",
+					"error": "Không thể xóa yêu cầu #{id}. Vui lòng thử lại."
+				}
+			}
+		}
+	},
+	"DriverLeave": {
+		"title": "Yêu cầu nghỉ của bạn",
+		"onGoingLeave": "Lịch nghỉ hiện tại",
+		"upcomingLeave": "Lịch nghỉ sắp tới",
+		"pendingRequests": "Yêu cầu đang chờ",
+		"pastRequests": "Yêu cầu đã qua",
+		"noLeaves": "Không có yêu cầu nghỉ nào.",
+		"reason": "Lý do",
+		"notes": "Ghi chú",
+		"noNotes": "Không có ghi chú nào."
+	},
+	"DriverServices": {
+		"title": "Dịch vụ xe",
+		"onGoingService": "Bảo trì/ Sửa chữa đang diễn ra",
+		"upcomingServices": "Dịch vụ sắp tới",
+		"pendingRequests": "Yêu cầu đang chờ",
+		"pastRequests": "Dịch vụ đã hoàn thành",
+		"noServices": "Không có dịch vụ nào.",
+		"service": "Dịch vụ",
+		"routineMaintenance": "Bảo trì định kỳ",
+		"urgentRepair": "Sửa chữa khẩn cấp",
+		"from": "Từ",
+		"to": "Đến"
+	},
+	"DriverRequest": {
+		"leave": "Nghỉ",
+		"service": "Dịch vụ",
+		"createNewLeave": "Tạo yêu cầu nghỉ mới",
+		"createNewService": "Tạo yêu cầu dịch vụ mới",
+		"createLeave": "Tạo yêu cầu nghỉ",
+		"createService": "Tạo yêu cầu dịch vụ",
+		"submitNewLeave": "Gửi yêu cầu nghỉ",
+		"submitVehicleService": "Gửi yêu cầu dịch vụ",
+		"leaveDetails": "Chi tiết nghỉ",
+		"serviceDetails": "Chi tiết dịch vụ",
+		"status": "Trạng thái",
+		"rejectReason": "Lý do từ chối",
+		"submit": "Gửi",
+		"submitting": "Đang gửi...",
+		"modifyLeave": "Chỉnh sửa lịch nghỉ",
+		"modifyService": "Chỉnh sửa dịch vụ xe",
+		"cancel": "Hủy",
+		"saveChanges": "Lưu thay đổi",
+		"toast": {
+			"success": "Yêu cầu nghỉ đã được gửi thành công!",
+			"error": "Gửi yêu cầu nghỉ không thành công. Vui lòng thử lại.",
+			"conflict": "Khoảng thời gian đã chọn bị trùng với lịch trình hiện tại. Vui lòng chọn thời gian khác."
+		},
+		"requestForm": {
+			"pickADate": "Chọn ngày",
+			"startDate": "Ngày bắt đầu",
+			"endDate": "Ngày kết thúc",
+			"expense": "Chi phí",
+			"currency": "VND",
+			"notes": "Ghi chú (Tuỳ chọn)",
+			"description": "Mô tả (Tuỳ chọn)",
+			"reason": "Lý do (Tuỳ chọn)",
+			"reasonRequired": "Lý do",
+			"serviceCategory": "Loại dịch vụ",
+			"expenseId": "Mã chi phí",
+			"noExpense": "Không có chi phí",
+			"details": "Chi tiết",
+			"routineMaintenance": "Bảo trì định kỳ",
+			"urgentRepair": "Sửa chữa khẩn cấp",
+			"other": "Khác",
+			"conflictingSchedules": "Lịch trình xung đột"
+		},
+		"cancelDialog": {
+			"button": "Hủy",
+			"cancelling": "Đang hủy...",
+			"confirmCancellation": {
+				"normal": "Xác nhận",
+				"destructive": "Hủy bỏ"
+			},
+			"description": {
+				"leave": "Hành động này sẽ huỷ yêu cầu nghỉ của bạn. Vui lòng xác nhận rằng bạn muốn tiếp tục.",
+				"service": "Hành động này sẽ huỷ yêu cầu dịch vụ của bạn. Vui lòng xác nhận rằng bạn muốn tiếp tục."
+			},
+			"cancel": "Hủy",
+			"confirm": "Xác nhận",
+			"toast": {
+				"title": "Yêu cầu huỷ đã gửi",
+				"description": "Yêu cầu huỷ của bạn đã được gửi.",
+				"error": "Không thể gửi yêu cầu huỷ."
+			}
+		},
+		"modifyDialog": {
+			"button": "Chỉnh sửa",
+			"modifying": "Đang chỉnh sửa...",
+			"confirmModification": {
+				"normal": "Xác nhận",
+				"destructive": "Chỉnh sửa"
+			},
+			"description": {
+				"leave": "Hành động này sẽ chỉnh sửa yêu cầu nghỉ của bạn. Vui lòng xác nhận rằng bạn muốn tiếp tục.",
+				"service": "Hành động này sẽ chỉnh sửa yêu cầu dịch vụ của bạn. Vui lòng xác nhận rằng bạn muốn tiếp tục."
+			},
+			"cancel": "Hủy",
+			"confirm": "Xác nhận",
+			"toast": {
+				"title": "Yêu cầu chỉnh sửa đã gửi",
+				"description": "Yêu cầu chỉnh sửa của bạn đã được gửi để phê duyệt.",
+				"error": "Không thể gửi yêu cầu chỉnh sửa.",
+				"conflict": "Khoảng thời gian đã chọn bị trùng với lịch trình hiện tại. Vui lòng chọn thời gian khác."
+			}
+		}
+	},
+	"DriverTrips": {
+		"title": "Chuyến đi của bạn",
+		"trip": "Chuyến",
+		"status": "Trạng thái",
+		"passengers": "Số PAX",
+		"arrival": "Giờ đến dự kiến",
+		"actualArrival": "Giờ đến thực tế",
+		"yourAssignedTrips": "Chuyến được giao",
+		"startingSoon": "Sắp bắt đầu",
+		"tabs": {
+			"todaysTrips": "Chuyến hôm nay",
+			"upcomingTrips": "Chuyến sắp tới",
+			"pastTrips": "Chuyến đã qua"
+		},
+		"noTrips": "Không có chuyến nào.",
+		"startTrip": "Bắt đầu chuyến",
+		"cancel": "Huỷ",
+		"goToTripPage": "Chuyển qua trang chuyến đi",
+		"starting": "Đang bắt đầu...",
+		"redirecting": "Đang chuyển hướng...",
+		"startTripEarly": "Bắt đầu chuyến sớm",
+		"startEarlyTitle": "Bắt đầu chuyến sớm",
+		"startEarlyDescription": "Bạn có chắc chắn muốn bắt đầu chuyến đi sớm hơn thời gian đã lên lịch không?"
+	},
+	"DriverExpenses": {
+		"title": "Chi phí của bạn",
+		"tripExpenses": "Chuyến đi",
+		"vehicleServiceExpenses": "Dịch vụ xe",
+		"operationalExpenses": "Vận hành",
+		"noExpenses": "Không tìm thấy chi phí nào.",
+		"expenseDetails": "Chi tiết chi phí",
+		"amount": "Số tiền",
+		"currency": "VND",
+		"date": "Ngày",
+		"type": "Loại",
+		"receipt": "Hoá đơn",
+		"viewReceipt": "Xem hoá đơn",
+		"trip": "Chuyến đi",
+		"vehicleService": "Dịch vụ xe",
+		"operational": "Vận hành",
+		"otherExpense": "Chi phí khác",
+		"noDescription": "Không có mô tả",
+		"description": {
+			"fuel": "Nhiên liệu",
+			"tolls": "Phí cầu đường",
+			"parking": "Phí đỗ xe",
+			"maintenance": "Bảo trì",
+			"repair": "Sửa chữa",
+			"custom": "Tùy chỉnh"
+		},
+		"status": {
+			"status": "Trạng thái",
+			"pending": "Đang chờ",
+			"approved": "Đã phê duyệt",
+			"rejected": "Bị từ chối",
+			"cancelled": "Đã hủy",
+			"rejectReason": "Lý do từ chối"
+		},
+		"logExpense": "Ghi chi phí",
+		"logTripExpense": "Ghi chi phí chuyến đi",
+		"logVehicleServiceExpense": "Ghi chi phí dịch vụ xe",
+		"logOperationalExpense": "Ghi chi phí vận hành",
+		"selectExpenseType": "Chọn loại chi phí",
+		"tripExpense": "Chi phí chuyến đi",
+		"vehicleServiceExpense": "Chi phí dịch vụ xe",
+		"operationalExpense": "Chi phí vận hành",
+		"submitting": "Đang gửi...",
+		"submitRequest": "Gửi yêu cầu",
+		"cancel": "Hủy yêu cầu",
+		"saveChanges": "Lưu thay đổi",
+		"modify": "Chỉnh sửa yêu cầu",
+		"form": {
+			"amount": "Số tiền",
+			"currency": "VND",
+			"datetime": "Ngày và giờ",
+			"selectDateTime": "Chọn ngày và giờ",
+			"description": "Mô tả (Tùy chọn)",
+			"enterDescription": "Nhập mô tả (Tuỳ chọn)",
+			"attachment": "Tệp đính kèm",
+			"attachmentImage": "Tệp đính kèm hình ảnh",
+			"replaceImage": "Hình ảnh bên dưới sẽ được thay thế",
+			"details": "Chi tiết",
+			"createdAt": "Ngày tạo",
+			"updatedAt": "Ngày cập nhật",
+			"tripId": "ID chuyến đi (Tùy chọn)",
+			"vehicleServiceId": "ID dịch vụ xe (Tùy chọn)",
+			"other": "Khác (Tùy chọn)",
+			"associatedTrip": "Chuyến đi",
+			"selectTrip": "Chọn chuyến đi",
+			"associatedService": "Dịch vụ xe",
+			"selectService": "Chọn dịch vụ xe",
+			"expenseType": "Loại chi phí",
+			"selectExpenseType": "Chọn loại chi phí",
+			"customType": "Loại tùy chỉnh",
+			"enterCustomType": "Nhập loại tùy chỉnh",
+			"backToPresetTypes": "Quay lại loại có sẵn",
+			"noTrips": "Không có chuyến nào.",
+			"noServices": "Không có dịch vụ nào."
+		},
+		"cancelDialog": {
+			"button": "Hủy",
+			"cancelling": "Đang hủy...",
+			"confirmCancellation": {
+				"normal": "Xác nhận",
+				"destructive": "Hủy bỏ"
+			},
+			"description": "Hành động này sẽ gửi yêu cầu hủy chi phí của bạn. Vui lòng xác nhận rằng bạn muốn tiếp tục.",
+			"cancel": "Hủy",
+			"confirm": "Xác nhận",
+			"toast": {
+				"title": "Đã gửi yêu cầu hủy chi phí",
+				"description": "Yêu cầu hủy chi phí của bạn đã được gửi.",
+				"error": "Không thể gửi yêu cầu hủy chi phí."
+			}
+		},
+		"modifyDialog": {
+			"button": "Chỉnh sửa",
+			"modifying": "Đang chỉnh sửa...",
+			"confirmModification": {
+				"normal": "Xác nhận",
+				"destructive": "Chỉnh sửa"
+			},
+			"description": "Hành động này sẽ gửi yêu cầu chỉnh sửa chi phí của bạn. Vui lòng xác nhận rằng bạn muốn tiếp tục.",
+			"cancel": "Hủy",
+			"confirm": "Xác nhận",
+			"toast": {
+				"title": "Đã gửi yêu cầu chỉnh sửa",
+				"description": "Yêu cầu chỉnh sửa chi phí của bạn đã được gửi để phê duyệt.",
+				"error": "Không thể gửi yêu cầu chỉnh sửa chi phí."
+			}
+		},
+		"success": "Chi phí đã được gửi thành công!",
+		"error": "Gửi chi phí không thành công. Vui lòng thử lại."
+	},
+	"DriverTripDay": {
+		"pickingUpPassnegers": "Đang đón hành khách...",
+		"droppingOffPassengers": "Đang trả hành khách...",
+		"tripCompleted": "Chuyến đi hoàn thành!",
+		"tripCancelled": "Chuyến đi đã bị hủy.",
+		"pleaseStartTrip": "Vui lòng bắt đầu chuyến đi.",
+		"onGoing": "Đang đến điểm dừng tiếp theo...",
+		"waitingForNextStop": "Đang chờ điểm dừng tiếp theo...",
+		"contactPoints": "Điểm liên hệ ở điểm dừng tiếp theo",
+		"yourInformation": "Thông tin của bạn",
+		"tripTab": "Chuyến đi",
+		"passengersTab": "Hành khách",
+		"stop": {
+			"estArrival": "Giờ đến dự kiến",
+			"actualArrival": "Giờ đến thực tế",
+			"type": {
+				"type": "Điểm dừng",
+				"pickUp": "Đón khách",
+				"dropOff": "Trả khách"
+			}
+		},
+		"passengers": {
+			"passengers": "Hành khách",
+			"booking": "Yêu cầu",
+			"skipped": "Đã bỏ qua",
+			"droppedOff": "Đã trả",
+			"droppingOff": "Đang trả...",
+			"pickedUp": "Đã đón",
+			"pickingUp": "Đang đón...",
+			"noPassengers": "Không tìm thấy hành khách."
+		},
+		"pickUpBtn": "Đón",
+		"dropOffBtn": "Trả",
+		"processing": "Đang xử lý...",
+		"confirmStartTripBtn": "Xác nhận bắt đầu chuyến đi",
+		"confirmEndTripBtn": "Xác nhận kết thúc chuyến đi",
+		"callDialog": {
+			"contactPassengerAt": "Liên hệ hành khách tại",
+			"callNow": "Gọi ngay"
+		},
+		"reportIncident": {
+			"title": "Báo cáo sự cố",
+			"reason": "Lý do",
+			"description": "Vui lòng cung cấp lý do báo cáo sự cố. Điều này sẽ giúp chúng tôi giải quyết vấn đề một cách hiệu quả.",
+			"reportBtn": "Báo cáo và hủy chuyến này"
+		},
+		"skipDialog": {
+			"skipAll": "Bỏ qua tất cả",
+			"skipAllPassengers": "Bỏ qua tất cả hành khách",
+			"skipGroup": "Bỏ qua nhóm",
+			"skipPassenger": "Bỏ qua hành khách",
+			"description": {
+				"skipAll": "Bạn sắp bỏ qua {groupCount} nhóm với {passengerCount} hành khách tại điểm dừng này. Vui lòng cung cấp lý do bỏ qua.",
+				"skipGroup": "Bạn sắp bỏ qua nhóm {bookingId} với {passengerCount} hành khách. Vui lòng cung cấp lý do bỏ qua.",
+				"skipPassenger": "Vui lòng cung cấp lý do bỏ qua hành khách này (8-500 ký tự)."
+			},
+			"enterReason": "Nhập lý do bỏ qua...",
+			"reasonForSkipping": "Lý do bỏ qua",
+			"characters": "ký tự",
+			"minimum": "Tối thiểu 8 ký tự",
+			"maximum": "Tối đa 500 ký tự",
+			"cancelBtn": "Hủy",
+			"skipAllBtn": "Bỏ qua tất cả",
+			"skipGroupBtn": "Bỏ qua nhóm"
+		}
+	},
+	"DriverLogActivity": {
+		"title": "Hoạt động hàng ngày của lãnh đạo",
+		"noActivities": "Không tìm thấy hoạt động nào.",
+		"logBtn": "Ghi hoạt động hàng ngày của lãnh đạo",
+		"logActivity": {
+			"header": "Ghi hoạt động hàng ngày của lãnh đạo",
+			"submitBtn": "Gửi hoạt động hàng ngày",
+			"submitting": "Đang gửi...",
+			"startTime": "Thời gian bắt đầu",
+			"endTime": "Thời gian kết thúc",
+			"notesOptional": "Ghi chú (Tùy chọn)",
+			"driverNotFound": "Không tìm thấy tài xế. Không thể gửi nhật ký hoạt động.",
+			"executiveNotFound": "Không tìm thấy lãnh đạo. Không thể gửi nhật ký hoạt động.",
+			"success": "Đã gửi nhật ký hoạt động thành công.",
+			"error": "Không thể gửi nhật ký hoạt động. Vui lòng thử lại."
+		},
+		"activityDetails": {
+			"header": "Hoạt động hàng ngày",
+			"status": "Trạng thái",
+			"startTime": "Thời gian bắt đầu",
+			"endTime": "Thời gian kết thúc",
+			"notes": "Ghi chú",
+			"noNotes": "Không có ghi chú nào.",
+			"modifyBtn": "Chỉnh sửa",
+			"details": "Chi tiết",
+			"duration": "Thời gian",
+			"hours": "giờ",
+			"minutes": "phút",
+			"driver": "Tài xế",
+			"executive": "Lãnh đạo",
+			"vehicle": "Phương tiện"
+		},
+		"cancelDialog": {
+			"title": "Hủy hoạt động",
+			"button": "Hủy",
+			"cancelling": "Đang hủy...",
+			"confirmCancellation": {
+				"normal": "Xác nhận",
+				"destructive": "Hủy bỏ"
+			},
+			"description": "Hành động này sẽ hủy hoạt động của bạn. Vui lòng xác nhận rằng bạn muốn tiếp tục.",
+			"cancel": "Hủy",
+			"confirm": "Xác nhận",
+			"toast": {
+				"title": "Đã gửi yêu cầu hủy hoạt động",
+				"description": "Yêu cầu hủy hoạt động của bạn đã được gửi.",
+				"error": "Không thể gửi yêu cầu hủy hoạt động."
+			}
+		},
+		"modifyDialog": {
+			"title": "Chỉnh sửa hoạt động",
+			"button": "Chỉnh sửa",
+			"modifying": "Đang sửa...",
+			"confirmModification": {
+				"normal": "Xác nhận",
+				"destructive": "Chỉnh sửa"
+			},
+			"description": "Hành động này sẽ chỉnh sửa hoạt động của bạn. Vui lòng xác nhận rằng bạn muốn tiếp tục.",
+			"cancel": "Hủy",
+			"confirm": "Xác nhận",
+			"toast": {
+				"title": "Đã gửi yêu cầu chỉnh sửa",
+				"description": "Yêu cầu chỉnh sửa hoạt động của bạn đã được gửi để phê duyệt.",
+				"error": "Không thể gửi yêu cầu chỉnh sửa hoạt động."
+			}
+		}
+	},
+	"DriverCalendar": {
+		"monthNames": {
+			"january": "Tháng 1",
+			"february": "Tháng 2",
+			"march": "Tháng 3",
+			"april": "Tháng 4",
+			"may": "Tháng 5",
+			"june": "Tháng 6",
+			"july": "Tháng 7",
+			"august": "Tháng 8",
+			"september": "Tháng 9",
+			"october": "Tháng 10",
+			"november": "Tháng 11",
+			"december": "Tháng 12"
+		},
+		"dayNames": {
+			"sun": "CN",
+			"mon": "T2",
+			"tue": "T3",
+			"wed": "T4",
+			"thu": "T5",
+			"fri": "T6",
+			"sat": "T7"
+		},
+		"shortDayNames": {
+			"su": "CN",
+			"m": "T2",
+			"t": "T3",
+			"w": "T4",
+			"th": "T5",
+			"f": "T6",
+			"sa": "T7"
+		},
+		"duration": {
+			"h": "giờ",
+			"m": "phút"
+		},
+		"noEvents": "Không có sự kiện nào.",
+		"more": "sự kiện khác"
+	},
+	"ExecutiveActivities": {
+		"approveDialog": {
+			"title": "Phê duyệt hoạt động",
+			"button": "Phê duyệt",
+			"approving": "Đang phê duyệt...",
+			"confirmApproval": {
+				"normal": "Xác nhận",
+				"destructive": "Phê duyệt"
+			},
+			"description": "Hành động này sẽ phê duyệt hoạt động. Vui lòng xác nhận rằng bạn muốn tiếp tục.",
+			"cancel": "Hủy",
+			"confirm": "Xác nhận",
+			"toast": {
+				"title": "Đã phê duyệt hoạt động",
+				"description": "Hoạt động đã được phê duyệt thành công.",
+				"error": "Không thể phê duyệt hoạt động."
+			}
+		},
+		"rejectDialog": {
+			"title": "Từ chối hoạt động",
+			"button": "Từ chối",
+			"rejecting": "Đang từ chối...",
+			"confirmRejection": {
+				"normal": "Xác nhận",
+				"destructive": "Từ chối"
+			},
+			"description": "Hành động này sẽ từ chối hoạt động. Vui lòng xác nhận rằng bạn muốn tiếp tục.",
+			"cancel": "Hủy",
+			"confirm": "Xác nhận",
+			"toast": {
+				"title": "Đã từ chối hoạt động",
+				"description": "Hoạt động đã được từ chối thành công.",
+				"error": "Không thể từ chối hoạt động."
+			}
+		}
+	},
+	"PublicLinkInvalid": {
+		"title": "Đường dẫn không hợp lệ",
+		"coordinator": "Điều phối viên",
+		"phoneNumber": "Số điện thoại",
+		"contactCoordinator": "Liên hệ điều phối viên",
+		"ifYouBelieveError": "Nếu bạn tin rằng đây là lỗi, vui lòng liên hệ với điều phối viên.",
+		"accessRestored": "Quyền truy cập sẽ được khôi phục khi sự cố được giải quyết.",
+		"early": "Đường dẫn này chưa có hiệu lực. Quyền truy cập sẽ được mở 2 ngày trước ngày khởi hành.",
+		"expired": "Đường dẫn này đã hết hạn."
+	}
+}

@@ -1,0 +1,34 @@
+version: "3.8"
+
+services:
+    app:
+        build: .
+        container_name: deheus_server
+        restart: always
+        ports:
+            - "${PORT}:${PORT}"
+        environment:
+            - PORT=${PORT}
+            - DB_HOST=postgres
+            - DB_PORT=${DB_PORT}
+            - DB_USERNAME=${DB_USERNAME}
+            - DB_PASSWORD=${DB_PASSWORD}
+            - DB_NAME=${DB_NAME}
+        depends_on:
+            - postgres
+
+    postgres:
+        image: postgres:15
+        container_name: deheus_postgres_db
+        restart: always
+        ports:
+            - "${DB_PORT}:5432"
+        environment:
+            POSTGRES_USER: ${DB_USERNAME}
+            POSTGRES_PASSWORD: ${DB_PASSWORD}
+            POSTGRES_DB: ${DB_NAME}
+        volumes:
+            - pg_data:/var/lib/postgresql/data
+
+volumes:
+    pg_data:

@@ -1,0 +1,704 @@
+[
+	{
+		"id": "PER-1",
+		"title": "Get Setting",
+		"key": "setting.get",
+		"description": "Allows user to get setting details.",
+		"roleIds": ["ROL-5"]
+	},
+	{
+		"id": "PER-2",
+		"title": "Update Setting",
+		"key": "setting.update",
+		"description": "Allows user to update setting details.",
+		"roleIds": ["ROL-5"]
+	},
+	{
+		"id": "PER-3",
+		"title": "Get Role",
+		"key": "role.get",
+		"description": "Allows user to get role details.",
+		"roleIds": ["ROL-1", "ROL-2", "ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-4",
+		"title": "Create Role",
+		"key": "role.create",
+		"description": "Allows user to create new roles.",
+		"roleIds": ["ROL-5"]
+	},
+	{
+		"id": "PER-5",
+		"title": "Update Role",
+		"key": "role.update",
+		"description": "Allows user to update role details.",
+		"roleIds": ["ROL-5"]
+	},
+	{
+		"id": "PER-6",
+		"title": "Get Permission",
+		"key": "permission.get",
+		"description": "Allows user to get permission details.",
+		"roleIds": ["ROL-1", "ROL-2", "ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-7",
+		"title": "Create Permission",
+		"key": "permission.create",
+		"description": "Allows user to create new permissions.",
+		"roleIds": ["ROL-5"]
+	},
+	{
+		"id": "PER-8",
+		"title": "Update Permission",
+		"key": "permission.update",
+		"description": "Allows user to update permission details.",
+		"roleIds": ["ROL-5"]
+	},
+	{
+		"id": "PER-9",
+		"title": "Get Location",
+		"key": "location.get",
+		"description": "Allows user to get location details.",
+		"roleIds": ["ROL-1", "ROL-2", "ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-10",
+		"title": "Create Location",
+		"key": "location.create",
+		"description": "Allows user to create new locations.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-11",
+		"title": "Update Location",
+		"key": "location.update",
+		"description": "Allows user to update location details.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-12",
+		"title": "Get Vendor",
+		"key": "vendor.get",
+		"description": "Allows user to get vendor details.",
+		"roleIds": ["ROL-1", "ROL-2", "ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-13",
+		"title": "Create Vendor",
+		"key": "vendor.create",
+		"description": "Allows user to create new vendors.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-14",
+		"title": "Update Vendor",
+		"key": "vendor.update",
+		"description": "Allows user to update vendor details.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-15",
+		"title": "Get User",
+		"key": "user.get",
+		"description": "Allows user to get user details.",
+		"roleIds": ["ROL-1", "ROL-2", "ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-16",
+		"title": "Create User",
+		"key": "user.create",
+		"description": "Allows user to create new users.",
+		"roleIds": ["ROL-5"]
+	},
+	{
+		"id": "PER-17",
+		"title": "Update User",
+		"key": "user.update",
+		"description": "Allows user to update user details.",
+		"roleIds": ["ROL-1", "ROL-2", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-18",
+		"title": "Change User Role",
+		"key": "user.change_role",
+		"description": "Allows user to change user roles.",
+		"roleIds": ["ROL-5"]
+	},
+	{
+		"id": "PER-19",
+		"title": "Activate User",
+		"key": "user.activate",
+		"description": "Allows user to activate users.",
+		"roleIds": ["ROL-2", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-20",
+		"title": "Deactivate User",
+		"key": "user.deactivate",
+		"description": "Allows user to deactivate users.",
+		"roleIds": ["ROL-2", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-21",
+		"title": "Suspend User",
+		"key": "user.suspend",
+		"description": "Allows user to suspend users.",
+		"roleIds": ["ROL-5"]
+	},
+	{
+		"id": "PER-22",
+		"title": "Assign Dedicated Vehicle to Executive",
+		"key": "user.assign_dedicated_vehicle",
+		"description": "Allows user to assign dedicated vehicle to executives.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-23",
+		"title": "Get Driver",
+		"key": "driver.get",
+		"description": "Allows user to get driver details.",
+		"roleIds": ["ROL-1", "ROL-2", "ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-24",
+		"title": "Create Driver",
+		"key": "driver.create",
+		"description": "Allows user to create new drivers.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-25",
+		"title": "Update Driver",
+		"key": "driver.update",
+		"description": "Allows user to update driver details.",
+		"roleIds": ["ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-26",
+		"title": "Reset Password For Driver",
+		"key": "driver.reset_password",
+		"description": "Allows user to reset password for drivers.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-27",
+		"title": "Change Driver Base Location",
+		"key": "driver.change_base_location",
+		"description": "Allows user to change drivers base location.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-28",
+		"title": "Activate Driver",
+		"key": "driver.activate",
+		"description": "Allows user to activate drivers.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-29",
+		"title": "Deactivate Driver",
+		"key": "driver.deactivate",
+		"description": "Allows user to deactivate drivers.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-30",
+		"title": "Suspend Driver",
+		"key": "driver.suspend",
+		"description": "Allows user to suspend drivers.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-31",
+		"title": "Assign Vehicle to Driver",
+		"key": "driver.assign_vehicle",
+		"description": "Allows user to assign vehicles to drivers.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-32",
+		"title": "Get Vehicle",
+		"key": "vehicle.get",
+		"description": "Allows user to get vehicle details.",
+		"roleIds": ["ROL-1", "ROL-2", "ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-33",
+		"title": "Get Available Vehicle",
+		"key": "vehicle.get_available",
+		"description": "Allows user to get available vehicle details.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-34",
+		"title": "Create Vehicle",
+		"key": "vehicle.create",
+		"description": "Allows user to create new vehicles.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-35",
+		"title": "Update Vehicle",
+		"key": "vehicle.update",
+		"description": "Allows user to update vehicle details.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-36",
+		"title": "Get Outsourced Vehicle",
+		"key": "outsourced_vehicle.get",
+		"description": "Allows user to get outsourced vehicle details.",
+		"roleIds": ["ROL-1", "ROL-2", "ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-37",
+		"title": "Create Outsourced Vehicle",
+		"key": "outsourced_vehicle.create",
+		"description": "Allows user to create outsourced vehicles.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-38",
+		"title": "Update Outsourced Vehicle",
+		"key": "outsourced_vehicle.update",
+		"description": "Allows user to update outsourced vehicle details.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-39",
+		"title": "Get Booking Request",
+		"key": "booking_request.get",
+		"description": "Allows user to get booking request details.",
+		"roleIds": ["ROL-1", "ROL-2", "ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-40",
+		"title": "Create Booking Request",
+		"key": "booking_request.create",
+		"description": "Allows user to create booking requests.",
+		"roleIds": ["ROL-1", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-41",
+		"title": "Update Booking Request",
+		"key": "booking_request.update",
+		"description": "Allows user to update booking request details.",
+		"roleIds": ["ROL-1", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-42",
+		"title": "Cancel Booking Request",
+		"key": "booking_request.cancel",
+		"description": "Allows user to cancel booking requests.",
+		"roleIds": ["ROL-1", "ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-43",
+		"title": "Reject Booking Request",
+		"key": "booking_request.reject",
+		"description": "Allows user to reject booking requests.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-44",
+		"title": "Delete Booking Request",
+		"key": "booking_request.delete",
+		"description": "Allows user to delete booking requests.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-45",
+		"title": "Assign Vehicle to Booking Request",
+		"key": "booking_request.assign_vehicle",
+		"description": "Allows user to assign vehicle to booking requests.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+
+	{
+		"id": "PER-46",
+		"title": "Get Trip",
+		"key": "trip.get",
+		"description": "Allows user to get trip details.",
+		"roleIds": ["ROL-1", "ROL-2", "ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-47",
+		"title": "Update Trip",
+		"key": "trip.update",
+		"description": "Allows user to update trip details.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-48",
+		"title": "Assign Vehicle to Trip",
+		"key": "trip.assign_vehicle",
+		"description": "Allows user to assign vehicle to trips.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-49",
+		"title": "Combine Trip",
+		"key": "trip.combine",
+		"description": "Allows user to create combined trips.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-50",
+		"title": "Uncombine Trip",
+		"key": "trip.uncombine",
+		"description": "Allows user to create uncombined trips.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-51",
+		"title": "Approve Trip",
+		"key": "trip.approve",
+		"description": "Allows user to approve scheduling trips.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-52",
+		"title": "Start Trip",
+		"key": "trip.start",
+		"description": "Allows user to start trips.",
+		"roleIds": ["ROL-3"]
+	},
+	{
+		"id": "PER-53",
+		"title": "End Trip",
+		"key": "trip.end",
+		"description": "Allows user to end trips.",
+		"roleIds": ["ROL-3"]
+	},
+	{
+		"id": "PER-54",
+		"title": "Confirm Pick Up",
+		"key": "trip.confirm_pick_up",
+		"description": "Allows user to confirm passenger pickup.",
+		"roleIds": ["ROL-3"]
+	},
+	{
+		"id": "PER-55",
+		"title": "Confirm Drop Off",
+		"key": "trip.confirm_drop_off",
+		"description": "Allows user to confirm passenger drop-off.",
+		"roleIds": ["ROL-3"]
+	},
+	{
+		"id": "PER-56",
+		"title": "Confirm Absence of Passengers",
+		"key": "trip.confirm_absence_passengers",
+		"description": "Allows user to confirm absent passengers.",
+		"roleIds": ["ROL-3"]
+	},
+	{
+		"id": "PER-57",
+		"title": "Get Public Access Link",
+		"key": "trip.get_public_access_link",
+		"description": "Allows user to get the public access link for a trip.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-58",
+		"title": "Generate Public Access Link",
+		"key": "trip.generate_public_access_link",
+		"description": "Allows user to generate a public access link for a trip.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-59",
+		"title": "Get Driver Current Location",
+		"key": "trip.get_driver_current_location",
+		"description": "Allows user to get the current location of the driver.",
+		"roleIds": ["ROL-1", "ROL-2", "ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-60",
+		"title": "Update Driver Current Location",
+		"key": "trip.update_driver_current_location",
+		"description": "Allows user to update the current location of the driver.",
+		"roleIds": ["ROL-3"]
+	},
+	{
+		"id": "PER-61",
+		"title": "Get Trip Ticket",
+		"key": "trip_ticket.get",
+		"description": "Allows user to get trip ticket details.",
+		"roleIds": ["ROL-1", "ROL-2", "ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-62",
+		"title": "Get Trip Stop",
+		"key": "trip_stop.get",
+		"description": "Allows user to get trip stop details.",
+		"roleIds": ["ROL-1", "ROL-2", "ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-63",
+		"title": "Confirm Arrival at Trip Stop",
+		"key": "trip_stop.arrive",
+		"description": "Allows user to confirm arrival at trip stop.",
+		"roleIds": ["ROL-3"]
+	},
+	{
+		"id": "PER-64",
+		"title": "Get Trip Feedback",
+		"key": "trip_feedback.get",
+		"description": "Allows user to get trip feedback details.",
+		"roleIds": ["ROL-1", "ROL-2", "ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-65",
+		"title": "Create Trip Feedback",
+		"key": "trip_feedback.create",
+		"description": "Allows user to create trip feedbacks.",
+		"roleIds": ["ROL-1", "ROL-2", "ROL-4", "ROL-5"]
+	},
+
+	{
+		"id": "PER-66",
+		"title": "Get Leave Request",
+		"key": "leave_requests.get",
+		"description": "Allows user to get leave request details.",
+		"roleIds": ["ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-67",
+		"title": "Create Leave Request",
+		"key": "leave_requests.create",
+		"description": "Allows user to create leave requests.",
+		"roleIds": ["ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-68",
+		"title": "Update Leave Request",
+		"key": "leave_requests.update",
+		"description": "Allows user to update leave request details.",
+		"roleIds": ["ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-69",
+		"title": "Delete Leave Request",
+		"key": "leave_requests.delete",
+		"description": "Allows user to delete leave requests.",
+		"roleIds": ["ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-70",
+		"title": "Approve Leave Request",
+		"key": "leave_requests.approve",
+		"description": "Allows user to approve leave requests.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-71",
+		"title": "Reject Leave Request",
+		"key": "leave_requests.reject",
+		"description": "Allows user to reject leave requests.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-72",
+		"title": "Cancel Leave Request",
+		"key": "leave_requests.cancel",
+		"description": "Allows user to cancel leave requests.",
+		"roleIds": ["ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-73",
+		"title": "Get Vehicle Service",
+		"key": "vehicle_service.get",
+		"description": "Allows user to get vehicle service details.",
+		"roleIds": ["ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-74",
+		"title": "Create Vehicle Service",
+		"key": "vehicle_service.create",
+		"description": "Allows user to create vehicle services.",
+		"roleIds": ["ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-75",
+		"title": "Update Vehicle Service",
+		"key": "vehicle_service.update",
+		"description": "Allows user to update vehicle service details.",
+		"roleIds": ["ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-76",
+		"title": "Delete Vehicle Service",
+		"key": "vehicle_service.delete",
+		"description": "Allows user to delete vehicle services.",
+		"roleIds": ["ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-77",
+		"title": "Approve Vehicle Service",
+		"key": "vehicle_service.approve",
+		"description": "Allows user to approve vehicle services.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-78",
+		"title": "Reject Vehicle Service",
+		"key": "vehicle_service.reject",
+		"description": "Allows user to reject vehicle services.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-79",
+		"title": "Cancel Vehicle Service",
+		"key": "vehicle_service.cancel",
+		"description": "Allows user to cancel vehicle services.",
+		"roleIds": ["ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-80",
+		"title": "Get Schedule",
+		"key": "schedule.get",
+		"description": "Allows user to get schedule details.",
+		"roleIds": ["ROL-1", "ROL-2", "ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-81",
+		"title": "Create Schedule",
+		"key": "schedule.create",
+		"description": "Allows user to create schedules.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-82",
+		"title": "Update Schedule",
+		"key": "schedule.update",
+		"description": "Allows user to update schedule details.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-83",
+		"title": "Delete Schedule",
+		"key": "schedule.delete",
+		"description": "Allows user to delete schedules.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-84",
+		"title": "Check Conflict Schedule",
+		"key": "schedule.check_conflict",
+		"description": "Allows user to check for conflicting schedules.",
+		"roleIds": ["ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-85",
+		"title": "Get Expense",
+		"key": "expense.get",
+		"description": "Allows user to get expense details.",
+		"roleIds": ["ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-86",
+		"title": "Create Expense",
+		"key": "expense.create",
+		"description": "Allows user to create expenses.",
+		"roleIds": ["ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-87",
+		"title": "Update Expense",
+		"key": "expense.update",
+		"description": "Allows user to update expense details.",
+		"roleIds": ["ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-88",
+		"title": "Delete Expense",
+		"key": "expense.delete",
+		"description": "Allows user to delete expenses.",
+		"roleIds": ["ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-89",
+		"title": "Approve Expense",
+		"key": "expense.approve",
+		"description": "Allows user to approve expenses.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-90",
+		"title": "Reject Expense",
+		"key": "expense.reject",
+		"description": "Allows user to reject expenses.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-91",
+		"title": "Cancel Expense",
+		"key": "expense.cancel",
+		"description": "Allows user to cancel expenses.",
+		"roleIds": ["ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-92",
+		"title": "Get Executive Vehicle Activity",
+		"key": "executive_vehicle_activity.get",
+		"description": "Allows user to get executive vehicle activity details.",
+		"roleIds": ["ROL-2", "ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-93",
+		"title": "Create Executive Vehicle Activity",
+		"key": "executive_vehicle_activity.create",
+		"description": "Allows user to create executive vehicle activities.",
+		"roleIds": ["ROL-3"]
+	},
+	{
+		"id": "PER-94",
+		"title": "Update Executive Vehicle Activity",
+		"key": "executive_vehicle_activity.update",
+		"description": "Allows user to update executive vehicle activity details.",
+		"roleIds": ["ROL-3"]
+	},
+	{
+		"id": "PER-95",
+		"title": "Confirm Executive Vehicle Activity",
+		"key": "executive_vehicle_activity.confirm",
+		"description": "Allows user to confirm executive vehicle activities.",
+		"roleIds": ["ROL-2"]
+	},
+	{
+		"id": "PER-96",
+		"title": "Reject Executive Vehicle Activity",
+		"key": "executive_vehicle_activity.reject",
+		"description": "Allows user to reject executive vehicle activities.",
+		"roleIds": ["ROL-2"]
+	},
+	{
+		"id": "PER-97",
+		"title": "Get Notification",
+		"key": "notification.get",
+		"description": "Allows user to get notification details.",
+		"roleIds": ["ROL-1", "ROL-2", "ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-98",
+		"title": "Mark Notification as Read",
+		"key": "notification.mark_as_read",
+		"description": "Allows user to mark notifications as read.",
+		"roleIds": ["ROL-1", "ROL-2", "ROL-3", "ROL-4", "ROL-5"]
+	},
+	{
+		"id": "PER-99",
+		"title": "Get Activity Log",
+		"key": "activity_log.get",
+		"description": "Allows user to get activity log details.",
+		"roleIds": ["ROL-5"]
+	},
+	{
+		"id": "PER-100",
+		"title": "Generate Report",
+		"key": "report.generate",
+		"description": "Allows user to generate reports.",
+		"roleIds": ["ROL-4", "ROL-5"]
+	}
+]

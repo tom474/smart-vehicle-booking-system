@@ -1,0 +1,26 @@
+enum EntityMap {
+	SETTING = "setting",
+	ROLE = "role",
+	PERMISSION = "permission",
+	LOCATION = "location",
+	VENDOR = "vendor",
+	USER = "user",
+	DRIVER = "driver",
+	VEHICLE = "vehicle",
+	OUTSOURCED_VEHICLE = "outsourced_vehicle",
+	BOOKING_REQUEST = "booking_request",
+	TRIP = "trip",
+	TRIP_TEMP = "trip_temp",
+	TRIP_TICKET = "trip_ticket",
+	TRIP_STOP = "trip_stop",
+	TRIP_FEEDBACK = "trip_feedback",
+	LEAVE_REQUEST = "leave_request",
+	VEHICLE_SERVICE = "vehicle_service",
+	SCHEDULE = "schedule",
+	EXPENSE = "expense",
+	EXECUTIVE_VEHICLE_ACTIVITY = "executive_vehicle_activity",
+	NOTIFICATION = "notification",
+	ACTIVITY_LOG = "activity_log",
+}
+
+export default EntityMap;

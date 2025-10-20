@@ -1,0 +1,258 @@
+[
+	{
+		"id": "LOC-1",
+		"type": "fixed",
+		"name": "De Heus Head Office - Văn Phòng Đại Diện",
+		"address": "10 Đường Mai Chí Thọ, Quận 2, Thành phố Thủ Đức",
+		"latitude": 10.772098218589568,
+		"longitude": 106.72204602572545
+	},
+	{
+		"id": "LOC-2",
+		"type": "fixed",
+		"name": "De Heus - Nhà máy Đồng Nai 1",
+		"address": "Khu công nghiệp Dầu Giây, Thị trấn Dầu Giây, Huyện Thống Nhất, Tỉnh Đồng Nai, Việt Nam",
+		"latitude": 10.925649373489637,
+		"longitude": 107.1356217685675
+	},
+	{
+		"id": "LOC-3",
+		"type": "fixed",
+		"name": "De Heus - Nhà máy Vĩnh Long 1",
+		"address": "Lô A4, Khu công nghiệp Hòa Phú, Ấp Phước Hòa, Xã Hòa Phú, Huyện Long Hồ, Tỉnh Vĩnh Long, Việt Nam",
+		"latitude": 10.174619491704133,
+		"longitude": 105.93617591174664
+	},
+	{
+		"id": "LOC-4",
+		"type": "fixed",
+		"name": "De Heus - Nhà máy Vĩnh Long 2",
+		"address": "Tổ 14, Ấp chợ, Xã Mỹ An, Huyện Mang Thít, Tỉnh Vĩnh Long, Việt Nam",
+		"latitude": 10.24031728425404,
+		"longitude": 106.0591167586808
+	},
+	{
+		"id": "LOC-5",
+		"type": "fixed",
+		"name": "De Heus - Nhà máy Vĩnh Long 4",
+		"address": "Khu IV, Tuyến Công Nghiệp Cổ Chiên, ấp Sơn Đông, xã Thanh Đức, huyện Long Hồ, tỉnh Vĩnh Long, Việt Nam",
+		"latitude": 10.253405946413537,
+		"longitude": 106.01435876772251
+	},
+	{
+		"id": "LOC-6",
+		"type": "fixed",
+		"name": "De Heus - Trại R&D tại Vĩnh Long",
+		"address": "Tổ 29, Ấp An Hương 1, Xã Mỹ An, Huyện Mang Thít, Tỉnh Vĩnh Long, Việt Nam",
+		"latitude": 10.250083832242865,
+		"longitude": 106.02349366301377
+	},
+	{
+		"id": "LOC-7",
+		"type": "fixed",
+		"name": "De Heus Bình Dương - Nhà máy Bình Dương",
+		"address": "Lô G-2-CN, KCN Mỹ Phước, Phường Mỹ Phước, Thành Phố Bến Cát, Tỉnh Bình Dương, Việt Nam",
+		"latitude": 11.128649505147687,
+		"longitude": 106.59094930859251
+	},
+	{
+		"id": "LOC-8",
+		"type": "fixed",
+		"name": "De Heus - Nhà máy Vĩnh Phúc",
+		"address": "Lô G, KCN Bình Xuyên, Thị Trấn Hương Canh, Huyện Bình Xuyên, Tỉnh Vĩnh Phúc, Việt Nam",
+		"latitude": 21.26763266037997,
+		"longitude": 105.66940739722577
+	},
+	{
+		"id": "LOC-9",
+		"type": "fixed",
+		"name": "De Heus - Nhà máy Hải Phòng 2",
+		"address": "Cụm Công nghiệp An Tràng 1, Thị trấn Trường Sơn, Huyện An Lão, Thành Phố Hải Phòng, Việt Nam",
+		"latitude": 20.818377579922377,
+		"longitude": 106.60195697854486
+	},
+	{
+		"id": "LOC-10",
+		"type": "fixed",
+		"name": "De Heus - Nhà máy Bình Định 2",
+		"address": "Lô A1.3.1, A1.4, KCN Nhơn Hòa, Phường Nhơn Hòa, Thị Xã An Nhơn, Tỉnh Bình Định, Việt Nam",
+		"latitude": 13.847313510369313,
+		"longitude": 109.0723048010049
+	},
+	{
+		"id": "LOC-11",
+		"type": "fixed",
+		"name": "De Heus - Trại Đắk Lắk 2",
+		"address": "Tiểu khu 564, Xã Ea M'Droh, Tỉnh Đắk Lắk, Việt Nam",
+		"latitude": 12.723456811332655,
+		"longitude": 108.09763021411459
+	},
+	{
+		"id": "LOC-12",
+		"type": "fixed",
+		"name": "De Heus - Trại Sóc Trăng",
+		"address": "Thửa đất số 1446, tờ bản đồ số 13, Ấp Trà Mẹt, Xã Ngọc Tố, TP Cần Thơ , Việt Nam",
+		"latitude": 9.594077791458849,
+		"longitude": 106.01385371579013
+	},
+	{
+		"id": "LOC-13",
+		"type": "fixed",
+		"name": "De Heus - Trại Sơn La",
+		"address": "Bản Cao Đa 1, Xã Phiêng Ban, Huyện Bắc Yên, Tỉnh Sơn La, Việt Nam",
+		"latitude": 21.242887950766956,
+		"longitude": 104.40453115117789
+	},
+	{
+		"id": "LOC-14",
+		"type": "fixed",
+		"name": "De Heus - Trại Gia Lai",
+		"address": "Thôn 6, Xã Ia Le, Tỉnh Gia Lai, Việt Nam",
+		"latitude": 13.813774093266884,
+		"longitude": 107.88430550887234
+	},
+	{
+		"id": "LOC-15",
+		"type": "fixed",
+		"name": "De Heus - Trại Long An 2",
+		"address": "Ấp 4, Xã Thạnh Lợi, Tỉnh Tây Ninh, Việt Nam",
+		"latitude": 10.572486340153949,
+		"longitude": 106.41608619538755
+	},
+	{
+		"id": "LOC-16",
+		"type": "fixed",
+		"name": "De Heus - Trại Gencen Bình Dương",
+		"address": "Ấp Bằng Lăng, Xã Bắc Tân Uyên, TP Hồ Chí Minh, Việt Nam",
+		"latitude": 11.182403209807301,
+		"longitude": 106.86418015189736
+	},
+	{
+		"id": "LOC-17",
+		"type": "fixed",
+		"name": "De Heus - Nhà máy Bạc Liêu",
+		"address": "Số 475, đường 23/8, Phường 8, Thành phố Bạc Liêu, Tỉnh Bạc Liêu, Việt Nam",
+		"latitude": 9.341334455342519,
+		"longitude": 105.71535994723452
+	},
+	{
+		"id": "LOC-18",
+		"type": "fixed",
+		"name": "De Heus - Nhà máy Tiền Giang",
+		"address": "Lô 22,23B Khu Công Nghiệp Long Giang, Xã Tân Lập 1, Huyện Tân Phước, Tỉnh Tiền Giang, Việt Nam",
+		"latitude": 10.465727050579124,
+		"longitude": 106.30019839405973
+	},
+	{
+		"id": "LOC-19",
+		"type": "fixed",
+		"name": "De Heus - Nhà máy Hậu Giang",
+		"address": "Khu công nghiệp Tân Phú Thạnh - Giai đoạn 1, xã Tân Phú Thạnh, huyện Châu Thành A, tỉnh Hậu Giang, Việt Nam",
+		"latitude": 9.755366380681558,
+		"longitude": 105.800663633799
+	},
+	{
+		"id": "LOC-20",
+		"type": "fixed",
+		"name": "De Heus - Nhà máy Premix",
+		"address": "Đường số 4, KCN Sông Mây, xã Bắc Sơn, huyện Trảng Bom, tỉnh Đồng Nai, Việt Nam",
+		"latitude": 10.983828171598265,
+		"longitude": 106.9479139930173
+	},
+	{
+		"id": "LOC-21",
+		"type": "fixed",
+		"name": "De Heus - Nhà máy Cần Thơ 2",
+		"address": "Lô 2.13, đường trục chính, KCN Trà Nóc II, Phường Phước Thới, Quận Ô Môn, Cần Thơ, Việt Nam",
+		"latitude": 10.11590734115354,
+		"longitude": 105.697870659798
+	},
+	{
+		"id": "LOC-22",
+		"type": "fixed",
+		"name": "De Heus - Nhà máy Nghệ An",
+		"address": "",
+		"latitude": 18.791918651578765,
+		"longitude": 105.64719907224071
+	},
+	{
+		"id": "LOC-23",
+		"type": "fixed",
+		"name": "Green Chicken",
+		"address": "Xã Văn Bình, Huyện Thường Tín, Thành phố Hà Nội, Việt Nam",
+		"latitude": 20.872247003813452,
+		"longitude": 105.87208279317345
+	},
+	{
+		"id": "LOC-24",
+		"type": "fixed",
+		"name": "Bel Gà",
+		"address": "KCN Lộc Sơn, phường Lộc Sơn, tp Bảo Lộc, tỉnh Lâm Đồng",
+		"latitude": 11.507356211677314,
+		"longitude": 107.83753101795942
+	},
+	{
+		"id": "LOC-25",
+		"type": "fixed",
+		"name": "Orvia",
+		"address": "Tổ 13 ấp 5, Lâm San, Cẩm Mỹ, Đồng Nai",
+		"latitude": 10.678994160123093,
+		"longitude": 107.3234539933171
+	},
+	{
+		"id": "LOC-26",
+		"type": "fixed",
+		"name": "Proconco - Nhà máy An Bình",
+		"address": "Khu Công Nghiệp Biên Hòa I, Phường An Bình, thành phố Biên Hòa, tỉnh Đồng Nai, Việt Nam",
+		"latitude": 10.927431905926769,
+		"longitude": 106.84759578130941
+	},
+	{
+		"id": "LOC-27",
+		"type": "fixed",
+		"name": "Proconco - Nhà máy Cần Thơ 1",
+		"address": "Lô đất số 13, 14 Khu công nghiệp Trà Nóc 1, Phường Trà Nóc, Quận Bình Thuỷ, Thành phố Cần Thơ, Việt Nam",
+		"latitude": 10.106699760047517,
+		"longitude": 105.70907428608291
+	},
+	{
+		"id": "LOC-28",
+		"type": "fixed",
+		"name": "Proconco - Nhà máy Hải Phòng 1",
+		"address": "CN 2.1A, Khu công nghiệp Đình Vũ, thuộc Khu kinh tế Đình Vũ - Cát Hải, Phường Đông Hải 2, Quận Hải An, Thành phố Hải Phòng, Việt Nam",
+		"latitude": 20.836538693650375,
+		"longitude": 106.76815797670608
+	},
+	{
+		"id": "LOC-29",
+		"type": "fixed",
+		"name": "Proconco - Nhà máy Bình Định 1",
+		"address": "Lô A 2-5 và Lô A 2-6, Khu công nghiệp Nhơn Hòa, Xã Nhơn Thọ, Thị xã An Nhơn, Tỉnh Bình Định, Việt Nam",
+		"latitude": 13.845454109950825,
+		"longitude": 109.07181168830171
+	},
+	{
+		"id": "LOC-30",
+		"type": "fixed",
+		"name": "Proconco - Nhà máy Hưng Yên",
+		"address": "Thôn Yên Phú, xã Giai Phạm, huyện Yên Mỹ, tỉnh Hưng Yên, Việt Nam",
+		"latitude": 20.94074137551492,
+		"longitude": 106.03068835245622
+	},
+	{
+		"id": "LOC-31",
+		"type": "fixed",
+		"name": "Proconco - Nhà máy Xuân Lộc",
+		"address": "Tổ 10, Ấp Thọ Hòa, Xã Xuân Lộc, Tỉnh Đồng Nai, Việt Nam",
+		"latitude": 10.93059928351805,
+		"longitude": 106.84891941324292
+	},
+	{
+		"id": "LOC-32",
+		"type": "fixed",
+		"name": "Proconco - Nhà Máy Bằng Tăng",
+		"address": "Tổ 1, Khu vực Bắc Vàng, Phường Thới Long, Thành Phố Cần Thơ, Việt Nam",
+		"latitude": 10.18275367303318,
+		"longitude": 105.60012463168927
+	}
+]

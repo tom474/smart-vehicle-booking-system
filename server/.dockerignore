@@ -1,0 +1,41 @@
+# Node modules
+node_modules
+npm-debug.log
+yarn-error.log
+
+# TypeScript build artifacts
+dist
+build
+*.tsbuildinfo
+
+# Logs
+*.log
+logs
+*.out
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# IDE / editor folders
+.vscode
+.idea
+
+# Environment / secrets
+.env
+.env.* # ignore .env.local, .env.development, etc.
+
+# Test / coverage
+coverage
+__tests__
+jest.config.js
+test-results.xml
+
+# Docker-specific
+Dockerfile*
+docker-compose.*
+.dockerignore

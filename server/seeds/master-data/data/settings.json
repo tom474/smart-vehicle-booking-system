@@ -1,0 +1,93 @@
+[
+    {
+        "id": "SET-1",
+        "title": "Trip Optimizer Enabled",
+        "key": "trip.optimizer.enabled",
+        "value": "true",
+        "description": "Enable or disable the trip optimizer."
+    },
+    {
+        "id": "SET-2",
+        "title": "Trip Optimizer Schedule",
+        "key": "trip.optimizer.schedule",
+        "value": "daily",
+        "description": "Schedule for running the optimizer."
+    },
+    {
+        "id": "SET-3",
+        "title": "Trip Optimizer Time",
+        "key": "trip.optimizer.time",
+        "value": "23:00",
+        "description": "Daily time to run the optimizer."
+    },
+    {
+        "id": "SET-4",
+        "title": "Trip Finalizer Enabled",
+        "key": "trip.finalizer.enabled",
+        "value": "true",
+        "description": "Enable or disable the trip finalizer."
+    },
+    {
+        "id": "SET-5",
+        "title": "Trip Finalizer Lead Hours",
+        "key": "trip.finalizer.lead_hours",
+        "value": "48",
+        "description": "Number of hours before departure when a trip becomes eligible to finalize."
+    },
+    {
+        "id": "SET-6",
+        "title": "Trip Finalizer Time",
+        "key": "trip.finalizer.time",
+        "value": "23:00",
+        "description": "Daily time to evaluate and finalize trips based on lead hours."
+    },
+    {
+        "id": "SET-7",
+        "title": "Trip Reminder Enabled",
+        "key": "trip.reminder.enabled",
+        "value": "true",
+        "description": "Enable or disable passenger reminders for next-day trips."
+    },
+    {
+        "id": "SET-8",
+        "title": "Trip Reminder Time",
+        "key": "trip.reminder.time",
+        "value": "18:00",
+        "description": "Specific time on the day before the trip to send reminders."
+    },
+    {
+        "id": "SET-9",
+        "title": "Notification Enabled",
+        "key": "notification.enabled",
+        "value": "false",
+        "description": "Enable or disable all notifications."
+    },
+    {
+        "id": "SET-10",
+        "title": "Notification Email Enabled",
+        "key": "notification.email.enabled",
+        "value": "false",
+        "description": "Enable or disable email notifications."
+    },
+    {
+        "id": "SET-11",
+        "title": "Activity Log Enabled",
+        "key": "activity_log.enabled",
+        "value": "false",
+        "description": "Enable or disable activity logging across services."
+    },
+    {
+        "id": "SET-12",
+        "title": "Support Contact Name",
+        "key": "support_contact.name",
+        "value": "WAO Team",
+        "description": "Display name shown to users for support contact."
+    },
+    {
+        "id": "SET-13",
+        "title": "Support Contact Phone Number",
+        "key": "support_contact.phone",
+        "value": "0912345678",
+        "description": "Phone number shown to users for support contact."
+    }
+]

@@ -1,0 +1,23 @@
+{
+	"$schema": "https://biomejs.dev/schemas/2.0.0-beta/schema.json",
+	"files": {
+		"includes": ["app/**/*.tsx", "app/**/*.ts", "apis/**/*.ts"]
+	},
+	"javascript": {
+		"formatter": {
+			"semicolons": "always"
+		}
+	},
+	"formatter": {
+		"enabled": true,
+		"formatWithErrors": true,
+		"indentStyle": "tab",
+		"indentWidth": 4
+	},
+	"linter": {
+		"enabled": true
+	},
+	"assist": {
+		"enabled": true
+	}
+}

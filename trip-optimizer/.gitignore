@@ -1,0 +1,69 @@
+# Python Bytecode and Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*pytest_cache/
+
+# C Extensions
+*.so
+
+# Build / Distribution / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# Installer Logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+
+# Tool-specific Environments
+.poetry/
+.pipenv/
+
+# PyInstaller
+# (Already included in packaging section, but keeping spec explicit)
+*.spec
+
+# Unit Test / Coverage
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+test-output/
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE / Editor Settings
+.idea/          # PyCharm
+.vscode/        # VS Code
+
+# macOS System Files
+.DS_Store
+**/.DS_Store
+
+# Logs
+*.log
+
+# dotenv Environment Variables
+.env
+.env.*
+
+# Local Databases
+*.sqlite3
+business_trips.db
+test.db

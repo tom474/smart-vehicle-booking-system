@@ -1,0 +1,26 @@
+const IdPrefixMap: Record<string, string> = {
+	setting: "SET",
+	role: "ROL",
+	permission: "PER",
+	location: "LOC",
+	vendor: "VEN",
+	user: "USR",
+	driver: "DRV",
+	vehicle: "VEH",
+	outsourced_vehicle: "OSV",
+	booking_request: "VBR",
+	trip: "TRP",
+	trip_temp: "TMP",
+	trip_ticket: "TTK",
+	trip_stop: "TST",
+	trip_feedback: "TFB",
+	leave_request: "LVR",
+	vehicle_service: "VSR",
+	schedule: "SCH",
+	expense: "EXP",
+	executive_vehicle_activity: "EVA",
+	notification: "NOT",
+	activity_log: "LOG",
+};
+
+export default IdPrefixMap;

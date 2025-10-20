@@ -1,0 +1,167 @@
+[
+	{
+		"id": "DRV-1",
+		"name": "Đỗ Văn Dương",
+		"email": null,
+		"phoneNumber": "+84985987879",
+		"username": "+84985987879",
+		"password": "Duongdo123!",
+		"vehicleId": null,
+		"vendorId": "VEN-1",
+		"baseLocationId": "LOC-1"
+	},
+	{
+		"id": "DRV-2",
+		"name": "Lê Quang Chiến",
+		"email": null,
+		"phoneNumber": "+84936466882",
+		"username": "+84936466882",
+		"password": "Chienle123!",
+		"vehicleId": null,
+		"vendorId": null,
+		"baseLocationId": "LOC-1"
+	},
+	{
+		"id": "DRV-3",
+		"name": "Vũ Hoàng Xuân Thế",
+		"email": null,
+		"phoneNumber": "+84907119215",
+		"username": "+84907119215",
+		"password": "Hoangvu123!",
+		"vehicleId": null,
+		"vendorId": null,
+		"baseLocationId": "LOC-1"
+	},
+	{
+		"id": "DRV-4",
+		"name": "Lê Bá Hoàng",
+		"email": null,
+		"phoneNumber": "+84931279193",
+		"username": "+84931279193",
+		"password": "Hoangle123!",
+		"vehicleId": null,
+		"vendorId": null,
+		"baseLocationId": "LOC-2"
+	},
+	{
+		"id": "DRV-5",
+		"name": "Nguyễn Bé Sơn",
+		"email": null,
+		"phoneNumber": "+84937012332",
+		"username": "+84937012332",
+		"password": "Sonnguyen123!",
+		"vehicleId": null,
+		"vendorId": null,
+		"baseLocationId": "LOC-2"
+	},
+	{
+		"id": "DRV-6",
+		"name": "Phạm Hữu Đức",
+		"email": null,
+		"phoneNumber": "+84903073882",
+		"username": "+84903073882",
+		"password": "Ducpham123!",
+		"vehicleId": null,
+		"vendorId": null,
+		"baseLocationId": "LOC-2"
+	},
+	{
+		"id": "DRV-7",
+		"name": "Trần Trọng Nhân",
+		"email": null,
+		"phoneNumber": "+84931279192",
+		"username": "+84931279192",
+		"password": "Nhantran123!",
+		"vehicleId": null,
+		"vendorId": null,
+		"baseLocationId": "LOC-3"
+	},
+	{
+		"id": "DRV-8",
+		"name": "Trần Văn Tỷ Phú",
+		"email": null,
+		"phoneNumber": "+84912345678",
+		"username": "+84912345678",
+		"password": "Duongdo123!",
+		"vehicleId": null,
+		"vendorId": null,
+		"baseLocationId": "LOC-3"
+	},
+	{
+		"id": "DRV-9",
+		"name": "Trần Văn Hà",
+		"email": null,
+		"phoneNumber": "+84977598314",
+		"username": "+84977598314",
+		"password": "Hatran123!",
+		"vehicleId": null,
+		"vendorId": null,
+		"baseLocationId": "LOC-3"
+	},
+	{
+		"id": "DRV-10",
+		"name": "Hồ Thành Thật",
+		"email": null,
+		"phoneNumber": "+84987654321",
+		"username": "+84987654321",
+		"password": "Thatho123!",
+		"vehicleId": null,
+		"vendorId": null,
+		"baseLocationId": "LOC-4"
+	},
+	{
+		"id": "DRV-11",
+		"name": "Trần Mạnh Cường",
+		"email": "cuongtran@gmail.com",
+		"phoneNumber": "0911111111",
+		"username": "0911111111",
+		"password": "Cuongtran123!",
+		"vehicleId": null,
+		"vendorId": null,
+		"baseLocationId": "LOC-4"
+	},
+	{
+		"id": "DRV-12",
+		"name": "Trương Quang Bảo Lộc",
+		"email": "loctruong@gmail.com",
+		"phoneNumber": "0922222222",
+		"username": "0922222222",
+		"password": "Loctruong123!",
+		"vehicleId": null,
+		"vendorId": null,
+		"baseLocationId": "LOC-4"
+	},
+	{
+		"id": "DRV-13",
+		"name": "Lê Nguyên Khôi",
+		"email": "khoile@gmail.com",
+		"phoneNumber": "0933333333",
+		"username": "0933333333",
+		"password": "Khoile123!",
+		"vehicleId": null,
+		"vendorId": null,
+		"baseLocationId": "LOC-5"
+	},
+	{
+		"id": "DRV-14",
+		"name": "Phan Nhật Minh",
+		"email": "minhphan@gmail.com",
+		"phoneNumber": "0944444444",
+		"username": "0944444444",
+		"password": "Minhphan123!",
+		"vehicleId": null,
+		"vendorId": null,
+		"baseLocationId": "LOC-5"
+	},
+	{
+		"id": "DRV-15",
+		"name": "Hoàng Thái Phúc",
+		"email": "phuchoang@gmail.com",
+		"phoneNumber": "0905555555",
+		"username": "0905555555",
+		"password": "Phuchoang123!",
+		"vehicleId": null,
+		"vendorId": "VEN-1",
+		"baseLocationId": "LOC-5"
+	}
+]

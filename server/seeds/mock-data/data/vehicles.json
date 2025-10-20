@@ -1,0 +1,167 @@
+[
+	{
+		"id": "VEH-1",
+		"licensePlate": "60LD-02882",
+		"model": "Toyota Fortuner",
+		"color": "grey",
+		"capacity": 7,
+		"driverId": "DRV-2",
+		"vendorId": null,
+		"executiveId": null,
+		"baseLocationId": "LOC-1"
+	},
+	{
+		"id": "VEH-2",
+		"licensePlate": "51L-89438",
+		"model": "Kia Carnival",
+		"color": "white",
+		"capacity": 8,
+		"driverId": "DRV-1",
+		"vendorId": "VEN-1",
+		"executiveId": null,
+		"baseLocationId": "LOC-1"
+	},
+	{
+		"id": "VEH-3",
+		"licensePlate": "61LD-07403",
+		"model": "Toyota Sienna",
+		"color": "white",
+		"capacity": 7,
+		"driverId": "DRV-6",
+		"vendorId": null,
+		"executiveId": null,
+		"baseLocationId": "LOC-2"
+	},
+	{
+		"id": "VEH-4",
+		"licensePlate": "51G-71993",
+		"model": "Toyota Innova",
+		"color": "brown",
+		"capacity": 7,
+		"driverId": null,
+		"vendorId": "VEN-1",
+		"executiveId": null,
+		"baseLocationId": "LOC-2"
+	},
+	{
+		"id": "VEH-5",
+		"licensePlate": "79A-12345",
+		"model": "Kia Carnival",
+		"color": "blue",
+		"capacity": 7,
+		"driverId": "DRV-11",
+		"vendorId": null,
+		"executiveId": null,
+		"baseLocationId": "LOC-4"
+	},
+	{
+		"id": "VEH-6",
+		"licensePlate": "79A-54321",
+		"model": "Toyota Vios",
+		"color": "black",
+		"capacity": 4,
+		"driverId": "DRV-12",
+		"vendorId": null,
+		"executiveId": null,
+		"baseLocationId": "LOC-4"
+	},
+	{
+		"id": "VEH-7",
+		"licensePlate": "51A-12345",
+		"model": "Hyundai Accent",
+		"color": "silver",
+		"capacity": 4,
+		"driverId": "DRV-13",
+		"vendorId": null,
+		"executiveId": "USR-3",
+		"baseLocationId": "LOC-5"
+	},
+	{
+		"id": "VEH-8",
+		"licensePlate": "51A-54321",
+		"model": "Toyota Innova",
+		"color": "white",
+		"capacity": 7,
+		"driverId": "DRV-15",
+		"vendorId": "VEN-1",
+		"executiveId": null,
+		"baseLocationId": "LOC-5"
+	},
+	{
+		"id": "VEH-9",
+		"licensePlate": "52B-12345",
+		"model": "Honda City",
+		"color": "grey",
+		"capacity": 4,
+		"driverId": null,
+		"vendorId": null,
+		"executiveId": null,
+		"baseLocationId": "LOC-1"
+	},
+	{
+		"id": "VEH-10",
+		"licensePlate": "52B-54321",
+		"model": "Toyota Corolla",
+		"color": "white",
+		"capacity": 4,
+		"driverId": null,
+		"vendorId": null,
+		"executiveId": null,
+		"baseLocationId": "LOC-1"
+	},
+	{
+		"id": "VEH-11",
+		"licensePlate": "72B-12345",
+		"model": "Toyota Innova",
+		"color": "black",
+		"capacity": 7,
+		"driverId": null,
+		"vendorId": null,
+		"executiveId": null,
+		"baseLocationId": "LOC-2"
+	},
+	{
+		"id": "VEH-12",
+		"licensePlate": "59C-12345",
+		"model": "Mazda 3",
+		"color": "red",
+		"capacity": 4,
+		"driverId": null,
+		"vendorId": null,
+		"executiveId": null,
+		"baseLocationId": "LOC-2"
+	},
+	{
+		"id": "VEH-13",
+		"licensePlate": "88D-12345",
+		"model": "Kia Carnival",
+		"color": "silver",
+		"capacity": 7,
+		"driverId": null,
+		"vendorId": null,
+		"executiveId": null,
+		"baseLocationId": "LOC-3"
+	},
+	{
+		"id": "VEH-14",
+		"licensePlate": "29E-12345",
+		"model": "Honda Civic",
+		"color": "blue",
+		"capacity": 4,
+		"driverId": null,
+		"vendorId": null,
+		"executiveId": null,
+		"baseLocationId": "LOC-3"
+	},
+	{
+		"id": "VEH-15",
+		"licensePlate": "29E-54321",
+		"model": "Honda Accord",
+		"color": "black",
+		"capacity": 4,
+		"driverId": null,
+		"vendorId": null,
+		"executiveId": null,
+		"baseLocationId": "LOC-4"
+	}
+]

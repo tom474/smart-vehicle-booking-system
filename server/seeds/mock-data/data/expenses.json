@@ -1,0 +1,82 @@
+[
+	{
+		"id": "EXP-1",
+		"type": "Vehicle Service",
+		"description": "Engine oil & filter",
+		"amount": 1600000,
+		"tripId": null,
+		"vehicleServiceId": "VSR-1"
+	},
+	{
+		"id": "EXP-2",
+		"type": "Vehicle Service",
+		"description": "Brake pad inspection & adjustment",
+		"amount": 1100000,
+		"tripId": null,
+		"vehicleServiceId": "VSR-2"
+	},
+	{
+		"id": "EXP-3",
+		"type": "Vehicle Service",
+		"description": "Radiator hose + coolant",
+		"amount": 1350000,
+		"tripId": null,
+		"vehicleServiceId": "VSR-3"
+	},
+	{
+		"id": "EXP-4",
+		"type": "Vehicle Service",
+		"description": "Labor for radiator repair",
+		"amount": 800000,
+		"tripId": null,
+		"vehicleServiceId": "VSR-3"
+	},
+	{
+		"id": "EXP-5",
+		"type": "Vehicle Service",
+		"description": "Rear tire replacement",
+		"amount": 1250000,
+		"tripId": null,
+		"vehicleServiceId": "VSR-4"
+	},
+	{
+		"id": "EXP-6",
+		"type": "Vehicle Service",
+		"description": "Annual inspection fee",
+		"amount": 500000,
+		"tripId": null,
+		"vehicleServiceId": "VSR-5"
+	},
+	{
+		"id": "EXP-7",
+		"type": "Vehicle Service",
+		"description": "Air filter replacement",
+		"amount": 250000,
+		"tripId": null,
+		"vehicleServiceId": "VSR-6"
+	},
+	{
+		"id": "EXP-8",
+		"type": "Vehicle Service",
+		"description": "Battery replacement",
+		"amount": 1800000,
+		"tripId": null,
+		"vehicleServiceId": "VSR-7"
+	},
+	{
+		"id": "EXP-9",
+		"type": "Vehicle Service",
+		"description": "Tire rotation & balancing",
+		"amount": 200000,
+		"tripId": null,
+		"vehicleServiceId": "VSR-8"
+	},
+	{
+		"id": "EXP-10",
+		"type": "Vehicle Service",
+		"description": "AC compressor refrigerant recharge",
+		"amount": 950000,
+		"tripId": null,
+		"vehicleServiceId": "VSR-9"
+	}
+]

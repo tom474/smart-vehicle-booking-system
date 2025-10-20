@@ -1,0 +1,37 @@
+[
+	{
+		"id": "ROL-1",
+		"title": "Employee",
+		"key": "employee",
+		"description": "Employee role with specific permissions.",
+		"permissionsIds": []
+	},
+	{
+		"id": "ROL-2",
+		"title": "Executive",
+		"key": "executive",
+		"description": "Executive role with specific permissions.",
+		"permissionsIds": []
+	},
+	{
+		"id": "ROL-3",
+		"title": "Driver",
+		"key": "driver",
+		"description": "Driver role with specific permissions.",
+		"permissionsIds": []
+	},
+	{
+		"id": "ROL-4",
+		"title": "Coordinator",
+		"key": "coordinator",
+		"description": "Coordinator role with specific permissions.",
+		"permissionsIds": []
+	},
+	{
+		"id": "ROL-5",
+		"title": "Admin",
+		"key": "admin",
+		"description": "Admin role with specific permissions.",
+		"permissionsIds": []
+	}
+]
